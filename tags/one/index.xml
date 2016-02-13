@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>One on Icarus</title>
+    <title>One on Appernetic.io</title>
     <link>http://appernetic.github.io/tags/one/</link>
-    <description>Recent content in One on Icarus</description>
+    <description>Recent content in One on Appernetic.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Appernetic.io</copyright>
     <lastBuildDate>Wed, 10 Feb 2016 20:21:11 +0000</lastBuildDate>
     <atom:link href="http://appernetic.github.io/tags/one/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +16,7 @@
       <title>about</title>
       <link>http://appernetic.github.io/about/</link>
       <pubDate>Wed, 10 Feb 2016 20:21:11 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>http://appernetic.github.io/about/</guid>
       <description>
 
