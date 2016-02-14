@@ -9,32 +9,8 @@
     <managingEditor>support@appernetic.io (Göran Svensson)</managingEditor>
     <webMaster>support@appernetic.io (Göran Svensson)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
-    <lastBuildDate>Wed, 10 Feb 2016 20:21:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Feb 2016 19:50:09 +0000</lastBuildDate>
     <atom:link href="http://appernetic.github.io/topics/topic-1/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>About</title>
-      <link>http://appernetic.github.io/about/</link>
-      <pubDate>Wed, 10 Feb 2016 20:21:11 +0000</pubDate>
-      <author>support@appernetic.io (Göran Svensson)</author>
-      <guid>http://appernetic.github.io/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;front-matter:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Front Matter&lt;/h1&gt;
-
-&lt;p&gt;Now you can select yaml or toml front matter when you create a new file.&lt;/p&gt;
-
-&lt;h2 id=&#34;heading:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Heading&lt;/h2&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t select front matter, default settings is to create a toml file.&lt;/p&gt;
-
-&lt;p&gt;We don&amp;rsquo;t support json front matter yet. It conflicts heavilly with Restangular, so that needs to be investigated a little bit before implementing.&lt;/p&gt;
-
-&lt;p&gt;If the front matter can&amp;rsquo;t be detected because there is no or wrong format set in config.toml we leave the md file as is. Therefore you will se some strange code in the PageDown editor.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://appernetic.github.io/images/header_unsplash_1.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>firstpost</title>
@@ -44,7 +20,7 @@
       <guid>http://appernetic.github.io/2016/02/10/firstpost/</guid>
       <description>
 
-&lt;h2 id=&#34;this-is-the-first-post:f779394c000b834c435e35a4c53a5ecd&#34;&gt;This is the first post&lt;/h2&gt;
+&lt;h2 id=&#34;this-is-the-first-post&#34;&gt;This is the first post&lt;/h2&gt;
 
 &lt;p&gt;Lets start blogging!
 Nice picture!&lt;/p&gt;
