@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Appernetic.io</title>
-    <link>//appernetic.github.io/</link>
+    <link>/</link>
     <description>Recent content on Appernetic.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,33 +10,33 @@
     <webMaster>support@appernetic.io (Göran Svensson)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
     <lastBuildDate>Thu, 11 Feb 2016 10:42:36 +0000</lastBuildDate>
-    <atom:link href="//appernetic.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Test</title>
-      <link>//appernetic.github.io/test/</link>
+      <link>/test/</link>
       <pubDate>Thu, 11 Feb 2016 10:42:36 +0000</pubDate>
       <author>support@appernetic.io (Göran Svensson)</author>
-      <guid>//appernetic.github.io/test/</guid>
+      <guid>/test/</guid>
       <description>&lt;p&gt;test
-&lt;img src=&#34;//appernetic.github.io/images/The_Payment_of_the_Tithes_Bonhams.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;/images/The_Payment_of_the_Tithes_Bonhams.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>firstpost</title>
-      <link>//appernetic.github.io/2016/02/10/firstpost/</link>
+      <link>/2016/02/10/firstpost/</link>
       <pubDate>Wed, 10 Feb 2016 19:50:09 +0000</pubDate>
       <author>support@appernetic.io (Göran Svensson)</author>
-      <guid>//appernetic.github.io/2016/02/10/firstpost/</guid>
+      <guid>/2016/02/10/firstpost/</guid>
       <description>
 
-&lt;h2 id=&#34;this-is-the-first-post&#34;&gt;This is the first post&lt;/h2&gt;
+&lt;h2 id=&#34;this-is-the-first-post:f779394c000b834c435e35a4c53a5ecd&#34;&gt;This is the first post&lt;/h2&gt;
 
 &lt;p&gt;Lets start blogging!
 Nice picture!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;//appernetic.github.io/images/unsplash_6.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/unsplash_6.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
