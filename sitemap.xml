@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>//appernetic.github.io/</loc>
     <lastmod>2016-02-11T10:42:36+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/test/</loc>
+    <loc>//appernetic.github.io/test/</loc>
     <lastmod>2016-02-11T10:42:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2016/02/10/firstpost/</loc>
+    <loc>//appernetic.github.io/2016/02/10/firstpost/</loc>
     <lastmod>2016-02-10T19:50:09+00:00</lastmod>
   </url>
   
