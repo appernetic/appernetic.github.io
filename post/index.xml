@@ -39,22 +39,5 @@
 </description>
     </item>
     
-    <item>
-      <title>firstpost</title>
-      <link>https://appernetic.github.io/2016/02/10/firstpost/</link>
-      <pubDate>Wed, 10 Feb 2016 19:50:09 +0000</pubDate>
-      <author>support@appernetic.io (Admin)</author>
-      <guid>https://appernetic.github.io/2016/02/10/firstpost/</guid>
-      <description>
-
-&lt;h2 id=&#34;this-is-the-first-post&#34;&gt;This is the first post&lt;/h2&gt;
-
-&lt;p&gt;Lets start blogging!
-Nice picture!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://appernetic.github.io/images/unsplash_6.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
