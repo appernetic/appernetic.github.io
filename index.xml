@@ -39,7 +39,7 @@ If you just have set up your Appernetic account you need to add a theme. The eas
 
 &lt;p&gt;Happy blogging!&lt;/p&gt;
 
-&lt;p&gt;Tip, skip the first headline in the post (at least in hugo-bootstrap it will be added) and edit the front matter located at the bottom of the editor after the preview and switch the first letter to capital.&lt;/p&gt;
+&lt;p&gt;Tip, skip the first headline in the post (at least in hugo-bootstrap it will be added automatically) and edit the front matter located at the bottom of the editor after the preview and switch the first letter in the title to capital.&lt;/p&gt;
 </description>
     </item>
     
