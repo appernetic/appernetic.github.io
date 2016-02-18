@@ -51,7 +51,7 @@ Today we have come full circle with static site generators. A long time ago at t
 
 &lt;h2 id=&#34;why-github:f405389e24819888f4339a200bcc1557&#34;&gt;Why gitHub?&lt;/h2&gt;
 
-&lt;p&gt;You&amp;rsquo;re probably wondering why the heck we are using GitHub. First of all GitHub use git which is a very good versioning system and they have &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; and you can use your own domain name and SSL (probably not the safest, but anyway its SSL!). Even if they only cache pages for 10 minutes and there are more cache misses then hits they have a fast CDN, Fastly.  I did a little unscientific performance test to see how it&amp;rsquo;s really working out:&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re probably wondering why the heck we are using GitHub. First of all GitHub use git which is a very good versioning system and they have &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; and you can use your own domain name and SSL (probably not the safest, but anyway its SSL!). Even if they only cache pages for 10 minutes and there are more cache misses then hits they have a fast CDN, Fastly.  I did a little unscientific performance test to see how it&amp;rsquo;s really working out. All tests is done with &lt;a href=&#34;http://websitetest.com/&#34;&gt;websitetest.com&lt;/a&gt; from Berlin:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://appernetic.io/#/about&#34;&gt;https://appernetic.io/#/about&lt;/a&gt;, with Cloudflare CDN and SSL, Dynamic site, 4.7 MB, Time to Last Byte: &lt;strong&gt;70 ms&lt;/strong&gt;&lt;/li&gt;
