@@ -63,7 +63,7 @@
     },
     "datePublished": "2016-02-10",
     "description": "With Appernetic we are building a static web generator as a service that is easy to use for non-technical users and add some extra value. To start with we have included an easy to use editor, visual tree view, image upload, site preview, continuous integration with GitHub, auto save and theme cloning.",
-    "wordCount":  523 
+    "wordCount":  694 
   }
 </script>
 
@@ -166,8 +166,8 @@
   <small>
     &middot; by Admin
   
-  &middot; Read in about 3 min
-  &middot; (523 Words)
+  &middot; Read in about 4 min
+  &middot; (694 Words)
 </small>
 
 
@@ -190,16 +190,16 @@
   <div class="container content">
   
 
-<h2 id="full-circle">Full circle</h2>
+<h2 id="full-circle:f405389e24819888f4339a200bcc1557">Full circle</h2>
 
 <p><img src="https://appernetic.github.io/images/hugo-octocat.png" alt="Hugo plus octocat" />
 Today we have come full circle with static site generators. A long time ago at the end of 1994 I built a static web site for the Swedish Tourist Association that contained hundreds of handcrafted html pages, it was quite advanced with a email to fax gateway that sent out bookings to remote mountain stations. Then I found ColdFusion in the beginning of 1995 and the the sites I built had dynamic content served from MS Access databases. Later I started to use mySQL and built my own hosted CMS that was easily updated by non-technical users.</p>
 
-<h2 id="the-programmable-web">The programmable web</h2>
+<h2 id="the-programmable-web:f405389e24819888f4339a200bcc1557">The programmable web</h2>
 
 <p>It was a lot of things to manage, servers, operating systems, security patches, databases, backup and on the application level with different versions and dependencies. Then I moved on to Platform as a Service (PaaS) and I only needed to manage and secure my applications, databases was now managed by a BaaS (backend as a service) and if I needed something specific such as commenting, search, email service or calendar there was always an API to connect to. The programmable web was born.</p>
 
-<h2 id="advantage-static-web-site-generators">Advantage static web site generators</h2>
+<h2 id="advantage-static-web-site-generators:f405389e24819888f4339a200bcc1557">Advantage static web site generators</h2>
 
 <p>Now there is a rich ecosystem of service providers for anything including forms, calendars, content, images, email, e-commerce etc. A dynamic CMS is no longer the best option for a web site. There is really only a need for dynamic web sites if you have a very large site with a complex structure and rich content such as news sites and large enterprises that have content that is updated very frequently. With a static site generator you didn’t really lose anything of practical value. Instead you have several advantages with a static site such as:</p>
 
@@ -215,9 +215,27 @@ Today we have come full circle with static site generators. A long time ago at t
 
 <p>Interest over time. Web Search. Worldwide, 2004 to the present.</p>
 
-<h2 id="a-static-site-generator-as-a-service">A static site generator as a service</h2>
+<h2 id="a-static-site-generator-as-a-service:f405389e24819888f4339a200bcc1557">A static site generator as a service</h2>
 
-<p>With Appernetic we are building a static web generator as a service that is easy to use for non-technical users and add some extra value. To start with we have included an easy to use editor, visual tree view, image upload, site preview, continuous integration with GitHub and atomic deploy, auto save and theme cloning. We also eat our own dog food and use it for everything possible. Keep your eye on the blog we will be posting tips and tricks how you can get the best advantage of a static blog or web site.</p>
+<p>With Appernetic we are building a static web generator as a service that is easy to use for non-technical users and add some extra value. To start with we have included an easy to use editor, visual tree view, image upload, site preview, continuous integration with GitHub and atomic deploy, auto save and theme cloning.</p>
+
+<h2 id="why-github:f405389e24819888f4339a200bcc1557">Why gitHub?</h2>
+
+<p>You&rsquo;re probably wondering why the heck we are using GitHub. First of all GitHub use git which is a very good versioning system and they have <a href="https://pages.github.com/">GitHub Pages</a> and you can use your own domain name and SSL (probably not the safest, but anyway its SSL!). Even if they only cache pages for 10 minutes and there are more cache misses then hits they have a fast CDN, Fastly.  I did a little unscientific performance test to see how it&rsquo;s really working out:</p>
+
+<ol>
+<li><a href="https://appernetic.io/#/about">https://appernetic.io/#/about</a>, with Cloudflare CDN and SSL, Dynamic site, 4.7 MB, Time to Last Byte: <strong>70 ms</strong></li>
+<li><a href="https://appernetic.github.io/2016/02/10/firstpost/">https://appernetic.github.io/2016/02/10/firstpost/</a>, with Fastly CDN and SSL, Static Blog Site 1.6 Mb, Time to Last Byte: <strong>171 ms</strong></li>
+<li><a href="http://apple.com">http://apple.com</a>, No SSL, Dynamic site, 741 KB, Time to Last Byte: <strong>378 ms</strong></li>
+<li><a href="http://www.theguardian.com/uk-news">http://www.theguardian.com/uk-news</a>,  No SSL, Dynamic site, 4.3 MB, Time to Last Byte: <strong>484 ms</strong></li>
+<li><a href="https://medium.com/@erinleecarr/lessons-dbbaa0c8294d#.h25nipmyq">https://medium.com/@erinleecarr/lessons-dbbaa0c8294d#.h25nipmyq</a>, SSL, Dynamic blog, 3.2 MB, Time to Last Byte <strong>492 ms</strong>.</li>
+</ol>
+
+<blockquote>
+<p>A static site wins every time even if there is a lot of cache misses.</p>
+</blockquote>
+
+<p>We also eat our own dog food and use it for everything possible. Keep your eye on the blog we will be posting tips and tricks how you can get the best advantage of a static blog or web site.</p>
 
 <p><img src="https://appernetic.github.io/images/man-person-apple-iphone-opt.jpg" alt="working on computer pexels.com" /></p>
 
