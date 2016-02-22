@@ -26,7 +26,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://appernetic.github.io/images/themes-opt.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Thou there is lots of themes at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, you probably want to customize the theme before you use it so that you have a blog with  a theme that is matching your business web site or service. I am using Bootswatch Paper theme for &lt;a href=&#34;https://appernetic.io&#34;&gt;Appernetic service&lt;/a&gt;. Fortunately I found &lt;a href=&#34;https://github.com/mmrath/hugo-bootstrap&#34;&gt;hugo-bootstrap&lt;/a&gt; and cloned it.&lt;/p&gt;
+&lt;p&gt;There is lots of themes at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, but you probably want to customize the theme before you use it so that you have a blog with  a theme that is matching your business web site or service. I am using Bootswatch Paper theme for &lt;a href=&#34;https://appernetic.io&#34;&gt;Appernetic service&lt;/a&gt;. Fortunately I found &lt;a href=&#34;https://github.com/mmrath/hugo-bootstrap&#34;&gt;hugo-bootstrap&lt;/a&gt; and cloned it.&lt;/p&gt;
 
 &lt;p&gt;Then to customize it further I pressed the &lt;strong&gt;Sync&lt;/strong&gt; button which does a pull and then a push to your Appernetic project repository at &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; with the name &lt;strong&gt;appernetic-hugo-project&lt;/strong&gt; . When you start out you will not have this repo so it is automatically created for you and all strange git commands i hidden away so you do not have to think about it.&lt;/p&gt;
 
