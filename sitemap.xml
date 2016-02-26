@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://appernetic.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2016-02-18T20:27:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://appernetic.github.io/2016/02/18/collaborating-and-working-with-hugo-themes/</loc>
+    <loc>/2016/02/18/collaborating-and-working-with-hugo-themes/</loc>
     <lastmod>2016-02-18T20:27:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://appernetic.github.io/test/</loc>
+    <loc>/test/</loc>
     <lastmod>2016-02-11T10:42:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://appernetic.github.io/2016/02/10/why-use-a-static-web-site-generator/</loc>
+    <loc>/2016/02/10/why-use-a-static-web-site-generator/</loc>
     <lastmod>2016-02-10T19:50:09+00:00</lastmod>
   </url>
   

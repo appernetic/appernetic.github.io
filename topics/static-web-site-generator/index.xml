@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static Web Site Generator on Appernetic.io</title>
-    <link>https://appernetic.github.io/topics/static-web-site-generator/</link>
+    <link>/topics/static-web-site-generator/</link>
     <description>Recent content in Static Web Site Generator on Appernetic.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,19 +10,19 @@
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
     <lastBuildDate>Wed, 10 Feb 2016 19:50:09 +0000</lastBuildDate>
-    <atom:link href="https://appernetic.github.io/topics/static-web-site-generator/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/topics/static-web-site-generator/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why use a static web site generator?</title>
-      <link>https://appernetic.github.io/2016/02/10/why-use-a-static-web-site-generator/</link>
+      <link>/2016/02/10/why-use-a-static-web-site-generator/</link>
       <pubDate>Wed, 10 Feb 2016 19:50:09 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>https://appernetic.github.io/2016/02/10/why-use-a-static-web-site-generator/</guid>
+      <guid>/2016/02/10/why-use-a-static-web-site-generator/</guid>
       <description>
 
 &lt;h2 id=&#34;full-circle:f405389e24819888f4339a200bcc1557&#34;&gt;Full circle&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://appernetic.github.io/images/hugo-octocat.png&#34; alt=&#34;Hugo plus octocat&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/images/hugo-octocat.png&#34; alt=&#34;Hugo plus octocat&#34; /&gt;
 Today we have come full circle with static site generators. A long time ago at the end of 1994 I built a static web site for the Swedish Tourist Association that contained hundreds of handcrafted html pages, it was quite advanced with a email to fax gateway that sent out bookings to remote mountain stations. Then I found ColdFusion in the beginning of 1995 and the the sites I built had dynamic content served from MS Access databases. Later I started to use mySQL and built my own hosted CMS that was easily updated by non-technical users.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-programmable-web:f405389e24819888f4339a200bcc1557&#34;&gt;The programmable web&lt;/h2&gt;
@@ -41,7 +41,7 @@ Today we have come full circle with static site generators. A long time ago at t
 &lt;/ul&gt;
 
 &lt;p&gt;Static site generator are getting more popular and a view on Google Trends shows this:
- &lt;img src=&#34;https://appernetic.github.io/images/statisgoole.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+ &lt;img src=&#34;/images/statisgoole.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Interest over time. Web Search. Worldwide, 2004 to the present.&lt;/p&gt;
 
@@ -65,9 +65,9 @@ Today we have come full circle with static site generators. A long time ago at t
 &lt;p&gt;A static site wins every time even if there is a lot of cache misses.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;We also eat our own dog food and use it for everything possible. Keep your eye on the blog we will be posting tips and tricks how you can get the best advantage of a static blog or web site.&lt;/p&gt;
+&lt;p&gt;We also eat our own dog food and use it for everything possible. Keep your eye on the blog where we will be posting tips and tricks how you can get the best advantage of a static blog or web site.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://appernetic.github.io/images/man-person-apple-iphone-opt.jpg&#34; alt=&#34;working on computer pexels.com&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/man-person-apple-iphone-opt.jpg&#34; alt=&#34;working on computer pexels.com&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We are using Hugo for fast site generation and GitHub for deploy.&lt;/p&gt;
 </description>
