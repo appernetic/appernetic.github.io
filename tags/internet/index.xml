@@ -22,7 +22,7 @@
 
 &lt;h2 id=&#34;full-circle&#34;&gt;Full circle&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/hugo-octocat.png&#34; alt=&#34;Hugo plus octocat&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306076/y8ylaazm8pet3nwpbffq&#34; alt=&#34;Hugo plus octocat&#34; /&gt;
 Today we have come full circle with static site generators. A long time ago at the end of 1994 I built a static web site for the Swedish Tourist Association that contained hundreds of handcrafted html pages, it was quite advanced with a email to fax gateway that sent out bookings to remote mountain stations. Then I found ColdFusion in the beginning of 1995 and the the sites I built had dynamic content served from MS Access databases. Later I started to use mySQL and built my own hosted CMS that was easily updated by non-technical users.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-programmable-web&#34;&gt;The programmable web&lt;/h2&gt;
@@ -41,7 +41,7 @@ Today we have come full circle with static site generators. A long time ago at t
 &lt;/ul&gt;
 
 &lt;p&gt;Static site generator are getting more popular and a view on Google Trends shows this:
- &lt;img src=&#34;/images/statisgoole.png&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+ &lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306147/xm8rkllrfgr8xlznehix&#34; alt=&#34;Static site generator statistics&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Interest over time. Web Search. Worldwide, 2004 to the present.&lt;/p&gt;
 
@@ -67,7 +67,7 @@ Today we have come full circle with static site generators. A long time ago at t
 
 &lt;p&gt;We also eat our own dog food and use it for everything possible. Keep your eye on the blog where we will be posting tips and tricks how you can get the best advantage of a static blog or web site.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/man-person-apple-iphone-opt.jpg&#34; alt=&#34;working on computer pexels.com&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306218/e3v66ludnvfweghdb91d&#34; alt=&#34;working on computer pexels.com&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We are using Hugo for fast site generation and GitHub for deploy.&lt;/p&gt;
 </description>
