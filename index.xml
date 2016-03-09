@@ -9,8 +9,46 @@
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
-    <lastBuildDate>Tue, 08 Mar 2016 19:03:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Mar 2016 14:28:30 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Manage your web site images in the cloud</title>
+      <link>/2016/03/09/manage-your-web-site-images-in-the-cloud/</link>
+      <pubDate>Wed, 09 Mar 2016 14:28:30 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
+      <description>
+
+&lt;h2 id=&#34;cloudinary:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Cloudinary&lt;/h2&gt;
+
+&lt;p&gt;Cloudinary is a cloud service that offers a solution to a web application&amp;rsquo;s entire image management pipeline. Easily upload images to the cloud. Automatically perform smart image resizing, cropping and conversion without installing any complex software. Integrate Facebook or Twitter profile image extraction in a snap, in any dimension and style to match your website’s graphics requirements. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
+
+&lt;p&gt;When you upload your image to your article in the PageDown editor it will be sent to your Cloudinary account where you can use the web interface to interactively manage your media library.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup-your-account:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Setup your account&lt;/h2&gt;
+
+&lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539317/mgwu3dyjasovzrq7risa&#34; alt=&#34;Cloud name in the dashboard &#34; /&gt;
+Cloud name settings in the dashboard.&lt;/p&gt;
+
+&lt;p&gt;Now to create a &lt;strong&gt;Upload preset&lt;/strong&gt;  click Settings down to the left in the dashboard, select the Upload tab and scroll down to Upload Presets and configure a unsigned upload preset.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457538951/s4jzrkhlauoororjskki&#34; alt=&#34;Configure upload presets&#34; /&gt;
+Configure unsigned upload presets.&lt;/p&gt;
+
+&lt;p&gt;To be able to list images you also need to unmark resource list in security settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539163/ybd0y47g0ojzsshvdfd4&#34; alt=&#34;Unmark resource list&#34; /&gt;
+Unmark resource list in security settings.&lt;/p&gt;
+
+&lt;p&gt;Now all should be configured at Cloudinary! Don&amp;rsquo;t forget to verify your account otherwise it will be disabled. Now the last thing to do is add the information to your Apernetic settings. Click on your GitHub profile image up to the right to show your user settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539785/yglkvrt4wjhns4xtmzwi&#34; alt=&#34;Appernetic cloudinary settings.&#34; /&gt;
+Add your Cloudinary settings to your Appernetic account.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Performance optimization</title>
@@ -20,11 +58,11 @@
       <guid>/2016/03/08/performance-optimization/</guid>
       <description>
 
-&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance improvements&lt;/h2&gt;
+&lt;h2 id=&#34;performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Performance improvements&lt;/h2&gt;
 
 &lt;p&gt;We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.&lt;/p&gt;
 
-&lt;h2 id=&#34;speed-index&#34;&gt;Speed Index&lt;/h2&gt;
+&lt;h2 id=&#34;speed-index:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Speed Index&lt;/h2&gt;
 
 &lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.&lt;/p&gt;
 
@@ -73,7 +111,7 @@ Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic service)&#34; /&gt;
 Pingdom test result logs for the Angular app (Appernetic service).&lt;/p&gt;
 
-&lt;h2 id=&#34;caching&#34;&gt;Caching&lt;/h2&gt;
+&lt;h2 id=&#34;caching:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Caching&lt;/h2&gt;
 
 &lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
 
@@ -179,16 +217,16 @@ attempts to customize the theme.&lt;/p&gt;
       <guid>/2016/02/10/why-use-a-static-web-site-generator/</guid>
       <description>
 
-&lt;h2 id=&#34;full-circle&#34;&gt;Full circle&lt;/h2&gt;
+&lt;h2 id=&#34;full-circle:f405389e24819888f4339a200bcc1557&#34;&gt;Full circle&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306076/y8ylaazm8pet3nwpbffq&#34; alt=&#34;Hugo plus octocat&#34; /&gt;
 Today we have come full circle with static site generators. A long time ago at the end of 1994 I built a static web site for the Swedish Tourist Association that contained hundreds of handcrafted html pages, it was quite advanced with a email to fax gateway that sent out bookings to remote mountain stations. Then I found ColdFusion in the beginning of 1995 and the the sites I built had dynamic content served from MS Access databases. Later I started to use mySQL and built my own hosted CMS that was easily updated by non-technical users.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-programmable-web&#34;&gt;The programmable web&lt;/h2&gt;
+&lt;h2 id=&#34;the-programmable-web:f405389e24819888f4339a200bcc1557&#34;&gt;The programmable web&lt;/h2&gt;
 
 &lt;p&gt;It was a lot of things to manage, servers, operating systems, security patches, databases, backup and on the application level with different versions and dependencies. Then I moved on to Platform as a Service (PaaS) and I only needed to manage and secure my applications, databases was now managed by a BaaS (backend as a service) and if I needed something specific such as commenting, search, email service or calendar there was always an API to connect to. The programmable web was born.&lt;/p&gt;
 
-&lt;h2 id=&#34;advantage-static-web-site-generators&#34;&gt;Advantage static web site generators&lt;/h2&gt;
+&lt;h2 id=&#34;advantage-static-web-site-generators:f405389e24819888f4339a200bcc1557&#34;&gt;Advantage static web site generators&lt;/h2&gt;
 
 &lt;p&gt;Now there is a rich ecosystem of service providers for anything including forms, calendars, content, images, email, e-commerce etc. A dynamic CMS is no longer the best option for a web site. There is really only a need for dynamic web sites if you have a very large site with a complex structure and rich content such as news sites and large enterprises that have content that is updated very frequently. With a static site generator you didn’t really lose anything of practical value. Instead you have several advantages with a static site such as:&lt;/p&gt;
 
@@ -204,11 +242,11 @@ Today we have come full circle with static site generators. A long time ago at t
 
 &lt;p&gt;Interest over time. Web Search. Worldwide, 2004 to the present.&lt;/p&gt;
 
-&lt;h2 id=&#34;a-static-site-generator-as-a-service&#34;&gt;A static site generator as a service&lt;/h2&gt;
+&lt;h2 id=&#34;a-static-site-generator-as-a-service:f405389e24819888f4339a200bcc1557&#34;&gt;A static site generator as a service&lt;/h2&gt;
 
 &lt;p&gt;With Appernetic we are building a static web generator as a service that is easy to use for non-technical users and add some extra value. To start with we have included an easy to use editor, visual tree view, image upload, site preview, continuous integration with GitHub and atomic deploy, auto save and theme cloning.&lt;/p&gt;
 
-&lt;h2 id=&#34;why-github&#34;&gt;Why gitHub?&lt;/h2&gt;
+&lt;h2 id=&#34;why-github:f405389e24819888f4339a200bcc1557&#34;&gt;Why gitHub?&lt;/h2&gt;
 
 &lt;p&gt;You&amp;rsquo;re probably wondering why the heck we are using GitHub. First of all GitHub use git which is a very good versioning system and they have &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; and you can use your own domain name and SSL (probably not the safest, but anyway its SSL!). Even if they only cache pages for 10 minutes and there are more cache misses then hits they have a fast CDN, Fastly.  I did a little unscientific performance test to see how it&amp;rsquo;s really working out. All tests is done with &lt;a href=&#34;http://websitetest.com/&#34;&gt;websitetest.com&lt;/a&gt; from Berlin:&lt;/p&gt;
 
