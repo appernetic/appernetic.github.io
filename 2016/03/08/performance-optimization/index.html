@@ -63,7 +63,7 @@
     },
     "datePublished": "2016-03-08",
     "description": "We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary\x27s Akamai CDN.",
-    "wordCount":  398 
+    "wordCount":  387 
   }
 </script>
 
@@ -167,7 +167,7 @@
     &middot; by Göran Svensson
   
   &middot; Read in about 2 min
-  &middot; (398 Words)
+  &middot; (387 Words)
 </small>
 
 
@@ -192,11 +192,11 @@
   <div class="container content">
   
 
-<h2 id="performance-improvements">Performance improvements</h2>
+<h2 id="performance-improvements:3c9c8d3358db586236c8bc0e9810f67f">Performance improvements</h2>
 
 <p>We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.</p>
 
-<h2 id="speed-index">Speed Index</h2>
+<h2 id="speed-index:3c9c8d3358db586236c8bc0e9810f67f">Speed Index</h2>
 
 <p>We use <a href="http://www.webpagetest.org">webpagetest</a> for our performance tests. As a measure of how one experiences the web page speed we use <a href="https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index">Speed Index</a>. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.</p>
 
@@ -204,21 +204,36 @@
 We have now also separated the routes for the front page and the Angular app. The Angular app are now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.</p>
 
 <p>Angular app (Appernetic Static Site Generator) performance test from:
- - Dulles, VA Thinkpad T430: <a href="http://www.webpagetest.org/result/160308_C8_15P4/1/details/">http://www.webpagetest.org/result/160308_C8_15P4/1/details/</a>  First View, Speed Index: <strong>1422</strong>
- - San Francisco, CA USA - Yottaa:  <a href="http://www.webpagetest.org/result/160308_YB_15ZA/">http://www.webpagetest.org/result/160308_YB_15ZA/</a>  First View, Speed Index: <strong>2881</strong>
- - Singapore - EC2: <a href="http://www.webpagetest.org/result/160308_EC_166Y/">http://www.webpagetest.org/result/160308_EC_166Y/</a>  First View, Speed Index: <strong>2884</strong>
- - Brussels, BE: <a href="http://www.webpagetest.org/result/160308_NP_162K/">http://www.webpagetest.org/result/160308_NP_162K/</a> First View, Speed Index: <strong>2408</strong>
- - Frankfurt, DE: <a href="http://www.webpagetest.org/result/160308_RX_6P2/">http://www.webpagetest.org/result/160308_RX_6P2/</a>  First View, Speed Index: <strong>3759</strong></p>
+ - Dulles, VA Thinkpad T430: <a href="http://www.webpagetest.org/result/160308_C8_15P4/1/details/">http://www.webpagetest.org/result/160308_C8_15P4/1/details/</a>  First View, Speed Index: <strong>1422</strong></p>
+
+<ul>
+<li><p>San Francisco, CA USA - Yottaa:  <a href="http://www.webpagetest.org/result/160308_YB_15ZA/">http://www.webpagetest.org/result/160308_YB_15ZA/</a>  First View, Speed Index: <strong>2881</strong></p></li>
+
+<li><p>Singapore - EC2: <a href="http://www.webpagetest.org/result/160308_EC_166Y/">http://www.webpagetest.org/result/160308_EC_166Y/</a>  First View, Speed Index: <strong>2884</strong></p></li>
+
+<li><p>Brussels, BE: <a href="http://www.webpagetest.org/result/160308_NP_162K/">http://www.webpagetest.org/result/160308_NP_162K/</a> First View, Speed Index: <strong>2408</strong></p></li>
+
+<li><p>Frankfurt, DE: <a href="http://www.webpagetest.org/result/160308_RX_6P2/">http://www.webpagetest.org/result/160308_RX_6P2/</a>  First View, Speed Index: <strong>3759</strong></p></li>
+</ul>
 
 <p>Front page performance test from:
- - Amsterdam: <a href="http://www.webpagetest.org/result/160309_E3_6HP/">http://www.webpagetest.org/result/160309_E3_6HP/</a> First view, Speed Index: <strong>600</strong>
- - Singapore: <a href="http://www.webpagetest.org/result/160309_DG_6HB/">http://www.webpagetest.org/result/160309_DG_6HB/</a> First view, Speed Index: <strong>769</strong>
- - Sydney, Australia (Servers Australia) <a href="http://www.webpagetest.org/result/160309_04_6GN/">http://www.webpagetest.org/result/160309_04_6GN/</a> First view, Speed Index: <strong>1600</strong>
- - Johannesburg, South Africa <a href="http://www.webpagetest.org/result/160309_MC_6GQ/">http://www.webpagetest.org/result/160309_MC_6GQ/</a> First view, Speed Index: <strong>1305</strong>
- - Seoul, Korea EC2 <a href="http://www.webpagetest.org/result/160309_85_6GZ/">http://www.webpagetest.org/result/160309_85_6GZ/</a> First view, Speed Index: <strong>1519</strong>
- - San Francisco, CA USA - Yottaa: <a href="http://www.webpagetest.org/result/160309_1S_83M/">http://www.webpagetest.org/result/160309_1S_83M/</a> First view, Speed Index: <strong>1672</strong>
- - Dulles, VA - Thinkpad T430: <a href="http://www.webpagetest.org/result/160309_PX_87N/">http://www.webpagetest.org/result/160309_PX_87N/</a>  First view, Speed Index: <strong>900</strong>
- - Frankfurt, DE: <a href="http://www.webpagetest.org/result/160309_GG_8DS/">http://www.webpagetest.org/result/160309_GG_8DS/</a> First view, Speed Index: <strong>1309</strong></p>
+ - Amsterdam: <a href="http://www.webpagetest.org/result/160309_E3_6HP/">http://www.webpagetest.org/result/160309_E3_6HP/</a> First view, Speed Index: <strong>600</strong></p>
+
+<ul>
+<li><p>Singapore: <a href="http://www.webpagetest.org/result/160309_DG_6HB/">http://www.webpagetest.org/result/160309_DG_6HB/</a> First view, Speed Index: <strong>769</strong></p></li>
+
+<li><p>Sydney, Australia (Servers Australia) <a href="http://www.webpagetest.org/result/160309_04_6GN/">http://www.webpagetest.org/result/160309_04_6GN/</a> First view, Speed Index: <strong>1600</strong></p></li>
+
+<li><p>Johannesburg, South Africa <a href="http://www.webpagetest.org/result/160309_MC_6GQ/">http://www.webpagetest.org/result/160309_MC_6GQ/</a> First view, Speed Index: <strong>1305</strong></p></li>
+
+<li><p>Seoul, Korea EC2 <a href="http://www.webpagetest.org/result/160309_85_6GZ/">http://www.webpagetest.org/result/160309_85_6GZ/</a> First view, Speed Index: <strong>1519</strong></p></li>
+
+<li><p>San Francisco, CA USA - Yottaa: <a href="http://www.webpagetest.org/result/160309_1S_83M/">http://www.webpagetest.org/result/160309_1S_83M/</a> First view, Speed Index: <strong>1672</strong></p></li>
+
+<li><p>Dulles, VA - Thinkpad T430: <a href="http://www.webpagetest.org/result/160309_PX_87N/">http://www.webpagetest.org/result/160309_PX_87N/</a>  First view, Speed Index: <strong>900</strong></p></li>
+
+<li><p>Frankfurt, DE: <a href="http://www.webpagetest.org/result/160309_GG_8DS/">http://www.webpagetest.org/result/160309_GG_8DS/</a> First view, Speed Index: <strong>1309</strong></p></li>
+</ul>
 
 <p>Our uptime monitoring with Pingdom also shows that the we are on the <a href="http://stats.pingdom.com/r7vt9tv6brq8/2014082">right track now</a>. For the front page we now have performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.</p>
 
@@ -228,7 +243,7 @@ Response time diagram last 24 hours for the Angular app.</p>
 <p><img src="https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk" alt="Pingdom test result logs for the Angular app (Appernetic service)" />
 Pingdom test result logs for the Angular app (Appernetic service).</p>
 
-<h2 id="caching">Caching</h2>
+<h2 id="caching:3c9c8d3358db586236c8bc0e9810f67f">Caching</h2>
 
 <p>Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.</p>
 
