@@ -20,21 +20,22 @@
       <guid>/2016/03/08/performance-optimization/</guid>
       <description>
 
-&lt;h2 id=&#34;performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Performance improvements&lt;/h2&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance improvements&lt;/h2&gt;
 
 &lt;p&gt;We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.&lt;/p&gt;
 
-&lt;h2 id=&#34;speed-index:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Speed Index&lt;/h2&gt;
+&lt;h2 id=&#34;speed-index&#34;&gt;Speed Index&lt;/h2&gt;
 
 &lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463274/gcgzrecgedcjnc3gzdj3&#34; alt=&#34;Speed Index Reference Results&#34; /&gt;
 We have now also separated the routes for the front page and the Angular app. The Angular app are now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.&lt;/p&gt;
 
-&lt;p&gt;Angular app (Appernetic Static Site Generator) performance test from:
- - Dulles, VA Thinkpad T430: &lt;a href=&#34;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&#34;&gt;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;1422&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Angular app (Appernetic Static Site Generator) performance test from:&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Dulles, VA Thinkpad T430: &lt;a href=&#34;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&#34;&gt;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;1422&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;San Francisco, CA USA - Yottaa:  &lt;a href=&#34;http://www.webpagetest.org/result/160308_YB_15ZA/&#34;&gt;http://www.webpagetest.org/result/160308_YB_15ZA/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;2881&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Singapore - EC2: &lt;a href=&#34;http://www.webpagetest.org/result/160308_EC_166Y/&#34;&gt;http://www.webpagetest.org/result/160308_EC_166Y/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;2884&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
@@ -44,10 +45,11 @@ We have now also separated the routes for the front page and the Angular app. Th
 &lt;li&gt;&lt;p&gt;Frankfurt, DE: &lt;a href=&#34;http://www.webpagetest.org/result/160308_RX_6P2/&#34;&gt;http://www.webpagetest.org/result/160308_RX_6P2/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;3759&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Front page performance test from:
- - Amsterdam: &lt;a href=&#34;http://www.webpagetest.org/result/160309_E3_6HP/&#34;&gt;http://www.webpagetest.org/result/160309_E3_6HP/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;600&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Front page performance test from:&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Amsterdam: &lt;a href=&#34;http://www.webpagetest.org/result/160309_E3_6HP/&#34;&gt;http://www.webpagetest.org/result/160309_E3_6HP/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;600&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;Singapore: &lt;a href=&#34;http://www.webpagetest.org/result/160309_DG_6HB/&#34;&gt;http://www.webpagetest.org/result/160309_DG_6HB/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;769&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Sydney, Australia (Servers Australia) &lt;a href=&#34;http://www.webpagetest.org/result/160309_04_6GN/&#34;&gt;http://www.webpagetest.org/result/160309_04_6GN/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;1600&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
@@ -71,7 +73,7 @@ Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic service)&#34; /&gt;
 Pingdom test result logs for the Angular app (Appernetic service).&lt;/p&gt;
 
-&lt;h2 id=&#34;caching:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Caching&lt;/h2&gt;
+&lt;h2 id=&#34;caching&#34;&gt;Caching&lt;/h2&gt;
 
 &lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
 
@@ -88,7 +90,7 @@ Appernetic service, caching with CloudFlare.&lt;/p&gt;
       <guid>/2016/02/18/collaborating-and-working-with-hugo-themes/</guid>
       <description>
 
-&lt;h2 id=&#34;customizing-themes&#34;&gt;Customizing themes&lt;/h2&gt;
+&lt;h2 id=&#34;customizing-themes:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Customizing themes&lt;/h2&gt;
 
 &lt;p&gt;If you just have set up your Appernetic account you need to add a theme. The easiest way is to clone a theme which you can do from the drop down button beside the blue &lt;strong&gt;Preview&lt;/strong&gt; button to the right.&lt;/p&gt;
 
@@ -136,7 +138,7 @@ not have to think about it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457304455/tdsbe75348lm3dxa1csw&#34; alt=&#34;GitHub Desktop app&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;collaborating&#34;&gt;Collaborating&lt;/h2&gt;
+&lt;h2 id=&#34;collaborating:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Collaborating&lt;/h2&gt;
 
 &lt;p&gt;Notice also that I have all the social and collaborating features in GitHub so I can invite a real front end designer to have a look at my attempts to customize the theme. My last step is to do a &lt;strong&gt;Sync&lt;/strong&gt; again in Appernetic and then a &lt;strong&gt;Publish&lt;/strong&gt; and after 10 min all is live on &lt;a href=&#34;https://appernetic.github.io/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 
@@ -146,7 +148,7 @@ GitHub so I can invite a real front end designer to have a look at my
 attempts to customize the theme.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;start-blogging&#34;&gt;Start blogging!&lt;/h2&gt;
+&lt;h2 id=&#34;start-blogging:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Start blogging!&lt;/h2&gt;
 
 &lt;p&gt;From now on it is very easy to start blogging. Select the &lt;strong&gt;post&lt;/strong&gt; directory in the tree view, it is where blog post lives. Create a new file,  name it with a headline, it will be sluggified automatically. Select &lt;em&gt;toml&lt;/em&gt; or &lt;em&gt;yaml&lt;/em&gt; front matter (toml as default selection). The file tree will be updated and show the new file. Open the file and blog away! Turn on auto save and all text you write will be saved every other minute. Remember to &lt;strong&gt;undraft&lt;/strong&gt; the post if you would like to see it after publishing and  add key words, tags and topics.&lt;/p&gt;
 
