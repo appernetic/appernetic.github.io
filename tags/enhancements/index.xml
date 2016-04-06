@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enhancements on Appernetic.io</title>
+    <link>/tags/enhancements/</link>
+    <description>Recent content in Enhancements on Appernetic.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>support@appernetic.io (Admin)</managingEditor>
+    <webMaster>support@appernetic.io (Admin)</webMaster>
+    <copyright>(c) 2016 Appernetic.io</copyright>
+    <lastBuildDate>Wed, 06 Apr 2016 04:34:49 +0000</lastBuildDate>
+    <atom:link href="/tags/enhancements/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Now you can sign in with twitter facebook and github</title>
+      <link>/2016/04/06/now-you-can-sign-in-with-twitter-facebook-and-github/</link>
+      <pubDate>Wed, 06 Apr 2016 04:34:49 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>/2016/04/06/now-you-can-sign-in-with-twitter-facebook-and-github/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1459917514/xffcn0sgfvrk6xbawhep&#34; alt=&#34;Appernetic Static Site Generator with Twitter, Facebook and GitHub sign in!&#34; /&gt;
+We have just released a new version! Now you can sign in with Twitter, Facebook and GitHub.  Enjoy folks!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

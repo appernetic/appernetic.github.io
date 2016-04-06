@@ -9,8 +9,19 @@
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
-    <lastBuildDate>Wed, 09 Mar 2016 14:28:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Apr 2016 04:34:49 +0000</lastBuildDate>
     <atom:link href="/tags/appernetic-static-site-generator/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Now you can sign in with twitter facebook and github</title>
+      <link>/2016/04/06/now-you-can-sign-in-with-twitter-facebook-and-github/</link>
+      <pubDate>Wed, 06 Apr 2016 04:34:49 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>/2016/04/06/now-you-can-sign-in-with-twitter-facebook-and-github/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1459917514/xffcn0sgfvrk6xbawhep&#34; alt=&#34;Appernetic Static Site Generator with Twitter, Facebook and GitHub sign in!&#34; /&gt;
+We have just released a new version! Now you can sign in with Twitter, Facebook and GitHub.  Enjoy folks!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Manage your web site images in the cloud</title>
@@ -20,7 +31,7 @@
       <guid>/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
       <description>
 
-&lt;h2 id=&#34;cloudinary&#34;&gt;Cloudinary&lt;/h2&gt;
+&lt;h2 id=&#34;cloudinary:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Cloudinary&lt;/h2&gt;
 
 &lt;p&gt;We no longer use GitHub to manage images in your Appernetic service account. You can still use GitHub and they have a easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
 
@@ -28,7 +39,7 @@
 
 &lt;p&gt;When you upload your image to your article in the PageDown editor it will be sent to your Cloudinary account where you can use the web interface to interactively manage your media library.&lt;/p&gt;
 
-&lt;h2 id=&#34;setup-your-account&#34;&gt;Setup your account&lt;/h2&gt;
+&lt;h2 id=&#34;setup-your-account:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Setup your account&lt;/h2&gt;
 
 &lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
 
