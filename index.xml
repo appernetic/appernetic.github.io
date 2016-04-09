@@ -22,10 +22,13 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to start a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them, you would rather like to be writing exciting content to distribute over the Interwebz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;First you have to:
- - download the right version of the static site generator for your OS and architecture.
- -  install git
- - create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.&lt;/p&gt;
+&lt;p&gt;First you have to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;download the right version of the static site generator for your OS and architecture.&lt;/li&gt;
+&lt;li&gt;install git&lt;/li&gt;
+&lt;li&gt;create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Then when the installation and configuration are ready there are lots of steps to just have the website up and running on the Interwebz.&lt;/p&gt;
 
@@ -64,7 +67,7 @@ git push origin master
 &lt;li&gt;You have created a GitHub account.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Watch the instructive video for 2:13 minutes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Watch the instructive video for 2:13 minutes.&lt;/strong&gt;&lt;/p&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -96,13 +99,13 @@ We have just released a new version! Now you can sign in with Twitter, Facebook 
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457939591/c25ymnmuqsfsmqjkk52b&#34; alt=&#34;Appernetic Service site preview enhancements&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;site-preview-fixes-and-enhancements:38aad4879695a217cddc2308524a2ff8&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
+&lt;h2 id=&#34;site-preview-fixes-and-enhancements&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
 
 &lt;p&gt;There was a case of a very sticky cache and this doesn&amp;rsquo;t work well if you immediately would want to check changes. Site preview  has also been moved to its own subdomain: &lt;strong&gt;preview.appernetic.io&lt;/strong&gt;,  and now it is also possible to view the site preview if you are not signed in, so it is easier to share the URL and collaborate.&lt;/p&gt;
 
 &lt;p&gt;If you are experiencing problems such as site preview URL goes to a page that does not exist, try clearing the cache in your browser.&lt;/p&gt;
 
-&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo:38aad4879695a217cddc2308524a2ff8&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
+&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
 
 &lt;p&gt;The bug we reported last week wasn&amp;rsquo;t a bug. When you delete a theme, we have git delete everything, and it doesn&amp;rsquo;t delete dot files. The fix is to add a &lt;strong&gt;.gitignore&lt;/strong&gt; file to your theme repo and exclude files such as &lt;strong&gt;.DS_Store&lt;/strong&gt;.&lt;/p&gt;
 
@@ -168,11 +171,11 @@ Continue with your content strategy, now with a new tool in your arsenal!&lt;/p&
       <guid>/2016/03/08/performance-optimization/</guid>
       <description>
 
-&lt;h2 id=&#34;performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Performance improvements&lt;/h2&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance improvements&lt;/h2&gt;
 
 &lt;p&gt;We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.&lt;/p&gt;
 
-&lt;h2 id=&#34;speed-index:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Speed Index&lt;/h2&gt;
+&lt;h2 id=&#34;speed-index&#34;&gt;Speed Index&lt;/h2&gt;
 
 &lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.&lt;/p&gt;
 
@@ -221,7 +224,7 @@ Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic service)&#34; /&gt;
 Pingdom test result logs for the Angular app (Appernetic service).&lt;/p&gt;
 
-&lt;h2 id=&#34;caching:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Caching&lt;/h2&gt;
+&lt;h2 id=&#34;caching&#34;&gt;Caching&lt;/h2&gt;
 
 &lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
 

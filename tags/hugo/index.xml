@@ -22,10 +22,13 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to start a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them, you would rather like to be writing exciting content to distribute over the Interwebz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;First you have to:
- - download the right version of the static site generator for your OS and architecture.
- -  install git
- - create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.&lt;/p&gt;
+&lt;p&gt;First you have to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;download the right version of the static site generator for your OS and architecture.&lt;/li&gt;
+&lt;li&gt;install git&lt;/li&gt;
+&lt;li&gt;create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Then when the installation and configuration are ready there are lots of steps to just have the website up and running on the Interwebz.&lt;/p&gt;
 
@@ -64,7 +67,7 @@ git push origin master
 &lt;li&gt;You have created a GitHub account.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Watch the instructive video for 2:13 minutes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Watch the instructive video for 2:13 minutes.&lt;/strong&gt;&lt;/p&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
