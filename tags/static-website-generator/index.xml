@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Static Website Generator on Appernetic.io</title>
+    <link>/tags/static-website-generator/</link>
+    <description>Recent content in Static Website Generator on Appernetic.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>support@appernetic.io (Admin)</managingEditor>
+    <webMaster>support@appernetic.io (Admin)</webMaster>
+    <copyright>(c) 2016 Appernetic.io</copyright>
+    <lastBuildDate>Sat, 09 Apr 2016 05:53:13 +0000</lastBuildDate>
+    <atom:link href="/tags/static-website-generator/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to set up a static hugo website on github pages in 2 minutes</title>
+      <link>/2016/04/09/how-to-set-up-a-static-hugo-website-on-github-pages-in-2-minutes/</link>
+      <pubDate>Sat, 09 Apr 2016 05:53:13 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>/2016/04/09/how-to-set-up-a-static-hugo-website-on-github-pages-in-2-minutes/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1460186011/k1seurwnwzitp8tbchvx&#34; alt=&#34;A static website - appernetic.io&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to start a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them, you would rather like to be writing exciting content to distribute over the Interwebz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;First you have to:
+ - download the right version of the static site generator for your OS and architecture.
+ -  install git
+ - create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.&lt;/p&gt;
+
+&lt;p&gt;Then when the installation and configuration are ready there are lots of steps to just have the website up and running on the Interwebz.&lt;/p&gt;
+
+&lt;p&gt;Before I created Appernetic I had to do all these 17 steps in the terminal after installation and configuration :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new site blog 
+cd blog
+hugo new post/easy-peasy.MD
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Open the file in a text editor and  write content, then dive back in to terminal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir themes 
+cd themes 
+git clone https://github.com/appernetic/hugo-bootstrap.git
+hugo undraft content/post/easy-peasy.md
+hugo --theme=hugo-bootstrap
+mkdir blog-public
+cd blog-public
+git init
+git remote add origin https://easypeasy:236102a7cf231y2a5084a4847e0de99e636e391c@github.com/easypeasy
+cp -r ../blog/public/ .
+git add --all
+git commit -am ”Publish site”
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You have just published your first blog! Check your live server at: &lt;a href=&#34;http://easypeasy.github.io&#34;&gt;http://easypeasy.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All this 17 steps will take at least 30 min if you have the knowledge. Now we do the same with Appernetic.&lt;/p&gt;
+
+&lt;p&gt;We assume the following is already done:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You have signed up for a subscription.&lt;/li&gt;
+&lt;li&gt;You have created a GitHub account.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Watch the instructive video for 2:13 minutes.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//player.vimeo.com/video/162159974&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
