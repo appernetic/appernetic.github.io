@@ -18,7 +18,9 @@
       <pubDate>Sat, 09 Apr 2016 05:53:13 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
       <guid>/2016/04/09/how-to-set-up-a-static-hugo-website-on-github-pages-in-2-minutes/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1460186011/k1seurwnwzitp8tbchvx&#34; alt=&#34;A static website - appernetic.io&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1460186011/k1seurwnwzitp8tbchvx&#34; alt=&#34;A static website - appernetic.io&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to set up a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them when you would rather like to be writing exciting content to distribute over the intermingling webz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -58,7 +60,7 @@ git push origin master
 
 &lt;p&gt;You have just published your first blog! Check your live server at:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; http://easypeasy.github.io
+&lt;pre&gt;&lt;code&gt; http://easypeasy.github.io (do not click this is just an example)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;All these 17 steps will take at least 30 min if you have the knowledge. Now we do the same with Appernetic.&lt;/p&gt;
@@ -77,6 +79,22 @@ git push origin master
   &lt;iframe src=&#34;//player.vimeo.com/video/162159974&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
+
+&lt;h1 id=&#34;what-about-custom-domains:074ddaca36ce177814980409d0daacae&#34;&gt;What about custom domains?&lt;/h1&gt;
+
+&lt;p&gt; 
+No problem, it is easy to connect your custom domain to your GitHub Pages. &lt;/p&gt;
+
+&lt;p&gt;Place this file in your appernetic-hugo-project repositorys static folder:&lt;/p&gt;
+
+&lt;p&gt;Filename: CNAME&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;blog.easypeasy.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hugo-project-1/blob/master/static/CNAME&#34;&gt;we did this&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s it! Give fast, secure blogging a try and you will never go back to WordPress, Joomla or Drupal. We support you both in Swedish and English.&lt;/p&gt;
 </description>
     </item>
     
