@@ -80,14 +80,15 @@ git push origin master
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;what-about-custom-domains:074ddaca36ce177814980409d0daacae&#34;&gt;What about custom domains?&lt;/h2&gt;
+&lt;h2 id=&#34;what-about-custom-domains&#34;&gt;What about custom domains?&lt;/h2&gt;
 
 &lt;p&gt; No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;In your Appernetic dashboard, Sync you appernetic project with GitHub, this will create a appernetic-hugo-project with all your files on GitHub. We do this so that we can work with files outside the content folder.&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Place this file in your GitHub, appernetic-hugo-project repositories static folder: Filename: CNAME&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Place this file in your GitHub, appernetic-hugo-project repositories static folder:
+Filename: CNAME&lt;/p&gt;
 
 &lt;p&gt;blog.easypeasy.com
 Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hugo-project-1/blob/master/static/CNAME&#34;&gt;we did this&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
