@@ -80,7 +80,7 @@ git push origin master
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;what-about-custom-domains&#34;&gt;What about custom domains?&lt;/h2&gt;
+&lt;h2 id=&#34;what-about-custom-domains:074ddaca36ce177814980409d0daacae&#34;&gt;What about custom domains?&lt;/h2&gt;
 
 &lt;p&gt; No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
 
@@ -100,7 +100,7 @@ Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hu
 &lt;li&gt;&lt;p&gt;Now the last step is to make it work over the Internet. For this, you have to make a CNAME record in your DNS or your service providers DNS and wait for everything to propagate  (give it 8 to 24 hours). Read more: &lt;a href=&#34;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&#34;&gt;using a custom domain with GitHub pages&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;That&amp;rsquo;s it! Give fast, secure blogging a try and you will never go back to WordPress, Joomla or Drupal. We support you both in Swedish and English.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it! &lt;a href=&#34;https://appernetic.io&#34;&gt;Give fast, secure blogging a try&lt;/a&gt; and you will never go back to WordPress, Joomla or Drupal. We support you both in Swedish and English.&lt;/p&gt;
 </description>
     </item>
     
