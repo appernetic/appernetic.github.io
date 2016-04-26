@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Enhancements on Appernetic.io blog</title>
-    <link>/tags/enhancements/</link>
+    <link>/topics/enhancements/</link>
     <description>Recent content in Enhancements on Appernetic.io blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,7 +10,7 @@
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
     <lastBuildDate>Tue, 26 Apr 2016 13:10:05 +0000</lastBuildDate>
-    <atom:link href="/tags/enhancements/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/topics/enhancements/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Now you can sign in with twitter facebook and github</title>

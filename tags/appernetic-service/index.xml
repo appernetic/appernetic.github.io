@@ -9,18 +9,40 @@
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
-    <lastBuildDate>Wed, 06 Apr 2016 04:34:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Apr 2016 13:10:05 +0000</lastBuildDate>
     <atom:link href="/tags/appernetic-service/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Now you can sign in with twitter facebook and github</title>
-      <link>/2016/04/06/now-you-can-sign-in-with-twitter-facebook-and-github/</link>
-      <pubDate>Wed, 06 Apr 2016 04:34:49 +0000</pubDate>
+      <link>/2016/04/26/now-you-can-sign-in-with-twitter-facebook-and-github/</link>
+      <pubDate>Tue, 26 Apr 2016 13:10:05 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>/2016/04/06/now-you-can-sign-in-with-twitter-facebook-and-github/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1459917514/xffcn0sgfvrk6xbawhep&#34; alt=&#34;Appernetic Static Site Generator with Twitter, Facebook and GitHub sign in!&#34; /&gt;
-We have just released a new version! Now you can sign in with Twitter, Facebook and GitHub.  Enjoy folks!
-&lt;a href=&#34;https://appernetic.io&#34;&gt;https://appernetic.io&lt;/a&gt; #contentmanagement&lt;/p&gt;
+      <guid>/2016/04/26/now-you-can-sign-in-with-twitter-facebook-and-github/</guid>
+      <description>
+
+&lt;h2 id=&#34;update&#34;&gt;Update!&lt;/h2&gt;
+
+&lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461667876/bvzstocens1wcwu3vba1&#34; alt=&#34;Appernetic Static Site Generator with e-mail sign up, Twitter, Facebook and GitHub sign in!&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For us and the service there is the problem with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Users that are not verified signing up&lt;/li&gt;
+&lt;li&gt;Maintaining a user database&lt;/li&gt;
+&lt;li&gt;Users that are not following GitHub Pages policy&lt;/li&gt;
+&lt;li&gt;Sending out verification e-mail to users&lt;/li&gt;
+&lt;li&gt;Developing and testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Everything has a cost. In the end, we decided to implement it with Auth0 and it was liberatingly simple to implement. No server side or client side development and the time-consuming testing and then gulp minifying and annotation.&lt;/p&gt;
+
+&lt;p&gt;Just flip a switch in the auth0 dashboard.&lt;/p&gt;
+
+&lt;p&gt;We have just released a new version! Now you can sign in with your E-mail, Twitter, Facebook and GitHub.  Enjoy folks!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://appernetic.io&#34;&gt;https://appernetic.io&lt;/a&gt; #contentmanagement&lt;/p&gt;
 </description>
     </item>
     
