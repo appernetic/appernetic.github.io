@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Appernetic Static Site Generator on Appernetic.io</title>
+    <title>Appernetic Static Site Generator on Appernetic.io blog</title>
     <link>/tags/appernetic-static-site-generator/</link>
-    <description>Recent content in Appernetic Static Site Generator on Appernetic.io</description>
+    <description>Recent content in Appernetic Static Site Generator on Appernetic.io blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
