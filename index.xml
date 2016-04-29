@@ -9,8 +9,45 @@
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
-    <lastBuildDate>Tue, 26 Apr 2016 13:10:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Apr 2016 15:46:20 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to build a mailing list with Zapier and MailChimp</title>
+      <link>/2016/04/29/how-to-build-a-mailing-list-with-zapier-and-mailchimp/</link>
+      <pubDate>Fri, 29 Apr 2016 15:46:20 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>/2016/04/29/how-to-build-a-mailing-list-with-zapier-and-mailchimp/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&amp;laquo;I&amp;rsquo;m looking to put up a &amp;lsquo;coming soon&amp;rsquo; page for a podcast I&amp;rsquo;m working
+on to collect some e-mails for the upcoming launch.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s a good ready-made solution for this (e.g. WordPress plugin,
+hosted landing page, etc.) that allows for easy lead collection
+without custom coding or monthly fee?&amp;raquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That was the question I saw in the 7 Day Startup group on Facebook. Similar questions were asked in Hugo Community discuss : Is it possible to add a contact form to a site?&lt;/p&gt;
+
+&lt;p&gt;It seems to be a common pain point.&lt;/p&gt;
+
+&lt;p&gt;With a static website, you don&amp;rsquo;t have anything that can process form submissions so it is not a simple task to do it yourself.&lt;/p&gt;
+
+&lt;p&gt;For this, you need a newsletter opt-in form, a mailing list and a service that handles the submitted content.&lt;/p&gt;
+
+&lt;p&gt;In our latest theme: &lt;a href=&#34;https://github.com/appernetic/hugo-bootstrap-premium&#34;&gt;hugo-bootstrap-premium&lt;/a&gt; we have integrated a newsletter opt-in form that is super easy to customize without any coding.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461945240/aaxlgeo4btp4ih5hlhtb&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You only have to enable the form and add your &lt;a href=&#34;https://zapier.com&#34;&gt;Zapier&lt;/a&gt; post hook that&amp;rsquo;s post to &lt;a href=&#34;http://mailchimp.com/&#34;&gt;MailChimp&lt;/a&gt; to use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461945371/jdx7evqmqmrli2ib7wzf&#34; alt=&#34;Appernetic.io Newsletter opt-in form with Zapier hook&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is  the enabled newsletter opt-in form with a Zapier hook.&lt;/p&gt;
+
+&lt;p&gt;We also integrated &lt;a href=&#34;https://www.mailmunch.co/&#34;&gt;MailMunch&lt;/a&gt; and &lt;a href=&#34;https://sumome.com/&#34;&gt;SumoMe&lt;/a&gt; so you can use it instead  if you prefer.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Now you can sign in with twitter facebook and github</title>
@@ -220,11 +257,11 @@ Continue with your content strategy, now with a new tool in your arsenal!&lt;/p&
       <guid>/2016/03/08/performance-optimization/</guid>
       <description>
 
-&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance improvements&lt;/h2&gt;
+&lt;h2 id=&#34;performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Performance improvements&lt;/h2&gt;
 
 &lt;p&gt;We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.&lt;/p&gt;
 
-&lt;h2 id=&#34;speed-index&#34;&gt;Speed Index&lt;/h2&gt;
+&lt;h2 id=&#34;speed-index:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Speed Index&lt;/h2&gt;
 
 &lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.&lt;/p&gt;
 
@@ -273,7 +310,7 @@ Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic service)&#34; /&gt;
 Pingdom test result logs for the Angular app (Appernetic service).&lt;/p&gt;
 
-&lt;h2 id=&#34;caching&#34;&gt;Caching&lt;/h2&gt;
+&lt;h2 id=&#34;caching:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Caching&lt;/h2&gt;
 
 &lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
 
