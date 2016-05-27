@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Appernetic Service on Appernetic.io blog</title>
-    <link>/tags/appernetic-service/</link>
+    <link>https://blog.appernetic.io/tags/appernetic-service/</link>
     <description>Recent content in Appernetic Service on Appernetic.io blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,17 +10,17 @@
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
     <lastBuildDate>Tue, 26 Apr 2016 13:10:05 +0000</lastBuildDate>
-    <atom:link href="/tags/appernetic-service/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.appernetic.io/tags/appernetic-service/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Now you can sign in with twitter, facebook, github or your e-mail!</title>
-      <link>/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</link>
+      <link>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</link>
       <pubDate>Tue, 26 Apr 2016 13:10:05 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
+      <guid>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
       <description>
 
-&lt;h2 id=&#34;update:2cf2dbe80819dbd6fe10957b739357bb&#34;&gt;Update!&lt;/h2&gt;
+&lt;h2 id=&#34;update&#34;&gt;Update!&lt;/h2&gt;
 
 &lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password.&lt;/p&gt;
 
@@ -48,21 +48,21 @@
     
     <item>
       <title>Minor enhancements and fixes</title>
-      <link>/2016/03/14/minor-enhancements-and-fixes/</link>
+      <link>https://blog.appernetic.io/2016/03/14/minor-enhancements-and-fixes/</link>
       <pubDate>Mon, 14 Mar 2016 07:06:27 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>/2016/03/14/minor-enhancements-and-fixes/</guid>
+      <guid>https://blog.appernetic.io/2016/03/14/minor-enhancements-and-fixes/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457939591/c25ymnmuqsfsmqjkk52b&#34; alt=&#34;Appernetic Service site preview enhancements&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;site-preview-fixes-and-enhancements&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
+&lt;h2 id=&#34;site-preview-fixes-and-enhancements:38aad4879695a217cddc2308524a2ff8&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
 
 &lt;p&gt;There was a case of a very sticky cache and this doesn&amp;rsquo;t work well if you immediately would want to check changes. Site preview  has also been moved to its own subdomain: &lt;strong&gt;preview.appernetic.io&lt;/strong&gt;,  and now it is also possible to view the site preview if you are not signed in, so it is easier to share the URL and collaborate.&lt;/p&gt;
 
 &lt;p&gt;If you are experiencing problems such as site preview URL goes to a page that does not exist, try clearing the cache in your browser.&lt;/p&gt;
 
-&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
+&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo:38aad4879695a217cddc2308524a2ff8&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
 
 &lt;p&gt;The bug we reported last week wasn&amp;rsquo;t a bug. When you delete a theme, we have git delete everything, and it doesn&amp;rsquo;t delete dot files. The fix is to add a &lt;strong&gt;.gitignore&lt;/strong&gt; file to your theme repo and exclude files such as &lt;strong&gt;.DS_Store&lt;/strong&gt;.&lt;/p&gt;
 
@@ -79,10 +79,10 @@
     
     <item>
       <title>Manage your web site images in the cloud</title>
-      <link>/2016/03/09/manage-your-web-site-images-in-the-cloud/</link>
+      <link>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</link>
       <pubDate>Wed, 09 Mar 2016 14:28:30 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
+      <guid>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
       <description>
 
 &lt;h2 id=&#34;cloudinary:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Cloudinary&lt;/h2&gt;
@@ -122,17 +122,17 @@ Continue with your content strategy, now with a new tool in your arsenal!&lt;/p&
     
     <item>
       <title>Performance optimization</title>
-      <link>/2016/03/08/performance-optimization/</link>
+      <link>https://blog.appernetic.io/2016/03/08/performance-optimization/</link>
       <pubDate>Tue, 08 Mar 2016 19:03:58 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>/2016/03/08/performance-optimization/</guid>
+      <guid>https://blog.appernetic.io/2016/03/08/performance-optimization/</guid>
       <description>
 
-&lt;h2 id=&#34;performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Performance improvements&lt;/h2&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance improvements&lt;/h2&gt;
 
 &lt;p&gt;We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.&lt;/p&gt;
 
-&lt;h2 id=&#34;speed-index:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Speed Index&lt;/h2&gt;
+&lt;h2 id=&#34;speed-index&#34;&gt;Speed Index&lt;/h2&gt;
 
 &lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.&lt;/p&gt;
 
@@ -181,7 +181,7 @@ Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic service)&#34; /&gt;
 Pingdom test result logs for the Angular app (Appernetic service).&lt;/p&gt;
 
-&lt;h2 id=&#34;caching:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Caching&lt;/h2&gt;
+&lt;h2 id=&#34;caching&#34;&gt;Caching&lt;/h2&gt;
 
 &lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Appernetic Static Site Generator on Appernetic.io blog</title>
-    <link>/tags/appernetic-static-site-generator/</link>
+    <link>https://blog.appernetic.io/tags/appernetic-static-site-generator/</link>
     <description>Recent content in Appernetic Static Site Generator on Appernetic.io blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,17 +10,17 @@
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
     <lastBuildDate>Tue, 26 Apr 2016 13:10:05 +0000</lastBuildDate>
-    <atom:link href="/tags/appernetic-static-site-generator/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.appernetic.io/tags/appernetic-static-site-generator/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Now you can sign in with twitter, facebook, github or your e-mail!</title>
-      <link>/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</link>
+      <link>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</link>
       <pubDate>Tue, 26 Apr 2016 13:10:05 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
+      <guid>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
       <description>
 
-&lt;h2 id=&#34;update:2cf2dbe80819dbd6fe10957b739357bb&#34;&gt;Update!&lt;/h2&gt;
+&lt;h2 id=&#34;update&#34;&gt;Update!&lt;/h2&gt;
 
 &lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password.&lt;/p&gt;
 
@@ -48,10 +48,10 @@
     
     <item>
       <title>Manage your web site images in the cloud</title>
-      <link>/2016/03/09/manage-your-web-site-images-in-the-cloud/</link>
+      <link>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</link>
       <pubDate>Wed, 09 Mar 2016 14:28:30 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
+      <guid>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
       <description>
 
 &lt;h2 id=&#34;cloudinary:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Cloudinary&lt;/h2&gt;
