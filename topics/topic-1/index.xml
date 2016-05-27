@@ -9,8 +9,55 @@
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
-    <lastBuildDate>Sat, 09 Apr 2016 05:53:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 May 2016 18:04:58 +0000</lastBuildDate>
     <atom:link href="https://blog.appernetic.io/topics/topic-1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Appernetic theme showcase gallery</title>
+      <link>https://blog.appernetic.io/2016/05/27/appernetic-theme-showcase-gallery/</link>
+      <pubDate>Fri, 27 May 2016 18:04:58 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/2016/05/27/appernetic-theme-showcase-gallery/</guid>
+      <description>
+
+&lt;h1 id=&#34;theme-showcase-gallery:39dffe5a914b0345ccf2fc37637d11a6&#34;&gt;Theme showcase gallery&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464371165/bqz05luuepoonqfutf5n&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;strong&gt;&lt;em&gt;The theme showcase gallery is ready! Now you can browse the gallery and install a theme just by clicking on it. This is the themes listed at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Theme Showcase&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aggregated-meta-information:39dffe5a914b0345ccf2fc37637d11a6&#34;&gt;Aggregated meta information&lt;/h2&gt;
+
+&lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes. We also check if each theme has an exampleSite folder and a config.toml file and if they have we give them a star.&lt;/p&gt;
+
+&lt;p&gt;If you are not the most patient type of person, avoid themes that have no star, they  need some extra attention to get your website working.&lt;/p&gt;
+
+&lt;p&gt;Included in each theme listing is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;List item&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Thumbnail image&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Theme name&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Description&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Author (with website URL)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Repository link&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Minimum Hugo version (which the theme works with).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Licence&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Features/Tags (blue and green labels)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With the aggregated meta information and the themes gallery ready it was now also possible to include the one-click theme install feature in the quick start wizard.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464371347/mgc1lnbrytafkitsjmma&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to set up a static Hugo website on GitHub pages in 2 minutes</title>
@@ -80,7 +127,7 @@ git push origin master
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;what-about-custom-domains:074ddaca36ce177814980409d0daacae&#34;&gt;What about custom domains?&lt;/h2&gt;
+&lt;h2 id=&#34;what-about-custom-domains&#34;&gt;What about custom domains?&lt;/h2&gt;
 
 &lt;p&gt; No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
 
@@ -143,7 +190,7 @@ Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hu
       <guid>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
       <description>
 
-&lt;h2 id=&#34;cloudinary&#34;&gt;Cloudinary&lt;/h2&gt;
+&lt;h2 id=&#34;cloudinary:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Cloudinary&lt;/h2&gt;
 
 &lt;p&gt;We no longer use GitHub to manage images in your Appernetic service account. You can still use GitHub and they have a easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
 
@@ -151,7 +198,7 @@ Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hu
 
 &lt;p&gt;When you upload your image to your article in the PageDown editor it will be sent to your Cloudinary account where you can use the web interface to interactively manage your media library.&lt;/p&gt;
 
-&lt;h2 id=&#34;setup-your-account&#34;&gt;Setup your account&lt;/h2&gt;
+&lt;h2 id=&#34;setup-your-account:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Setup your account&lt;/h2&gt;
 
 &lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
 
@@ -256,7 +303,7 @@ Appernetic service, caching with CloudFlare.&lt;/p&gt;
       <guid>https://blog.appernetic.io/2016/02/18/collaborating-and-working-with-hugo-themes/</guid>
       <description>
 
-&lt;h2 id=&#34;customizing-themes&#34;&gt;Customizing themes&lt;/h2&gt;
+&lt;h2 id=&#34;customizing-themes:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Customizing themes&lt;/h2&gt;
 
 &lt;p&gt;If you just have set up your Appernetic account you need to add a theme. The easiest way is to clone a theme which you can do from the drop down button beside the blue &lt;strong&gt;Preview&lt;/strong&gt; button to the right.&lt;/p&gt;
 
@@ -304,7 +351,7 @@ not have to think about it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457304455/tdsbe75348lm3dxa1csw&#34; alt=&#34;GitHub Desktop app&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;collaborating&#34;&gt;Collaborating&lt;/h2&gt;
+&lt;h2 id=&#34;collaborating:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Collaborating&lt;/h2&gt;
 
 &lt;p&gt;Notice also that I have all the social and collaborating features in GitHub so I can invite a real front end designer to have a look at my attempts to customize the theme. My last step is to do a &lt;strong&gt;Sync&lt;/strong&gt; again in Appernetic and then a &lt;strong&gt;Publish&lt;/strong&gt; and after 10 min all is live on &lt;a href=&#34;https://appernetic.github.io/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 
@@ -314,7 +361,7 @@ GitHub so I can invite a real front end designer to have a look at my
 attempts to customize the theme.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;start-blogging&#34;&gt;Start blogging!&lt;/h2&gt;
+&lt;h2 id=&#34;start-blogging:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Start blogging!&lt;/h2&gt;
 
 &lt;p&gt;From now on it is very easy to start blogging. Select the &lt;strong&gt;post&lt;/strong&gt; directory in the tree view, it is where blog post lives. Create a new file,  name it with a headline, it will be sluggified automatically. Select &lt;em&gt;toml&lt;/em&gt; or &lt;em&gt;yaml&lt;/em&gt; front matter (toml as default selection). The file tree will be updated and show the new file. Open the file and blog away! Turn on auto save and all text you write will be saved every other minute. Remember to &lt;strong&gt;undraft&lt;/strong&gt; the post if you would like to see it after publishing and  add key words, tags and topics.&lt;/p&gt;
 
