@@ -22,13 +22,13 @@
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457939591/c25ymnmuqsfsmqjkk52b&#34; alt=&#34;Appernetic Service site preview enhancements&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;site-preview-fixes-and-enhancements:38aad4879695a217cddc2308524a2ff8&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
+&lt;h2 id=&#34;site-preview-fixes-and-enhancements&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
 
 &lt;p&gt;There was a case of a very sticky cache and this doesn&amp;rsquo;t work well if you immediately would want to check changes. Site preview  has also been moved to its own subdomain: &lt;strong&gt;preview.appernetic.io&lt;/strong&gt;,  and now it is also possible to view the site preview if you are not signed in, so it is easier to share the URL and collaborate.&lt;/p&gt;
 
 &lt;p&gt;If you are experiencing problems such as site preview URL goes to a page that does not exist, try clearing the cache in your browser.&lt;/p&gt;
 
-&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo:38aad4879695a217cddc2308524a2ff8&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
+&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
 
 &lt;p&gt;The bug we reported last week wasn&amp;rsquo;t a bug. When you delete a theme, we have git delete everything, and it doesn&amp;rsquo;t delete dot files. The fix is to add a &lt;strong&gt;.gitignore&lt;/strong&gt; file to your theme repo and exclude files such as &lt;strong&gt;.DS_Store&lt;/strong&gt;.&lt;/p&gt;
 
