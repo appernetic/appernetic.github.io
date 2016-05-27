@@ -20,12 +20,10 @@
       <guid>https://blog.appernetic.io/2016/05/27/appernetic-theme-showcase-gallery/</guid>
       <description>
 
-&lt;h1 id=&#34;theme-showcase-gallery:39dffe5a914b0345ccf2fc37637d11a6&#34;&gt;Theme showcase gallery&lt;/h1&gt;
-
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464371165/bqz05luuepoonqfutf5n&#34; alt=&#34;enter image description here&#34; /&gt;
 &lt;strong&gt;&lt;em&gt;The theme showcase gallery is ready! Now you can browse the gallery and install a theme just by clicking on it. This is the themes listed at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Theme Showcase&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;aggregated-meta-information:39dffe5a914b0345ccf2fc37637d11a6&#34;&gt;Aggregated meta information&lt;/h2&gt;
+&lt;h2 id=&#34;aggregated-meta-information&#34;&gt;Aggregated meta information&lt;/h2&gt;
 
 &lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes. We also check if each theme has an exampleSite folder and a config.toml file and if they have we give them a star.&lt;/p&gt;
 
@@ -56,6 +54,8 @@
 &lt;p&gt;With the aggregated meta information and the themes gallery ready it was now also possible to include the one-click theme install feature in the quick start wizard.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464371347/mgc1lnbrytafkitsjmma&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the dashboard link up to the right and see for yourself and build a &lt;a href=&#34;https://appernetic.io/app/#/dashboard/list/create&#34;&gt;static website&lt;/a&gt;!&lt;/p&gt;
 </description>
     </item>
     
