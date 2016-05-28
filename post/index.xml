@@ -20,42 +20,36 @@
       <guid>https://blog.appernetic.io/2016/05/27/appernetic-theme-showcase-gallery/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464371165/bqz05luuepoonqfutf5n&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464414173/suli8vdkjsw9luw1ol3f&#34; alt=&#34;Setup wizard, now with theme showcase gallery in appernetic dashboard&#34; /&gt;
 &lt;strong&gt;&lt;em&gt;The theme showcase gallery is ready! Now you can browse the gallery and install a theme just by clicking on it. This is the themes listed at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Theme Showcase&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aggregated-meta-information&#34;&gt;Aggregated meta information&lt;/h2&gt;
 
-&lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes. We also check if each theme has an exampleSite folder and a config.toml file and if they have we give them a star.&lt;/p&gt;
+&lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes. We also check if each theme has an exampleSite folder and a config.toml file and if they have we give them a star in the frontend. Everything is served as a JSON file from a REST API endpoint, then we have Angular mangling the arrays and objects to make them look intelligible to us humans.&lt;/p&gt;
 
 &lt;p&gt;If you are not the most patient type of person, avoid themes that have no star, they  need some extra attention to get your website working.&lt;/p&gt;
 
 &lt;p&gt;Included in each theme listing is:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;List item&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Thumbnail image&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Theme name&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Description&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Author (with website URL)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Repository link&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Minimum Hugo version (which the theme works with).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Licence&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Features/Tags (blue and green labels)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Thumbnail image&lt;/li&gt;
+&lt;li&gt;Theme name&lt;/li&gt;
+&lt;li&gt;Description&lt;/li&gt;
+&lt;li&gt;Author (with website URL)&lt;/li&gt;
+&lt;li&gt;Repository link&lt;/li&gt;
+&lt;li&gt;Minimum Hugo version (which the theme works with).&lt;/li&gt;
+&lt;li&gt;Licence&lt;/li&gt;
+&lt;li&gt;Features/Tags (blue and green labels)&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;With the aggregated meta information and the themes gallery ready it was now also possible to include the one-click theme install feature in the quick start wizard.&lt;/p&gt;
+&lt;p&gt;With the aggregated meta information and the themes gallery ready it was now also possible to include the one-click theme install feature in the quick start wizard.  This will make it much easier to get started.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464371347/mgc1lnbrytafkitsjmma&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464371347/mgc1lnbrytafkitsjmma&#34; alt=&#34;Theme showcase gallery item in appernetic dashboard&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Click on the dashboard link up to the right and see for yourself and build a &lt;a href=&#34;https://appernetic.io/app/#/dashboard/list/create&#34;&gt;static website&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464415618/eiysait32vipexfyhduh&#34; alt=&#34;Theme showcase gallery item in appernetic dashboard&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -112,7 +106,7 @@ without custom coding or monthly fee?&lt;/p&gt;
       <guid>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
       <description>
 
-&lt;h2 id=&#34;update&#34;&gt;Update!&lt;/h2&gt;
+&lt;h2 id=&#34;update:2cf2dbe80819dbd6fe10957b739357bb&#34;&gt;Update!&lt;/h2&gt;
 
 &lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password.&lt;/p&gt;
 
@@ -382,7 +376,7 @@ Appernetic service, caching with CloudFlare.&lt;/p&gt;
       <guid>https://blog.appernetic.io/2016/02/18/collaborating-and-working-with-hugo-themes/</guid>
       <description>
 
-&lt;h2 id=&#34;customizing-themes:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Customizing themes&lt;/h2&gt;
+&lt;h2 id=&#34;customizing-themes&#34;&gt;Customizing themes&lt;/h2&gt;
 
 &lt;p&gt;If you just have set up your Appernetic account you need to add a theme. The easiest way is to clone a theme which you can do from the drop down button beside the blue &lt;strong&gt;Preview&lt;/strong&gt; button to the right.&lt;/p&gt;
 
@@ -430,7 +424,7 @@ not have to think about it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457304455/tdsbe75348lm3dxa1csw&#34; alt=&#34;GitHub Desktop app&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;collaborating:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Collaborating&lt;/h2&gt;
+&lt;h2 id=&#34;collaborating&#34;&gt;Collaborating&lt;/h2&gt;
 
 &lt;p&gt;Notice also that I have all the social and collaborating features in GitHub so I can invite a real front end designer to have a look at my attempts to customize the theme. My last step is to do a &lt;strong&gt;Sync&lt;/strong&gt; again in Appernetic and then a &lt;strong&gt;Publish&lt;/strong&gt; and after 10 min all is live on &lt;a href=&#34;https://appernetic.github.io/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 
@@ -440,7 +434,7 @@ GitHub so I can invite a real front end designer to have a look at my
 attempts to customize the theme.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;start-blogging:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Start blogging!&lt;/h2&gt;
+&lt;h2 id=&#34;start-blogging&#34;&gt;Start blogging!&lt;/h2&gt;
 
 &lt;p&gt;From now on it is very easy to start blogging. Select the &lt;strong&gt;post&lt;/strong&gt; directory in the tree view, it is where blog post lives. Create a new file,  name it with a headline, it will be sluggified automatically. Select &lt;em&gt;toml&lt;/em&gt; or &lt;em&gt;yaml&lt;/em&gt; front matter (toml as default selection). The file tree will be updated and show the new file. Open the file and blog away! Turn on auto save and all text you write will be saved every other minute. Remember to &lt;strong&gt;undraft&lt;/strong&gt; the post if you would like to see it after publishing and  add key words, tags and topics.&lt;/p&gt;
 
