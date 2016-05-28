@@ -25,7 +25,11 @@
 
 &lt;h2 id=&#34;aggregated-meta-information&#34;&gt;Aggregated meta information&lt;/h2&gt;
 
-&lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes. We also check if each theme has an exampleSite folder and a config.toml file and if they have we give them a star in the frontend. Everything is served as a JSON file from a REST API endpoint, then we have Angular mangling the arrays and objects to make them look intelligible to us humans.&lt;/p&gt;
+&lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes.&lt;/p&gt;
+
+&lt;p&gt;I also check if each theme has an exampleSite folder and a config.toml file and if they have we give them a star in the frontend.&lt;/p&gt;
+
+&lt;p&gt;Everything is served as a JSON file from a REST API endpoint, then we have Angular mangling the arrays and objects to make them look intelligible to us humans.&lt;/p&gt;
 
 &lt;p&gt;If you are not the most patient type of person, avoid themes that have no star, they  need some extra attention to get your website working.&lt;/p&gt;
 
@@ -50,6 +54,8 @@
 &lt;p&gt;Click on the dashboard link up to the right and see for yourself and build a &lt;a href=&#34;https://appernetic.io/app/#/dashboard/list/create&#34;&gt;static website&lt;/a&gt;!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464415618/eiysait32vipexfyhduh&#34; alt=&#34;Theme showcase gallery item in appernetic dashboard&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By the way, I have just removed Twitter user sign-in. It was an easy decision. Twitter users had no email in their meta info and was lagging behind in the interwebs, and behaved inconsistently. Also, I had no Twitter freemium or paying users and I had exceeded Auth0&amp;rsquo;s social connection limits anyway.&lt;/p&gt;
 </description>
     </item>
     
