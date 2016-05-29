@@ -23,7 +23,7 @@
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464414173/suli8vdkjsw9luw1ol3f&#34; alt=&#34;Setup wizard, now with theme showcase gallery in appernetic dashboard&#34; /&gt;
 &lt;strong&gt;&lt;em&gt;The theme showcase gallery is ready! Now you can browse the gallery and install a theme just by clicking on it. This is the themes listed at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Theme Showcase&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;aggregated-meta-information&#34;&gt;Aggregated meta information&lt;/h2&gt;
+&lt;h2 id=&#34;aggregated-meta-information:39dffe5a914b0345ccf2fc37637d11a6&#34;&gt;Aggregated meta information&lt;/h2&gt;
 
 &lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes.&lt;/p&gt;
 
@@ -161,7 +161,7 @@ Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hu
 
 &lt;h2 id=&#34;customizing-themes:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Customizing themes&lt;/h2&gt;
 
-&lt;p&gt;If you just have set up your Appernetic account you need to add a theme. The easiest way is to clone a theme which you can do from the drop down button beside the blue &lt;strong&gt;Preview&lt;/strong&gt; button to the right.&lt;/p&gt;
+&lt;p&gt;If you just have set up your Appernetic &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt; account you need to add a theme. The easiest way is to clone a theme which you can do from the menu &lt;span class=&#34;glyphicon glyphicon-blackboard&#34;&gt;&lt;/span&gt; button.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457304135/pig3qgwntchbkk0x9tab&#34; alt=&#34;Install a theme&#34; /&gt;&lt;/p&gt;
 
@@ -191,13 +191,16 @@ Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hu
 &lt;li&gt;yeti&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;There is lots of themes at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, but you probably want to customize the theme before you use it so that you have a blog with  a theme that is matching your business web site or service. I am using Bootswatch Paper theme for &lt;a href=&#34;https://appernetic.io&#34;&gt;Appernetic service&lt;/a&gt;. Fortunately I found &lt;a href=&#34;https://github.com/mmrath/hugo-bootstrap&#34;&gt;hugo-bootstrap&lt;/a&gt; and cloned it.&lt;/p&gt;
+&lt;p&gt;There are lots of themes at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, but you probably want to customize the theme before you use it so that you have a blog with  a theme that is matching your business website or service. I am using Bootswatch Paper theme for &lt;a href=&#34;https://appernetic.io&#34;&gt;Appernetic static website service&lt;/a&gt;. Fortunately, I found &lt;a href=&#34;https://github.com/mmrath/hugo-bootstrap&#34;&gt;hugo-bootstrap&lt;/a&gt; and cloned it.&lt;/p&gt;
 
-&lt;p&gt;Then to customize it further I pressed the &lt;strong&gt;Sync&lt;/strong&gt; button which does a pull and then a push to your Appernetic project repository at &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; with the name &lt;strong&gt;appernetic-hugo-project&lt;/strong&gt; . When you start out you will not have this repo so it is automatically created for you and all strange git commands i hidden away so you do not have to think about it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464371347/mgc1lnbrytafkitsjmma&#34; alt=&#34;enter image description here&#34; /&gt;
+Now you can also browse the theme showcase gallery.&lt;/p&gt;
+
+&lt;p&gt;Then to customize it further I pressed the &lt;strong&gt;Sync&lt;/strong&gt; button which does a pull and then a push to your Appernetic project repository at &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; with the name &lt;strong&gt;appernetic-hugo-project&lt;/strong&gt; . When you start out you will not have this repo so it is automatically created for you and all strange git commands is hidden away so you do not have to think about it.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;When you start out you will not have this repo so it is automatically
-created for you and all strange git commands i hidden away so you do
+created for you and all strange git commands is hidden away so you do
 not have to think about it.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -219,7 +222,7 @@ attempts to customize the theme.&lt;/p&gt;
 
 &lt;h2 id=&#34;start-blogging:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Start blogging!&lt;/h2&gt;
 
-&lt;p&gt;From now on it is very easy to start blogging. Select the &lt;strong&gt;post&lt;/strong&gt; directory in the tree view, it is where blog post lives. Create a new file,  name it with a headline, it will be sluggified automatically. Select &lt;em&gt;toml&lt;/em&gt; or &lt;em&gt;yaml&lt;/em&gt; front matter (toml as default selection). The file tree will be updated and show the new file. Open the file and blog away! Turn on auto save and all text you write will be saved every other minute. Remember to &lt;strong&gt;undraft&lt;/strong&gt; the post if you would like to see it after publishing and  add key words, tags and topics.&lt;/p&gt;
+&lt;p&gt;From now on it is very easy to start blogging. Select the &lt;strong&gt;post&lt;/strong&gt; directory in the tree view, it is where blog post lives. Create a new file,  name it with a headline, it will be sluggified automatically. Select &lt;em&gt;TOML&lt;/em&gt; or &lt;em&gt;YAML&lt;/em&gt; front matter (TOML as default selection). The file tree will be updated and show the new file. Open the file and blog away! Turn on auto save and all text you write will be saved every other minute. Remember to &lt;strong&gt;undraft&lt;/strong&gt; the post if you would like to see it after publishing and  add key words, tags, and topics.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457304529/clqxr6v6xhxum0jvqabz&#34; alt=&#34;Start blogging&#34; /&gt;&lt;/p&gt;
 
