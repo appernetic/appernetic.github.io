@@ -20,11 +20,11 @@
       <guid>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
       <description>
 
-&lt;h2 id=&#34;update:2cf2dbe80819dbd6fe10957b739357bb&#34;&gt;Update!&lt;/h2&gt;
+&lt;h2 id=&#34;static-website-service-update:2cf2dbe80819dbd6fe10957b739357bb&#34;&gt;Static website service update!&lt;/h2&gt;
 
-&lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password.&lt;/p&gt;
+&lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password to the &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461667876/bvzstocens1wcwu3vba1&#34; alt=&#34;Appernetic Static Site Generator with e-mail sign up, Twitter, Facebook and GitHub sign in!&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461667876/bvzstocens1wcwu3vba1&#34; alt=&#34;Appernetic Static website Generator with e-mail sign up, Twitter, Facebook and GitHub sign in!&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;For us and the service there is the problem with:&lt;/p&gt;
 
@@ -41,6 +41,8 @@
 &lt;p&gt;Just flip a switch in the auth0 dashboard.&lt;/p&gt;
 
 &lt;p&gt;Sign in with your E-mail, Twitter, Facebook and GitHub.  Enjoy folks!&lt;/p&gt;
+
+&lt;p&gt;UPDATE (28052016): I have just removed Twitter user sign-in. It was an easy decision. Twitter users had no email in their meta info and was lagging behind in the interwebs, and behaved inconsistently. Also, I had no Twitter freemium or paying users and I had exceeded Auth0’s social connection limits anyway.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://appernetic.io&#34;&gt;https://appernetic.io&lt;/a&gt; #contentmanagement&lt;/p&gt;
 </description>
@@ -85,22 +87,22 @@
       <guid>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
       <description>
 
-&lt;h2 id=&#34;cloudinary:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Cloudinary&lt;/h2&gt;
+&lt;h2 id=&#34;cloudinary-for-image-and-video-assets-management-in-your-static-website&#34;&gt;Cloudinary for image and video assets management in your static website&lt;/h2&gt;
 
-&lt;p&gt;We no longer use GitHub to manage images in your Appernetic service account. You can still use GitHub and they have a easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
+&lt;p&gt;We no longer use GitHub to manage images in your Appernetic static website service account. You can still use GitHub and they have an easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
 
 &lt;p&gt;Cloudinary is a cloud service that offers a solution to a web application&amp;rsquo;s entire image management pipeline. Easily upload images to the cloud. Automatically perform smart image resizing, cropping and conversion without installing any complex software. Integrate Facebook or Twitter profile image extraction in a snap, in any dimension and style to match your website’s graphics requirements.&lt;/p&gt;
 
 &lt;p&gt;When you upload your image to your article in the PageDown editor it will be sent to your Cloudinary account where you can use the web interface to interactively manage your media library.&lt;/p&gt;
 
-&lt;h2 id=&#34;setup-your-account:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Setup your account&lt;/h2&gt;
+&lt;h2 id=&#34;setup-your-account&#34;&gt;Setup your account&lt;/h2&gt;
 
-&lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
+&lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details, you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539317/mgwu3dyjasovzrq7risa&#34; alt=&#34;Cloud name in the dashboard &#34; /&gt;
 Cloud name settings in the dashboard.&lt;/p&gt;
 
-&lt;p&gt;Now to create a &lt;strong&gt;Upload preset&lt;/strong&gt;  click Settings down to the left in the dashboard, select the Upload tab and scroll down to Upload Presets and configure a unsigned upload preset.&lt;/p&gt;
+&lt;p&gt;Now to create a &lt;strong&gt;Upload preset&lt;/strong&gt;  click Settings down to the left in the dashboard, select the Upload tab and scroll down to Upload Presets and configure an unsigned upload preset.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457538951/s4jzrkhlauoororjskki&#34; alt=&#34;Configure upload presets&#34; /&gt;
 Configure unsigned upload presets.&lt;/p&gt;
@@ -110,7 +112,7 @@ Configure unsigned upload presets.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539163/ybd0y47g0ojzsshvdfd4&#34; alt=&#34;Unmark resource list&#34; /&gt;
 Unmark resource list in security settings.&lt;/p&gt;
 
-&lt;p&gt;Now all should be configured at Cloudinary! Don&amp;rsquo;t forget to verify your account otherwise it will be disabled. Now the last thing to do is add the information to your Apernetic settings. Click on your GitHub profile image up to the right to show your user settings.&lt;/p&gt;
+&lt;p&gt;Now all should be configured at Cloudinary! Don&amp;rsquo;t forget to verify your account otherwise, it will be disabled. Now the last thing to do is add the information to your Appernetic settings. Click on your GitHub profile image up to the right to show your user settings.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539785/yglkvrt4wjhns4xtmzwi&#34; alt=&#34;Appernetic cloudinary settings.&#34; /&gt;
 Add your Cloudinary settings to your Appernetic account.&lt;/p&gt;
@@ -128,18 +130,18 @@ Continue with your content strategy, now with a new tool in your arsenal!&lt;/p&
       <guid>https://blog.appernetic.io/2016/03/08/performance-optimization/</guid>
       <description>
 
-&lt;h2 id=&#34;performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Performance improvements&lt;/h2&gt;
+&lt;h2 id=&#34;static-website-service-performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Static website service performance improvements&lt;/h2&gt;
 
-&lt;p&gt;We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.&lt;/p&gt;
+&lt;p&gt;We have made significant performance improvements in our &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt; and have dug deep into everything on the client and server side. All images are now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every CSS, HTML and Javascript file are compressed and minified.&lt;/p&gt;
 
 &lt;h2 id=&#34;speed-index:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Speed Index&lt;/h2&gt;
 
-&lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.&lt;/p&gt;
+&lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on the size of the viewport.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463274/gcgzrecgedcjnc3gzdj3&#34; alt=&#34;Speed Index Reference Results&#34; /&gt;
-We have now also separated the routes for the front page and the Angular app. The Angular app are now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.&lt;/p&gt;
+We have now also separated the routes for the front page and the Angular app. The Angular app is now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.&lt;/p&gt;
 
-&lt;p&gt;Angular app (Appernetic Static Site Generator) performance test from:&lt;/p&gt;
+&lt;p&gt;Angular app (Appernetic Static website Generator service) performance test from:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Dulles, VA Thinkpad T430: &lt;a href=&#34;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&#34;&gt;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;1422&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
@@ -173,20 +175,20 @@ We have now also separated the routes for the front page and the Angular app. Th
 &lt;li&gt;&lt;p&gt;Frankfurt, DE: &lt;a href=&#34;http://www.webpagetest.org/result/160309_GG_8DS/&#34;&gt;http://www.webpagetest.org/result/160309_GG_8DS/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;1309&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Our uptime monitoring with Pingdom also shows that the we are on the &lt;a href=&#34;http://stats.pingdom.com/r7vt9tv6brq8/2014082&#34;&gt;right track now&lt;/a&gt;. For the front page we now have performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.&lt;/p&gt;
+&lt;p&gt;Our uptime monitoring with Pingdom also shows that the we are on the &lt;a href=&#34;http://stats.pingdom.com/r7vt9tv6brq8/2014082&#34;&gt;right track now&lt;/a&gt;. For the front page, we now have the performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457462773/atscsb7z2qtr4cn8qid0&#34; alt=&#34;Response time diagram last 24 hours&#34; /&gt;
 Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic service)&#34; /&gt;
-Pingdom test result logs for the Angular app (Appernetic service).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic static website service)&#34; /&gt;
+Pingdom test result logs for the Angular app (Appernetic static website service).&lt;/p&gt;
 
 &lt;h2 id=&#34;caching:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Caching&lt;/h2&gt;
 
 &lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457461947/hzs05zxjzr8otv2nrvka&#34; alt=&#34;Appernetic service, caching with CloudFlare&#34; /&gt;
-Appernetic service, caching with CloudFlare.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457461947/hzs05zxjzr8otv2nrvka&#34; alt=&#34;Appernetic static website service, caching with CloudFlare&#34; /&gt;
+Appernetic static website service, caching with CloudFlare.&lt;/p&gt;
 </description>
     </item>
     

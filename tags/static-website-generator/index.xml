@@ -22,19 +22,19 @@
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1460186011/k1seurwnwzitp8tbchvx&#34; alt=&#34;A static website - appernetic.io&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to set up a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them when you would rather like to be writing exciting content to distribute over the intermingling webz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to set up a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them when you would rather like to be writing exciting content to distribute over the interwebz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;First you have to:&lt;/p&gt;
+&lt;p&gt;First,​ you have to:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;download the right version of the static site generator for your OS and architecture.&lt;/li&gt;
+&lt;li&gt;download the right version of the &lt;a href=&#34;https://appernetic.io&#34;&gt;static website generator&lt;/a&gt; for your OS and architecture.&lt;/li&gt;
 &lt;li&gt;install git&lt;/li&gt;
 &lt;li&gt;create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Then when the installation and configuration are ready there are lots of steps to just have the website up and running on the Interwebz.&lt;/p&gt;
 
-&lt;p&gt;Before I created Appernetic I had to do all these 17 steps in the terminal after installation and configuration :&lt;/p&gt;
+&lt;p&gt;Before I created Appernetic I had to do all these 15 steps in the terminal after installation and configuration :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site blog 
 cd blog
@@ -63,7 +63,7 @@ git push origin master
 &lt;pre&gt;&lt;code&gt; http://easypeasy.github.io (do not click this is just an example)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;All these 17 steps will take at least 30 min if you have the knowledge. Now we do the same with Appernetic.&lt;/p&gt;
+&lt;p&gt;All these 15 steps will take at least 30 min if you have the knowledge. Now we do the same with Appernetic.&lt;/p&gt;
 
 &lt;p&gt;We assume the following is already done:&lt;/p&gt;
 
@@ -80,9 +80,9 @@ git push origin master
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;what-about-custom-domains:074ddaca36ce177814980409d0daacae&#34;&gt;What about custom domains?&lt;/h2&gt;
+&lt;h2 id=&#34;what-about-custom-domains&#34;&gt;What about custom domains?&lt;/h2&gt;
 
-&lt;p&gt; No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
+&lt;p&gt;No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;In your Appernetic dashboard, Sync you appernetic project with GitHub, this will create a appernetic-hugo-project with all your files on GitHub. We do this so that we can work with files outside the content folder.&lt;/li&gt;
@@ -101,6 +101,67 @@ Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hu
 &lt;/ol&gt;
 
 &lt;p&gt;That&amp;rsquo;s it! &lt;a href=&#34;https://appernetic.io&#34;&gt;Give fast, secure blogging a try&lt;/a&gt; and you will never go back to WordPress, Joomla or Drupal. We support you both in Swedish and English.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why use a static website generator?</title>
+      <link>https://blog.appernetic.io/2016/02/10/why-use-a-static-website-generator/</link>
+      <pubDate>Wed, 10 Feb 2016 19:50:09 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/2016/02/10/why-use-a-static-website-generator/</guid>
+      <description>
+
+&lt;h2 id=&#34;full-circle-with-static-websites:f405389e24819888f4339a200bcc1557&#34;&gt;Full circle with static websites&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306076/y8ylaazm8pet3nwpbffq&#34; alt=&#34;Hugo plus octocat&#34; /&gt;
+Today we have come full circle with static website generators. A long time ago at the end of 1994 I built a static website for the Swedish Tourist Association that contained hundreds of handcrafted html pages, it was quite advanced with a email to fax gateway that sent out bookings to remote mountain stations. Then I found ColdFusion in the beginning of 1995 and the sites I built had dynamic content served from MS Access databases. Later I started to use mySQL and built my own hosted CMS that was easily updated by non-technical users.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-programmable-web:f405389e24819888f4339a200bcc1557&#34;&gt;The programmable web&lt;/h2&gt;
+
+&lt;p&gt;It was a lot of things to manage, servers, operating systems, security patches, databases, backup and on the application level with different versions and dependencies. Then I moved on to Platform as a Service (PaaS) and I only needed to manage and secure my applications, databases was now managed by a BaaS (backend as a service) and if I needed something specific such as commenting, search, email service or calendar there was always an API to connect to. The programmable web was born.&lt;/p&gt;
+
+&lt;h2 id=&#34;advantage-static-website-generators:f405389e24819888f4339a200bcc1557&#34;&gt;Advantage static website generators&lt;/h2&gt;
+
+&lt;p&gt;Now there is a rich ecosystem of service providers for anything including forms, calendars, content, images, email, e-commerce etc. A dynamic CMS is no longer the best option for a website. There is really only a need for dynamic websites if you have a very large site with a complex structure and rich content such as news sites and large enterprises that have content that is updated very frequently. With a &lt;a href=&#34;https://appernetic.io&#34;&gt;static website&lt;/a&gt; generator, you didn’t really lose anything of practical value. Instead you have several advantages with a &lt;em&gt;static website&lt;/em&gt; such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fast&lt;/strong&gt;, static files can be served fast. There is no database or templating layer that slows requests down. A static website will always be the fastest way to deliver content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secure&lt;/strong&gt;, static websites do not contain dynamic content and are therefore immune to most common attacks that dynamic systems like Wordpress and Joomla are plagued with.  Recently 12 million Drupal sites needed emergency patching.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Previewable&lt;/strong&gt;, It is easy to separate preview from the live website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Versioning&lt;/strong&gt;, static website generators store their content in flat text files. This makes them ideal to be used with version control systems, such as Git.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Static website generator are getting more popular and a view on Google Trends shows this:
+ &lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306147/xm8rkllrfgr8xlznehix&#34; alt=&#34;Static site generator statistics&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Interest over time. Web Search. Worldwide, 2004 to the present.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-static-website-generator-as-a-service:f405389e24819888f4339a200bcc1557&#34;&gt;A static website generator as a service&lt;/h2&gt;
+
+&lt;p&gt;With Appernetic, we are building a static website generator as a service that is easy to use for non-technical users and add some extra value. To start with we have included an easy to use editor, visual tree view, image upload, site preview, continuous integration with GitHub and atomic deploy, autosave​ and theme cloning.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-github:f405389e24819888f4339a200bcc1557&#34;&gt;Why gitHub?&lt;/h2&gt;
+
+&lt;p&gt;You&amp;rsquo;re probably wondering why the heck we are using GitHub. First of all GitHub use git which is a very good versioning system and they have &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; and you can use your own domain name and SSL (probably not the safest, but anyway its SSL!). Even if they only cache pages for 10 minutes and there are more cache misses then hits they have a fast CDN, Fastly.  I did a little unscientific performance test to see how it&amp;rsquo;s really working out. All tests is done with &lt;a href=&#34;http://websitetest.com/&#34;&gt;websitetest.com&lt;/a&gt; from Berlin:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://appernetic.io/#/about&#34;&gt;https://appernetic.io/#/about&lt;/a&gt;, with Cloudflare CDN and SSL, Dynamic site, 4.7 MB, Time to Last Byte: &lt;strong&gt;70 ms&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://appernetic.github.io/2016/02/10/firstpost/&#34;&gt;https://appernetic.github.io/2016/02/10/firstpost/&lt;/a&gt;, with Fastly CDN and SSL, Static Blog Site 1.6 Mb, Time to Last Byte: &lt;strong&gt;171 ms&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://apple.com&#34;&gt;http://apple.com&lt;/a&gt;, No SSL, Dynamic site, 741 KB, Time to Last Byte: &lt;strong&gt;378 ms&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.theguardian.com/uk-news&#34;&gt;http://www.theguardian.com/uk-news&lt;/a&gt;,  No SSL, Dynamic site, 4.3 MB, Time to Last Byte: &lt;strong&gt;484 ms&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@erinleecarr/lessons-dbbaa0c8294d#.h25nipmyq&#34;&gt;https://medium.com/@erinleecarr/lessons-dbbaa0c8294d#.h25nipmyq&lt;/a&gt;, SSL, Dynamic blog, 3.2 MB, Time to Last Byte &lt;strong&gt;492 ms&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A static website wins every time even if there is a lot of cache misses.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We also eat our own dog food and use it for everything possible. Keep your eye on the blog where we will be posting tips and tricks how you can get the best advantage of a static blog or website.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306218/e3v66ludnvfweghdb91d&#34; alt=&#34;working on computer pexels.com&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are using Hugo for fast website generation and GitHub for deploy.&lt;/p&gt;
 </description>
     </item>
     

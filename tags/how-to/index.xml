@@ -22,19 +22,19 @@
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1460186011/k1seurwnwzitp8tbchvx&#34; alt=&#34;A static website - appernetic.io&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to set up a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them when you would rather like to be writing exciting content to distribute over the intermingling webz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to set up a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them when you would rather like to be writing exciting content to distribute over the interwebz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;First you have to:&lt;/p&gt;
+&lt;p&gt;First,​ you have to:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;download the right version of the static site generator for your OS and architecture.&lt;/li&gt;
+&lt;li&gt;download the right version of the &lt;a href=&#34;https://appernetic.io&#34;&gt;static website generator&lt;/a&gt; for your OS and architecture.&lt;/li&gt;
 &lt;li&gt;install git&lt;/li&gt;
 &lt;li&gt;create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Then when the installation and configuration are ready there are lots of steps to just have the website up and running on the Interwebz.&lt;/p&gt;
 
-&lt;p&gt;Before I created Appernetic I had to do all these 17 steps in the terminal after installation and configuration :&lt;/p&gt;
+&lt;p&gt;Before I created Appernetic I had to do all these 15 steps in the terminal after installation and configuration :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site blog 
 cd blog
@@ -63,7 +63,7 @@ git push origin master
 &lt;pre&gt;&lt;code&gt; http://easypeasy.github.io (do not click this is just an example)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;All these 17 steps will take at least 30 min if you have the knowledge. Now we do the same with Appernetic.&lt;/p&gt;
+&lt;p&gt;All these 15 steps will take at least 30 min if you have the knowledge. Now we do the same with Appernetic.&lt;/p&gt;
 
 &lt;p&gt;We assume the following is already done:&lt;/p&gt;
 
@@ -80,9 +80,9 @@ git push origin master
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;what-about-custom-domains:074ddaca36ce177814980409d0daacae&#34;&gt;What about custom domains?&lt;/h2&gt;
+&lt;h2 id=&#34;what-about-custom-domains&#34;&gt;What about custom domains?&lt;/h2&gt;
 
-&lt;p&gt; No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
+&lt;p&gt;No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;In your Appernetic dashboard, Sync you appernetic project with GitHub, this will create a appernetic-hugo-project with all your files on GitHub. We do this so that we can work with files outside the content folder.&lt;/li&gt;

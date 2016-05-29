@@ -20,18 +20,18 @@
       <guid>https://blog.appernetic.io/2016/03/08/performance-optimization/</guid>
       <description>
 
-&lt;h2 id=&#34;performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Performance improvements&lt;/h2&gt;
+&lt;h2 id=&#34;static-website-service-performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Static website service performance improvements&lt;/h2&gt;
 
-&lt;p&gt;We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.&lt;/p&gt;
+&lt;p&gt;We have made significant performance improvements in our &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt; and have dug deep into everything on the client and server side. All images are now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every CSS, HTML and Javascript file are compressed and minified.&lt;/p&gt;
 
 &lt;h2 id=&#34;speed-index:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Speed Index&lt;/h2&gt;
 
-&lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.&lt;/p&gt;
+&lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on the size of the viewport.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463274/gcgzrecgedcjnc3gzdj3&#34; alt=&#34;Speed Index Reference Results&#34; /&gt;
-We have now also separated the routes for the front page and the Angular app. The Angular app are now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.&lt;/p&gt;
+We have now also separated the routes for the front page and the Angular app. The Angular app is now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.&lt;/p&gt;
 
-&lt;p&gt;Angular app (Appernetic Static Site Generator) performance test from:&lt;/p&gt;
+&lt;p&gt;Angular app (Appernetic Static website Generator service) performance test from:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Dulles, VA Thinkpad T430: &lt;a href=&#34;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&#34;&gt;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;1422&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
@@ -65,20 +65,20 @@ We have now also separated the routes for the front page and the Angular app. Th
 &lt;li&gt;&lt;p&gt;Frankfurt, DE: &lt;a href=&#34;http://www.webpagetest.org/result/160309_GG_8DS/&#34;&gt;http://www.webpagetest.org/result/160309_GG_8DS/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;1309&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Our uptime monitoring with Pingdom also shows that the we are on the &lt;a href=&#34;http://stats.pingdom.com/r7vt9tv6brq8/2014082&#34;&gt;right track now&lt;/a&gt;. For the front page we now have performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.&lt;/p&gt;
+&lt;p&gt;Our uptime monitoring with Pingdom also shows that the we are on the &lt;a href=&#34;http://stats.pingdom.com/r7vt9tv6brq8/2014082&#34;&gt;right track now&lt;/a&gt;. For the front page, we now have the performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457462773/atscsb7z2qtr4cn8qid0&#34; alt=&#34;Response time diagram last 24 hours&#34; /&gt;
 Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic service)&#34; /&gt;
-Pingdom test result logs for the Angular app (Appernetic service).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic static website service)&#34; /&gt;
+Pingdom test result logs for the Angular app (Appernetic static website service).&lt;/p&gt;
 
 &lt;h2 id=&#34;caching:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Caching&lt;/h2&gt;
 
 &lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457461947/hzs05zxjzr8otv2nrvka&#34; alt=&#34;Appernetic service, caching with CloudFlare&#34; /&gt;
-Appernetic service, caching with CloudFlare.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457461947/hzs05zxjzr8otv2nrvka&#34; alt=&#34;Appernetic static website service, caching with CloudFlare&#34; /&gt;
+Appernetic static website service, caching with CloudFlare.&lt;/p&gt;
 </description>
     </item>
     

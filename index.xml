@@ -23,7 +23,7 @@
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464414173/suli8vdkjsw9luw1ol3f&#34; alt=&#34;Setup wizard, now with theme showcase gallery in appernetic dashboard&#34; /&gt;
 &lt;strong&gt;&lt;em&gt;The theme showcase gallery is ready! Now you can browse the gallery and install a theme just by clicking on it. This is the themes listed at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Theme Showcase&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;aggregated-meta-information&#34;&gt;Aggregated meta information&lt;/h2&gt;
+&lt;h2 id=&#34;aggregated-meta-information:39dffe5a914b0345ccf2fc37637d11a6&#34;&gt;Aggregated meta information&lt;/h2&gt;
 
 &lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes.&lt;/p&gt;
 
@@ -82,13 +82,15 @@ without custom coding or monthly fee?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;It seems to be a common pain point.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;With a static website, you don&amp;rsquo;t have anything that can process form submissions so it is not a simple task to do it yourself.&lt;/p&gt;
+&lt;h2 id=&#34;process-forms-in-a-static-website:3ff1f9dde19ec3d390d1c19057aed3ab&#34;&gt;Process forms in a static website&lt;/h2&gt;
+
+&lt;p&gt;With a &lt;a href=&#34;https://appernetic.io&#34;&gt;static website&lt;/a&gt;, you don&amp;rsquo;t have anything that can process form submissions so it is not a simple task to do it yourself.&lt;/p&gt;
 
 &lt;p&gt;For this, you need a newsletter opt-in form, a mailing list and a service that handles the submitted content.&lt;/p&gt;
 
 &lt;p&gt;In our latest theme: &lt;a href=&#34;https://github.com/appernetic/hugo-bootstrap-premium&#34;&gt;hugo-bootstrap-premium&lt;/a&gt; we have integrated a popover newsletter opt-in form that is super easy to customize without any coding.&lt;/p&gt;
 
-&lt;p&gt;It has all the features you need such as bootstrap theming, exit detection, customized delay, add your custom image, change text etc. It also detects mobile devices and shows larger buttons for devices with small screen sizes.&lt;/p&gt;
+&lt;p&gt;It has all the features you need such as bootstrap theming, exit detection, customized delay, add your custom image,  change text etc. It also detects mobile devices so it can show larger buttons for devices with small screen sizes.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461945240/aaxlgeo4btp4ih5hlhtb&#34; alt=&#34;blog.appernetic.io using theme hugo-bootstrap-premium with popover opt-in form.&#34; /&gt;&lt;/p&gt;
 
@@ -98,7 +100,7 @@ without custom coding or monthly fee?&lt;/p&gt;
 
 &lt;p&gt;This is  the enabled newsletter opt-in form with a Zapier hook.&lt;/p&gt;
 
-&lt;p&gt;We also integrated &lt;a href=&#34;https://www.mailmunch.co/&#34;&gt;MailMunch&lt;/a&gt; and &lt;a href=&#34;https://sumome.com/&#34;&gt;SumoMe&lt;/a&gt; in the theme so you can use it instead  if you prefer by simply adding your mailmunchid or sumomeid.&lt;/p&gt;
+&lt;p&gt;We also integrated &lt;a href=&#34;https://www.mailmunch.co/&#34;&gt;MailMunch&lt;/a&gt; and &lt;a href=&#34;https://sumome.com/&#34;&gt;SumoMe&lt;/a&gt; in the theme so you can use it in your static website  instead  if you prefer by simply adding your mailmunchid or sumomeid.&lt;/p&gt;
 
 &lt;p&gt;That’s it! Give &lt;a href=&#34;https://appernetic.io&#34;&gt;fast, secure blogging&lt;/a&gt; a try and you will never go back to WordPress, Joomla or Drupal. We support you both in Swedish and English.&lt;/p&gt;
 </description>
@@ -112,11 +114,11 @@ without custom coding or monthly fee?&lt;/p&gt;
       <guid>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
       <description>
 
-&lt;h2 id=&#34;update:2cf2dbe80819dbd6fe10957b739357bb&#34;&gt;Update!&lt;/h2&gt;
+&lt;h2 id=&#34;static-website-service-update:2cf2dbe80819dbd6fe10957b739357bb&#34;&gt;Static website service update!&lt;/h2&gt;
 
-&lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password.&lt;/p&gt;
+&lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password to the &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461667876/bvzstocens1wcwu3vba1&#34; alt=&#34;Appernetic Static Site Generator with e-mail sign up, Twitter, Facebook and GitHub sign in!&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461667876/bvzstocens1wcwu3vba1&#34; alt=&#34;Appernetic Static website Generator with e-mail sign up, Twitter, Facebook and GitHub sign in!&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;For us and the service there is the problem with:&lt;/p&gt;
 
@@ -134,6 +136,8 @@ without custom coding or monthly fee?&lt;/p&gt;
 
 &lt;p&gt;Sign in with your E-mail, Twitter, Facebook and GitHub.  Enjoy folks!&lt;/p&gt;
 
+&lt;p&gt;UPDATE (28052016): I have just removed Twitter user sign-in. It was an easy decision. Twitter users had no email in their meta info and was lagging behind in the interwebs, and behaved inconsistently. Also, I had no Twitter freemium or paying users and I had exceeded Auth0’s social connection limits anyway.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://appernetic.io&#34;&gt;https://appernetic.io&lt;/a&gt; #contentmanagement&lt;/p&gt;
 </description>
     </item>
@@ -148,19 +152,19 @@ without custom coding or monthly fee?&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1460186011/k1seurwnwzitp8tbchvx&#34; alt=&#34;A static website - appernetic.io&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to set up a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them when you would rather like to be writing exciting content to distribute over the intermingling webz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to set up a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them when you would rather like to be writing exciting content to distribute over the interwebz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;First you have to:&lt;/p&gt;
+&lt;p&gt;First,​ you have to:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;download the right version of the static site generator for your OS and architecture.&lt;/li&gt;
+&lt;li&gt;download the right version of the &lt;a href=&#34;https://appernetic.io&#34;&gt;static website generator&lt;/a&gt; for your OS and architecture.&lt;/li&gt;
 &lt;li&gt;install git&lt;/li&gt;
 &lt;li&gt;create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Then when the installation and configuration are ready there are lots of steps to just have the website up and running on the Interwebz.&lt;/p&gt;
 
-&lt;p&gt;Before I created Appernetic I had to do all these 17 steps in the terminal after installation and configuration :&lt;/p&gt;
+&lt;p&gt;Before I created Appernetic I had to do all these 15 steps in the terminal after installation and configuration :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site blog 
 cd blog
@@ -189,7 +193,7 @@ git push origin master
 &lt;pre&gt;&lt;code&gt; http://easypeasy.github.io (do not click this is just an example)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;All these 17 steps will take at least 30 min if you have the knowledge. Now we do the same with Appernetic.&lt;/p&gt;
+&lt;p&gt;All these 15 steps will take at least 30 min if you have the knowledge. Now we do the same with Appernetic.&lt;/p&gt;
 
 &lt;p&gt;We assume the following is already done:&lt;/p&gt;
 
@@ -206,9 +210,9 @@ git push origin master
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;what-about-custom-domains:074ddaca36ce177814980409d0daacae&#34;&gt;What about custom domains?&lt;/h2&gt;
+&lt;h2 id=&#34;what-about-custom-domains&#34;&gt;What about custom domains?&lt;/h2&gt;
 
-&lt;p&gt; No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
+&lt;p&gt;No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;In your Appernetic dashboard, Sync you appernetic project with GitHub, this will create a appernetic-hugo-project with all your files on GitHub. We do this so that we can work with files outside the content folder.&lt;/li&gt;
@@ -269,22 +273,22 @@ Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hu
       <guid>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
       <description>
 
-&lt;h2 id=&#34;cloudinary:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Cloudinary&lt;/h2&gt;
+&lt;h2 id=&#34;cloudinary-for-image-and-video-assets-management-in-your-static-website&#34;&gt;Cloudinary for image and video assets management in your static website&lt;/h2&gt;
 
-&lt;p&gt;We no longer use GitHub to manage images in your Appernetic service account. You can still use GitHub and they have a easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
+&lt;p&gt;We no longer use GitHub to manage images in your Appernetic static website service account. You can still use GitHub and they have an easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
 
 &lt;p&gt;Cloudinary is a cloud service that offers a solution to a web application&amp;rsquo;s entire image management pipeline. Easily upload images to the cloud. Automatically perform smart image resizing, cropping and conversion without installing any complex software. Integrate Facebook or Twitter profile image extraction in a snap, in any dimension and style to match your website’s graphics requirements.&lt;/p&gt;
 
 &lt;p&gt;When you upload your image to your article in the PageDown editor it will be sent to your Cloudinary account where you can use the web interface to interactively manage your media library.&lt;/p&gt;
 
-&lt;h2 id=&#34;setup-your-account:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Setup your account&lt;/h2&gt;
+&lt;h2 id=&#34;setup-your-account&#34;&gt;Setup your account&lt;/h2&gt;
 
-&lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
+&lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details, you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539317/mgwu3dyjasovzrq7risa&#34; alt=&#34;Cloud name in the dashboard &#34; /&gt;
 Cloud name settings in the dashboard.&lt;/p&gt;
 
-&lt;p&gt;Now to create a &lt;strong&gt;Upload preset&lt;/strong&gt;  click Settings down to the left in the dashboard, select the Upload tab and scroll down to Upload Presets and configure a unsigned upload preset.&lt;/p&gt;
+&lt;p&gt;Now to create a &lt;strong&gt;Upload preset&lt;/strong&gt;  click Settings down to the left in the dashboard, select the Upload tab and scroll down to Upload Presets and configure an unsigned upload preset.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457538951/s4jzrkhlauoororjskki&#34; alt=&#34;Configure upload presets&#34; /&gt;
 Configure unsigned upload presets.&lt;/p&gt;
@@ -294,7 +298,7 @@ Configure unsigned upload presets.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539163/ybd0y47g0ojzsshvdfd4&#34; alt=&#34;Unmark resource list&#34; /&gt;
 Unmark resource list in security settings.&lt;/p&gt;
 
-&lt;p&gt;Now all should be configured at Cloudinary! Don&amp;rsquo;t forget to verify your account otherwise it will be disabled. Now the last thing to do is add the information to your Apernetic settings. Click on your GitHub profile image up to the right to show your user settings.&lt;/p&gt;
+&lt;p&gt;Now all should be configured at Cloudinary! Don&amp;rsquo;t forget to verify your account otherwise, it will be disabled. Now the last thing to do is add the information to your Appernetic settings. Click on your GitHub profile image up to the right to show your user settings.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539785/yglkvrt4wjhns4xtmzwi&#34; alt=&#34;Appernetic cloudinary settings.&#34; /&gt;
 Add your Cloudinary settings to your Appernetic account.&lt;/p&gt;
@@ -312,18 +316,18 @@ Continue with your content strategy, now with a new tool in your arsenal!&lt;/p&
       <guid>https://blog.appernetic.io/2016/03/08/performance-optimization/</guid>
       <description>
 
-&lt;h2 id=&#34;performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Performance improvements&lt;/h2&gt;
+&lt;h2 id=&#34;static-website-service-performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Static website service performance improvements&lt;/h2&gt;
 
-&lt;p&gt;We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.&lt;/p&gt;
+&lt;p&gt;We have made significant performance improvements in our &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt; and have dug deep into everything on the client and server side. All images are now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every CSS, HTML and Javascript file are compressed and minified.&lt;/p&gt;
 
 &lt;h2 id=&#34;speed-index:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Speed Index&lt;/h2&gt;
 
-&lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.&lt;/p&gt;
+&lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on the size of the viewport.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463274/gcgzrecgedcjnc3gzdj3&#34; alt=&#34;Speed Index Reference Results&#34; /&gt;
-We have now also separated the routes for the front page and the Angular app. The Angular app are now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.&lt;/p&gt;
+We have now also separated the routes for the front page and the Angular app. The Angular app is now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.&lt;/p&gt;
 
-&lt;p&gt;Angular app (Appernetic Static Site Generator) performance test from:&lt;/p&gt;
+&lt;p&gt;Angular app (Appernetic Static website Generator service) performance test from:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Dulles, VA Thinkpad T430: &lt;a href=&#34;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&#34;&gt;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;1422&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
@@ -357,20 +361,20 @@ We have now also separated the routes for the front page and the Angular app. Th
 &lt;li&gt;&lt;p&gt;Frankfurt, DE: &lt;a href=&#34;http://www.webpagetest.org/result/160309_GG_8DS/&#34;&gt;http://www.webpagetest.org/result/160309_GG_8DS/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;1309&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Our uptime monitoring with Pingdom also shows that the we are on the &lt;a href=&#34;http://stats.pingdom.com/r7vt9tv6brq8/2014082&#34;&gt;right track now&lt;/a&gt;. For the front page we now have performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.&lt;/p&gt;
+&lt;p&gt;Our uptime monitoring with Pingdom also shows that the we are on the &lt;a href=&#34;http://stats.pingdom.com/r7vt9tv6brq8/2014082&#34;&gt;right track now&lt;/a&gt;. For the front page, we now have the performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457462773/atscsb7z2qtr4cn8qid0&#34; alt=&#34;Response time diagram last 24 hours&#34; /&gt;
 Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic service)&#34; /&gt;
-Pingdom test result logs for the Angular app (Appernetic service).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic static website service)&#34; /&gt;
+Pingdom test result logs for the Angular app (Appernetic static website service).&lt;/p&gt;
 
 &lt;h2 id=&#34;caching:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Caching&lt;/h2&gt;
 
 &lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457461947/hzs05zxjzr8otv2nrvka&#34; alt=&#34;Appernetic service, caching with CloudFlare&#34; /&gt;
-Appernetic service, caching with CloudFlare.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457461947/hzs05zxjzr8otv2nrvka&#34; alt=&#34;Appernetic static website service, caching with CloudFlare&#34; /&gt;
+Appernetic static website service, caching with CloudFlare.&lt;/p&gt;
 </description>
     </item>
     
@@ -464,41 +468,41 @@ attempts to customize the theme.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Why use a static web site generator?</title>
-      <link>https://blog.appernetic.io/2016/02/10/why-use-a-static-web-site-generator/</link>
+      <title>Why use a static website generator?</title>
+      <link>https://blog.appernetic.io/2016/02/10/why-use-a-static-website-generator/</link>
       <pubDate>Wed, 10 Feb 2016 19:50:09 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>https://blog.appernetic.io/2016/02/10/why-use-a-static-web-site-generator/</guid>
+      <guid>https://blog.appernetic.io/2016/02/10/why-use-a-static-website-generator/</guid>
       <description>
 
-&lt;h2 id=&#34;full-circle:f405389e24819888f4339a200bcc1557&#34;&gt;Full circle&lt;/h2&gt;
+&lt;h2 id=&#34;full-circle-with-static-websites:f405389e24819888f4339a200bcc1557&#34;&gt;Full circle with static websites&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306076/y8ylaazm8pet3nwpbffq&#34; alt=&#34;Hugo plus octocat&#34; /&gt;
-Today we have come full circle with static site generators. A long time ago at the end of 1994 I built a static web site for the Swedish Tourist Association that contained hundreds of handcrafted html pages, it was quite advanced with a email to fax gateway that sent out bookings to remote mountain stations. Then I found ColdFusion in the beginning of 1995 and the the sites I built had dynamic content served from MS Access databases. Later I started to use mySQL and built my own hosted CMS that was easily updated by non-technical users.&lt;/p&gt;
+Today we have come full circle with static website generators. A long time ago at the end of 1994 I built a static website for the Swedish Tourist Association that contained hundreds of handcrafted html pages, it was quite advanced with a email to fax gateway that sent out bookings to remote mountain stations. Then I found ColdFusion in the beginning of 1995 and the sites I built had dynamic content served from MS Access databases. Later I started to use mySQL and built my own hosted CMS that was easily updated by non-technical users.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-programmable-web:f405389e24819888f4339a200bcc1557&#34;&gt;The programmable web&lt;/h2&gt;
 
 &lt;p&gt;It was a lot of things to manage, servers, operating systems, security patches, databases, backup and on the application level with different versions and dependencies. Then I moved on to Platform as a Service (PaaS) and I only needed to manage and secure my applications, databases was now managed by a BaaS (backend as a service) and if I needed something specific such as commenting, search, email service or calendar there was always an API to connect to. The programmable web was born.&lt;/p&gt;
 
-&lt;h2 id=&#34;advantage-static-web-site-generators:f405389e24819888f4339a200bcc1557&#34;&gt;Advantage static web site generators&lt;/h2&gt;
+&lt;h2 id=&#34;advantage-static-website-generators:f405389e24819888f4339a200bcc1557&#34;&gt;Advantage static website generators&lt;/h2&gt;
 
-&lt;p&gt;Now there is a rich ecosystem of service providers for anything including forms, calendars, content, images, email, e-commerce etc. A dynamic CMS is no longer the best option for a web site. There is really only a need for dynamic web sites if you have a very large site with a complex structure and rich content such as news sites and large enterprises that have content that is updated very frequently. With a static site generator you didn’t really lose anything of practical value. Instead you have several advantages with a static site such as:&lt;/p&gt;
+&lt;p&gt;Now there is a rich ecosystem of service providers for anything including forms, calendars, content, images, email, e-commerce etc. A dynamic CMS is no longer the best option for a website. There is really only a need for dynamic websites if you have a very large site with a complex structure and rich content such as news sites and large enterprises that have content that is updated very frequently. With a &lt;a href=&#34;https://appernetic.io&#34;&gt;static website&lt;/a&gt; generator, you didn’t really lose anything of practical value. Instead you have several advantages with a &lt;em&gt;static website&lt;/em&gt; such as:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Fast&lt;/strong&gt;, static files can be served fast. There is no database or templating layer that slows requests down. A static site will always be the fastest way to deliver content.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Secure&lt;/strong&gt;, static sites do not contain dynamic content, and are therefore immune to most common attacks that dynamic systems like Wordpress and Joomla are plagued with.  Recently 12 million Drupal sites needed emergency patching.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Previewable&lt;/strong&gt;, It is easy to separate preview from the live site.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Versioning&lt;/strong&gt;, static-site generators store their content in flat text files. This makes them ideal to be used with version control systems, such as Git.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fast&lt;/strong&gt;, static files can be served fast. There is no database or templating layer that slows requests down. A static website will always be the fastest way to deliver content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secure&lt;/strong&gt;, static websites do not contain dynamic content and are therefore immune to most common attacks that dynamic systems like Wordpress and Joomla are plagued with.  Recently 12 million Drupal sites needed emergency patching.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Previewable&lt;/strong&gt;, It is easy to separate preview from the live website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Versioning&lt;/strong&gt;, static website generators store their content in flat text files. This makes them ideal to be used with version control systems, such as Git.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Static site generator are getting more popular and a view on Google Trends shows this:
+&lt;p&gt;Static website generator are getting more popular and a view on Google Trends shows this:
  &lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306147/xm8rkllrfgr8xlznehix&#34; alt=&#34;Static site generator statistics&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Interest over time. Web Search. Worldwide, 2004 to the present.&lt;/p&gt;
 
-&lt;h2 id=&#34;a-static-site-generator-as-a-service:f405389e24819888f4339a200bcc1557&#34;&gt;A static site generator as a service&lt;/h2&gt;
+&lt;h2 id=&#34;a-static-website-generator-as-a-service:f405389e24819888f4339a200bcc1557&#34;&gt;A static website generator as a service&lt;/h2&gt;
 
-&lt;p&gt;With Appernetic we are building a static web generator as a service that is easy to use for non-technical users and add some extra value. To start with we have included an easy to use editor, visual tree view, image upload, site preview, continuous integration with GitHub and atomic deploy, auto save and theme cloning.&lt;/p&gt;
+&lt;p&gt;With Appernetic, we are building a static website generator as a service that is easy to use for non-technical users and add some extra value. To start with we have included an easy to use editor, visual tree view, image upload, site preview, continuous integration with GitHub and atomic deploy, autosave​ and theme cloning.&lt;/p&gt;
 
 &lt;h2 id=&#34;why-github:f405389e24819888f4339a200bcc1557&#34;&gt;Why gitHub?&lt;/h2&gt;
 
@@ -513,14 +517,14 @@ Today we have come full circle with static site generators. A long time ago at t
 &lt;/ol&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;A static site wins every time even if there is a lot of cache misses.&lt;/p&gt;
+&lt;p&gt;A static website wins every time even if there is a lot of cache misses.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;We also eat our own dog food and use it for everything possible. Keep your eye on the blog where we will be posting tips and tricks how you can get the best advantage of a static blog or web site.&lt;/p&gt;
+&lt;p&gt;We also eat our own dog food and use it for everything possible. Keep your eye on the blog where we will be posting tips and tricks how you can get the best advantage of a static blog or website.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306218/e3v66ludnvfweghdb91d&#34; alt=&#34;working on computer pexels.com&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;We are using Hugo for fast site generation and GitHub for deploy.&lt;/p&gt;
+&lt;p&gt;We are using Hugo for fast website generation and GitHub for deploy.&lt;/p&gt;
 </description>
     </item>
     

@@ -14,7 +14,7 @@
 
 <meta name="description" content="We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&#39;s Akamai CDN." />
 
-<meta name="keywords" content="Performance, Optimization, CloudFlare, Webpagetest, Cache, ">
+<meta name="keywords" content="Performance, Optimization, CloudFlare, Webpagetest, Cache, static website, ">
 
 <link rel="author" href="http://plus.google.com/+ApperneticIo">
 
@@ -42,6 +42,8 @@
     
 <meta property="og:article:tag" content="Cache">
     
+<meta property="og:article:tag" content="static website">
+    
   
 
   
@@ -65,7 +67,7 @@
     },
     "datePublished": "2016-03-08",
     "description": "We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary\x27s Akamai CDN.",
-    "wordCount":  385 
+    "wordCount":  396 
   }
 </script>
 
@@ -201,7 +203,7 @@
     &middot; by Göran Svensson
   
   &middot; Read in about 2 min
-  &middot; (385 Words)
+  &middot; (396 Words)
 </small>
 
 
@@ -213,6 +215,8 @@
   <a href="https://blog.appernetic.io/tags/performance-optimization" class="label label-primary">Performance Optimization</a>
   
   <a href="https://blog.appernetic.io/tags/appernetic-service" class="label label-primary">Appernetic Service</a>
+  
+  <a href="https://blog.appernetic.io/tags/static-website" class="label label-primary">static website</a>
   
 
 
@@ -226,18 +230,18 @@
       <div class="content">
   
 
-<h2 id="performance-improvements:3c9c8d3358db586236c8bc0e9810f67f">Performance improvements</h2>
+<h2 id="static-website-service-performance-improvements:3c9c8d3358db586236c8bc0e9810f67f">Static website service performance improvements</h2>
 
-<p>We have made significant performance improvements of our service and have dug deep into everything on the client and server side. All images is now sent with Cloudinary&rsquo;s Akamai CDN including the favicon, and every css, html and Javascript file is compressed and minified.</p>
+<p>We have made significant performance improvements in our <a href="https://appernetic.io">static website service</a> and have dug deep into everything on the client and server side. All images are now sent with Cloudinary&rsquo;s Akamai CDN including the favicon, and every CSS, HTML and Javascript file are compressed and minified.</p>
 
 <h2 id="speed-index:3c9c8d3358db586236c8bc0e9810f67f">Speed Index</h2>
 
-<p>We use <a href="http://www.webpagetest.org">webpagetest</a> for our performance tests. As a measure of how one experiences the web page speed we use <a href="https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index">Speed Index</a>. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on size of the view port.</p>
+<p>We use <a href="http://www.webpagetest.org">webpagetest</a> for our performance tests. As a measure of how one experiences the web page speed we use <a href="https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index">Speed Index</a>. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on the size of the viewport.</p>
 
 <p><img src="https://res.cloudinary.com/appernetic/v1457463274/gcgzrecgedcjnc3gzdj3" alt="Speed Index Reference Results" />
-We have now also separated the routes for the front page and the Angular app. The Angular app are now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.</p>
+We have now also separated the routes for the front page and the Angular app. The Angular app is now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.</p>
 
-<p>Angular app (Appernetic Static Site Generator) performance test from:</p>
+<p>Angular app (Appernetic Static website Generator service) performance test from:</p>
 
 <ul>
 <li><p>Dulles, VA Thinkpad T430: <a href="http://www.webpagetest.org/result/160308_C8_15P4/1/details/">http://www.webpagetest.org/result/160308_C8_15P4/1/details/</a>  First View, Speed Index: <strong>1422</strong></p></li>
@@ -271,20 +275,20 @@ We have now also separated the routes for the front page and the Angular app. Th
 <li><p>Frankfurt, DE: <a href="http://www.webpagetest.org/result/160309_GG_8DS/">http://www.webpagetest.org/result/160309_GG_8DS/</a> First view, Speed Index: <strong>1309</strong></p></li>
 </ul>
 
-<p>Our uptime monitoring with Pingdom also shows that the we are on the <a href="http://stats.pingdom.com/r7vt9tv6brq8/2014082">right track now</a>. For the front page we now have performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.</p>
+<p>Our uptime monitoring with Pingdom also shows that the we are on the <a href="http://stats.pingdom.com/r7vt9tv6brq8/2014082">right track now</a>. For the front page, we now have the performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.</p>
 
 <p><img src="https://res.cloudinary.com/appernetic/v1457462773/atscsb7z2qtr4cn8qid0" alt="Response time diagram last 24 hours" />
 Response time diagram last 24 hours for the Angular app.</p>
 
-<p><img src="https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk" alt="Pingdom test result logs for the Angular app (Appernetic service)" />
-Pingdom test result logs for the Angular app (Appernetic service).</p>
+<p><img src="https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk" alt="Pingdom test result logs for the Angular app (Appernetic static website service)" />
+Pingdom test result logs for the Angular app (Appernetic static website service).</p>
 
 <h2 id="caching:3c9c8d3358db586236c8bc0e9810f67f">Caching</h2>
 
 <p>Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.</p>
 
-<p><img src="https://res.cloudinary.com/appernetic/v1457461947/hzs05zxjzr8otv2nrvka" alt="Appernetic service, caching with CloudFlare" />
-Appernetic service, caching with CloudFlare.</p>
+<p><img src="https://res.cloudinary.com/appernetic/v1457461947/hzs05zxjzr8otv2nrvka" alt="Appernetic static website service, caching with CloudFlare" />
+Appernetic static website service, caching with CloudFlare.</p>
 
 </div>
 
@@ -381,7 +385,7 @@ Appernetic service, caching with CloudFlare.</p>
           </li>
         
           <li>
-          <a href="https://blog.appernetic.io/2016/02/10/why-use-a-static-web-site-generator/">Why use a static web site generator?</a>
+          <a href="https://blog.appernetic.io/2016/02/10/why-use-a-static-website-generator/">Why use a static website generator?</a>
           </li>
         
         </ul>
@@ -396,7 +400,7 @@ Appernetic service, caching with CloudFlare.</p>
 
         <div class="content">
           <ul>
-            <li><a href="https://blog.appernetic.io/tags/appernetic-service">appernetic-service</a></li><li><a href="https://blog.appernetic.io/tags/internet">internet</a></li><li><a href="https://blog.appernetic.io/tags/hugo">hugo</a></li><li><a href="https://blog.appernetic.io/tags/appernetic-static-site-generator">appernetic-static-site-generator</a></li><li><a href="https://blog.appernetic.io/tags/static-web-site-generator">static-web-site-generator</a></li><li><a href="https://blog.appernetic.io/tags/sumome">sumome</a></li><li><a href="https://blog.appernetic.io/tags/static-website-generator">static-website-generator</a></li><li><a href="https://blog.appernetic.io/tags/blogging">blogging</a></li><li><a href="https://blog.appernetic.io/tags/static-website-service">static-website-service</a></li><li><a href="https://blog.appernetic.io/tags/zapier">zapier</a></li>
+            <li><a href="https://blog.appernetic.io/tags/static-website">static-website</a></li><li><a href="https://blog.appernetic.io/tags/appernetic-service">appernetic-service</a></li><li><a href="https://blog.appernetic.io/tags/internet">internet</a></li><li><a href="https://blog.appernetic.io/tags/hugo">hugo</a></li><li><a href="https://blog.appernetic.io/tags/appernetic-static-site-generator">appernetic-static-site-generator</a></li><li><a href="https://blog.appernetic.io/tags/static-website-generator">static-website-generator</a></li><li><a href="https://blog.appernetic.io/tags/enhancements">enhancements</a></li><li><a href="https://blog.appernetic.io/tags/help">help</a></li><li><a href="https://blog.appernetic.io/tags/git">git</a></li><li><a href="https://blog.appernetic.io/tags/cloudinary">cloudinary</a></li>
           </ul>
         </div>
       </div>
@@ -409,7 +413,7 @@ Appernetic service, caching with CloudFlare.</p>
 
         <div class="content">
           <ul>
-            <li><a href="https://blog.appernetic.io/topics/topic-1">topic-1</a></li><li><a href="https://blog.appernetic.io/topics/static-web-site-generator">static-web-site-generator</a></li><li><a href="https://blog.appernetic.io/topics/how-to">how-to</a></li><li><a href="https://blog.appernetic.io/topics/enhancements">enhancements</a></li>
+            <li><a href="https://blog.appernetic.io/topics/static-website">static-website</a></li><li><a href="https://blog.appernetic.io/topics/how-to">how-to</a></li><li><a href="https://blog.appernetic.io/topics/static-website-enhancements">static-website-enhancements</a></li><li><a href="https://blog.appernetic.io/topics/topic-1">topic-1</a></li><li><a href="https://blog.appernetic.io/topics/performance">performance</a></li><li><a href="https://blog.appernetic.io/topics/static-website-generator">static-website-generator</a></li>
           </ul>
         </div>
       </div>

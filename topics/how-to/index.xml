@@ -35,13 +35,15 @@ without custom coding or monthly fee?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;It seems to be a common pain point.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;With a static website, you don&amp;rsquo;t have anything that can process form submissions so it is not a simple task to do it yourself.&lt;/p&gt;
+&lt;h2 id=&#34;process-forms-in-a-static-website:3ff1f9dde19ec3d390d1c19057aed3ab&#34;&gt;Process forms in a static website&lt;/h2&gt;
+
+&lt;p&gt;With a &lt;a href=&#34;https://appernetic.io&#34;&gt;static website&lt;/a&gt;, you don&amp;rsquo;t have anything that can process form submissions so it is not a simple task to do it yourself.&lt;/p&gt;
 
 &lt;p&gt;For this, you need a newsletter opt-in form, a mailing list and a service that handles the submitted content.&lt;/p&gt;
 
 &lt;p&gt;In our latest theme: &lt;a href=&#34;https://github.com/appernetic/hugo-bootstrap-premium&#34;&gt;hugo-bootstrap-premium&lt;/a&gt; we have integrated a popover newsletter opt-in form that is super easy to customize without any coding.&lt;/p&gt;
 
-&lt;p&gt;It has all the features you need such as bootstrap theming, exit detection, customized delay, add your custom image, change text etc. It also detects mobile devices and shows larger buttons for devices with small screen sizes.&lt;/p&gt;
+&lt;p&gt;It has all the features you need such as bootstrap theming, exit detection, customized delay, add your custom image,  change text etc. It also detects mobile devices so it can show larger buttons for devices with small screen sizes.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461945240/aaxlgeo4btp4ih5hlhtb&#34; alt=&#34;blog.appernetic.io using theme hugo-bootstrap-premium with popover opt-in form.&#34; /&gt;&lt;/p&gt;
 
@@ -51,9 +53,52 @@ without custom coding or monthly fee?&lt;/p&gt;
 
 &lt;p&gt;This is  the enabled newsletter opt-in form with a Zapier hook.&lt;/p&gt;
 
-&lt;p&gt;We also integrated &lt;a href=&#34;https://www.mailmunch.co/&#34;&gt;MailMunch&lt;/a&gt; and &lt;a href=&#34;https://sumome.com/&#34;&gt;SumoMe&lt;/a&gt; in the theme so you can use it instead  if you prefer by simply adding your mailmunchid or sumomeid.&lt;/p&gt;
+&lt;p&gt;We also integrated &lt;a href=&#34;https://www.mailmunch.co/&#34;&gt;MailMunch&lt;/a&gt; and &lt;a href=&#34;https://sumome.com/&#34;&gt;SumoMe&lt;/a&gt; in the theme so you can use it in your static website  instead  if you prefer by simply adding your mailmunchid or sumomeid.&lt;/p&gt;
 
 &lt;p&gt;That’s it! Give &lt;a href=&#34;https://appernetic.io&#34;&gt;fast, secure blogging&lt;/a&gt; a try and you will never go back to WordPress, Joomla or Drupal. We support you both in Swedish and English.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manage your web site images in the cloud</title>
+      <link>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</link>
+      <pubDate>Wed, 09 Mar 2016 14:28:30 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
+      <description>
+
+&lt;h2 id=&#34;cloudinary-for-image-and-video-assets-management-in-your-static-website&#34;&gt;Cloudinary for image and video assets management in your static website&lt;/h2&gt;
+
+&lt;p&gt;We no longer use GitHub to manage images in your Appernetic static website service account. You can still use GitHub and they have an easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
+
+&lt;p&gt;Cloudinary is a cloud service that offers a solution to a web application&amp;rsquo;s entire image management pipeline. Easily upload images to the cloud. Automatically perform smart image resizing, cropping and conversion without installing any complex software. Integrate Facebook or Twitter profile image extraction in a snap, in any dimension and style to match your website’s graphics requirements.&lt;/p&gt;
+
+&lt;p&gt;When you upload your image to your article in the PageDown editor it will be sent to your Cloudinary account where you can use the web interface to interactively manage your media library.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup-your-account&#34;&gt;Setup your account&lt;/h2&gt;
+
+&lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details, you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539317/mgwu3dyjasovzrq7risa&#34; alt=&#34;Cloud name in the dashboard &#34; /&gt;
+Cloud name settings in the dashboard.&lt;/p&gt;
+
+&lt;p&gt;Now to create a &lt;strong&gt;Upload preset&lt;/strong&gt;  click Settings down to the left in the dashboard, select the Upload tab and scroll down to Upload Presets and configure an unsigned upload preset.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457538951/s4jzrkhlauoororjskki&#34; alt=&#34;Configure upload presets&#34; /&gt;
+Configure unsigned upload presets.&lt;/p&gt;
+
+&lt;p&gt;To be able to list images you also need to unmark resource list in security settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539163/ybd0y47g0ojzsshvdfd4&#34; alt=&#34;Unmark resource list&#34; /&gt;
+Unmark resource list in security settings.&lt;/p&gt;
+
+&lt;p&gt;Now all should be configured at Cloudinary! Don&amp;rsquo;t forget to verify your account otherwise, it will be disabled. Now the last thing to do is add the information to your Appernetic settings. Click on your GitHub profile image up to the right to show your user settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539785/yglkvrt4wjhns4xtmzwi&#34; alt=&#34;Appernetic cloudinary settings.&#34; /&gt;
+Add your Cloudinary settings to your Appernetic account.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457543046/bgcxapwc14ebqcvn1apy&#34; alt=&#34;enter image description here&#34; /&gt;
+Continue with your content strategy, now with a new tool in your arsenal!&lt;/p&gt;
 </description>
     </item>
     
