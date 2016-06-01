@@ -20,7 +20,7 @@
       <guid>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
       <description>
 
-&lt;h2 id=&#34;static-website-service-update&#34;&gt;Static website service update!&lt;/h2&gt;
+&lt;h2 id=&#34;static-website-service-update:2cf2dbe80819dbd6fe10957b739357bb&#34;&gt;Static website service update!&lt;/h2&gt;
 
 &lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password to the &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt;.&lt;/p&gt;
 
@@ -58,13 +58,13 @@
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457939591/c25ymnmuqsfsmqjkk52b&#34; alt=&#34;Appernetic Service website preview enhancements&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;site-preview-fixes-and-enhancements:38aad4879695a217cddc2308524a2ff8&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
+&lt;h2 id=&#34;site-preview-fixes-and-enhancements&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
 
 &lt;p&gt;There was a case of a very sticky cache and this doesn&amp;rsquo;t work well if you immediately would want to check changes. Site preview  has also been moved to its own subdomain: &lt;strong&gt;preview.appernetic.io&lt;/strong&gt;,  and now it is also possible to view the site preview if you are not signed in, so it is easier to share the URL and collaborate.&lt;/p&gt;
 
 &lt;p&gt;If you are experiencing problems such as site preview URL goes to a page that does not exist, try clearing the cache in your browser.&lt;/p&gt;
 
-&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo:38aad4879695a217cddc2308524a2ff8&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
+&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
 
 &lt;p&gt;The bug we reported last week wasn&amp;rsquo;t a bug. When you delete a theme, we have git delete everything, and it doesn&amp;rsquo;t delete dot files. The fix is to add a &lt;strong&gt;.gitignore&lt;/strong&gt; file to your theme repo and exclude files such as &lt;strong&gt;.DS_Store&lt;/strong&gt;.&lt;/p&gt;
 
@@ -87,7 +87,7 @@
       <guid>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
       <description>
 
-&lt;h2 id=&#34;cloudinary-for-image-and-video-assets-management-in-your-static-website&#34;&gt;Cloudinary for image and video assets management in your static website&lt;/h2&gt;
+&lt;h2 id=&#34;cloudinary-for-image-and-video-assets-management-in-your-static-website:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Cloudinary for image and video assets management in your static website&lt;/h2&gt;
 
 &lt;p&gt;We no longer use GitHub to manage images in your Appernetic static website service account. You can still use GitHub and they have an easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
 
@@ -95,7 +95,7 @@
 
 &lt;p&gt;When you upload your image to your article in the PageDown editor it will be sent to your Cloudinary account where you can use the web interface to interactively manage your media library.&lt;/p&gt;
 
-&lt;h2 id=&#34;setup-your-account&#34;&gt;Setup your account&lt;/h2&gt;
+&lt;h2 id=&#34;setup-your-account:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Setup your account&lt;/h2&gt;
 
 &lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details, you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
 
@@ -130,11 +130,11 @@ Continue with your content strategy, now with a new tool in your arsenal!&lt;/p&
       <guid>https://blog.appernetic.io/2016/03/08/performance-optimization/</guid>
       <description>
 
-&lt;h2 id=&#34;static-website-service-performance-improvements:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Static website service performance improvements&lt;/h2&gt;
+&lt;h2 id=&#34;static-website-service-performance-improvements&#34;&gt;Static website service performance improvements&lt;/h2&gt;
 
 &lt;p&gt;We have made significant performance improvements in our &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt; and have dug deep into everything on the client and server side. All images are now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every CSS, HTML and Javascript file are compressed and minified.&lt;/p&gt;
 
-&lt;h2 id=&#34;speed-index:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Speed Index&lt;/h2&gt;
+&lt;h2 id=&#34;speed-index&#34;&gt;Speed Index&lt;/h2&gt;
 
 &lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on the size of the viewport.&lt;/p&gt;
 
@@ -183,7 +183,7 @@ Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic static website service)&#34; /&gt;
 Pingdom test result logs for the Angular app (Appernetic static website service).&lt;/p&gt;
 
-&lt;h2 id=&#34;caching:3c9c8d3358db586236c8bc0e9810f67f&#34;&gt;Caching&lt;/h2&gt;
+&lt;h2 id=&#34;caching&#34;&gt;Caching&lt;/h2&gt;
 
 &lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
 
