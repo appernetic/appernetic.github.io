@@ -9,8 +9,113 @@
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2016 Appernetic.io</copyright>
-    <lastBuildDate>Wed, 01 Jun 2016 12:04:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jul 2016 15:31:16 +0000</lastBuildDate>
     <atom:link href="https://blog.appernetic.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Use live chat to beat the competition</title>
+      <link>https://blog.appernetic.io/2016/07/14/use-live-chat-to-beat-the-competition/</link>
+      <pubDate>Thu, 14 Jul 2016 15:31:16 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/2016/07/14/use-live-chat-to-beat-the-competition/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1468511020/qk7aidqewk3xr7msnie1&#34; alt=&#34;Customer Support Tools&#34; /&gt;
+You&amp;rsquo;re trying to evaluate an online service, wondering if they&amp;rsquo;d have the features you are looking for when - katching, a window pops up on the bottom of the page asking if it can be of any assistance. You reply, and your queries are quickly answered by a real, live human.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s the magic of live chat. Online SaaS and e-commerce systems can be uninhabited, impersonal places. Adding the digital equivalent of a salesperson helping website visitors can be the difference between a happy customer and another sale lost to competitors.&lt;/p&gt;
+
+&lt;p&gt;Live chat makes it easy to help customers faster, and prevents a backlog of delayed answers, annoyed customers, and lost opportunities.&lt;/p&gt;
+
+&lt;h2 id=&#34;live-chat-is-one-of-the-most-important-features-a-site-can-offer&#34;&gt;Live Chat is one of the most important features a site can offer&lt;/h2&gt;
+
+&lt;p&gt;Customers today simply want efficient, effortless service. Forrester Research found that 54% of US online adults say that they are very likely to abandon their online purchase if they cannot find a quick answer to their question, and 77% say that valuing their time is the most important thing a company can do to provide them with good service (Forrester Research, Market Overview: Chat Solutions For Customer Service, Juli 20 2015 ).&lt;/p&gt;
+
+&lt;p&gt;As a result, customers are increasingly leveraging chat for effortless service.&lt;/p&gt;
+
+&lt;p&gt;Forrester Research found that more than one-third of older Boomers (ages 57 to 67) and the Golden Generation (68 and over) already using chat for customer service. customers are also increasingly comfortable with a proactive chat offer during an online research or purchase interaction.&lt;/p&gt;
+
+&lt;p&gt;Nets, a nordic provider of payments, cards, and information services, have moved 75% of all email and phone inquiries to chat.&lt;/p&gt;
+
+&lt;p&gt;44% of online shoppers say that live chat is one of the most important features a site can offer, while Wells Fargo saw double-digit sales increase after adding live chat to their site.&lt;/p&gt;
+
+&lt;h2 id=&#34;have-the-right-tool-for-your-support-team&#34;&gt;Have the right tool for your support team&lt;/h2&gt;
+
+&lt;p&gt;It can also be a burden on your support team, something that&amp;rsquo;s always interrupting their day with yet another question to be answered right now. That&amp;rsquo;s why you need a great live chat app, one that helps you answer questions quicker and pause the incoming chats when your team&amp;rsquo;s away.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-customer-support-tools-should-i-use&#34;&gt;What customer support tools should I use?&lt;/h2&gt;
+
+&lt;p&gt;To find the right app for customer support can be a time-consuming and overwhelming task. When making your decision, you have to consider if you need all these support tools: team inbox, knowledge base, ticket system, help desk, help center, portal, forum, community wiki, social media integration, live chat, phone, and mobile support.&lt;/p&gt;
+
+&lt;p&gt;I found hundreds and hundreds of tools and endless of ways to integrate them with the help of Zapier or Sameroom.io. I could set up webhooks and open tubes and portals between them. I could customize so that we had a live chat that triggered a persistent HipChat room  or created a ticket when someone mentioned the keyword bug in a tweet. We could easily build a custom Live Chat that used Moxtra (but we found the metaphor pärm a bit strange).&lt;/p&gt;
+
+&lt;p&gt;For us, this was the second or third evaluation of our customer support. In the past, we have tried JivoChat, Slack, Gitter, GitHub Issues, Trello, FreshDesk and LiveChat 24-7. They all have their shortcomings and we have got no interaction and feedback from any visitors in any of these tools.&lt;/p&gt;
+
+&lt;p&gt;We want to interact with and help our visitors and hopefully, get feedback with as little management and operations overhead as possible. Our SaaS system is freemium and we are bootstrapping so we can&amp;rsquo;t add more spendings on top of the one we already have.&lt;/p&gt;
+
+&lt;p&gt;FreshDesk had all the bells and whistles, live chat, integrated ticket system with Twitter, Facebook messenger, branding, customer portal etc, but only if you paid $49/month. JivoChat had no customization in the free version so it was very annoying to have it on the dashboard. Slack is useful if you are a team that needs to communicate, but it is not useful when you have to invite visitors when they need support. HipChat has a lot of integration options but it is too developer centric.&lt;/p&gt;
+
+&lt;p&gt;So after contemplating we came up with our criteria for a customer support service:
+- free or freemium
+- one agent
+- pause incoming live chats
+- easy for visitors to engage in real time
+- easy to operate, manage and customize
+- seamless integration with the SaaS system&lt;/p&gt;
+
+&lt;p&gt;I researched and evaluated the following tools:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://livechat24-7.com&#34;&gt;http://livechat24-7.com&lt;/a&gt;
+&lt;a href=&#34;http://tawk.to&#34;&gt;http://tawk.to&lt;/a&gt;
+&lt;a href=&#34;http://livezilla.net&#34;&gt;http://livezilla.net&lt;/a&gt;
+&lt;a href=&#34;https://sdelements.github.io/lets-chat/&#34;&gt;https://sdelements.github.io/lets-chat/&lt;/a&gt;
+&lt;a href=&#34;https://fleep.io/&#34;&gt;https://fleep.io/&lt;/a&gt;
+&lt;a href=&#34;https://www.flowdock.com/&#34;&gt;https://www.flowdock.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.enchant.com/&#34;&gt;https://www.enchant.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.drift.com&#34;&gt;https://www.drift.com&lt;/a&gt;
+&lt;a href=&#34;http://chato.ps&#34;&gt;http://chato.ps&lt;/a&gt;
+&lt;a href=&#34;https://chatra.io&#34;&gt;https://chatra.io&lt;/a&gt;
+&lt;a href=&#34;https://chatlio.com&#34;&gt;https://chatlio.com&lt;/a&gt;
+&lt;a href=&#34;https://chatpirate.com&#34;&gt;https://chatpirate.com&lt;/a&gt;
+&lt;a href=&#34;http://helprace.com/help-desk-software&#34;&gt;http://helprace.com/help-desk-software&lt;/a&gt;
+&lt;a href=&#34;https://keyreply.com/chat/&#34;&gt;https://keyreply.com/chat/&lt;/a&gt;
+&lt;a href=&#34;https://www.jostle.me/&#34;&gt;https://www.jostle.me/&lt;/a&gt;
+&lt;a href=&#34;http://moxtra.com/&#34;&gt;http://moxtra.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.messagebird.com/&#34;&gt;https://www.messagebird.com/&lt;/a&gt;
+&lt;a href=&#34;https://get.slaask.com/&#34;&gt;https://get.slaask.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.hipchat.com&#34;&gt;https://www.hipchat.com&lt;/a&gt;
+&lt;a href=&#34;https://www.smartsupp.com&#34;&gt;https://www.smartsupp.com&lt;/a&gt;
+&lt;a href=&#34;https://rocket.chat/&#34;&gt;https://rocket.chat/&lt;/a&gt;
+&lt;a href=&#34;http://www.ryver.com/&#34;&gt;http://www.ryver.com/&lt;/a&gt;
+&lt;a href=&#34;http://matrix.org/&#34;&gt;http://matrix.org/&lt;/a&gt;
+&lt;a href=&#34;https://vector.im/&#34;&gt;https://vector.im/&lt;/a&gt;
+&lt;a href=&#34;https://glip.com/&#34;&gt;https://glip.com/&lt;/a&gt;
+&lt;a href=&#34;https://clearchat.com/&#34;&gt;https://clearchat.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.reamaze.com/&#34;&gt;https://www.reamaze.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.purechat.com/&#34;&gt;https://www.purechat.com/&lt;/a&gt;
+&lt;a href=&#34;https://happyfoxchat.com/&#34;&gt;https://happyfoxchat.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.wrike.com/&#34;&gt;https://www.wrike.com/&lt;/a&gt;
+&lt;a href=&#34;http://meetfranz.com/&#34;&gt;http://meetfranz.com/&lt;/a&gt;
+&lt;a href=&#34;http://www.hipmob.com/&#34;&gt;http://www.hipmob.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.olark.com/&#34;&gt;https://www.olark.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.zoho.com/support/&#34;&gt;https://www.zoho.com/support/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The one who stand out was:
+&lt;a href=&#34;https://www.zoho.com/support/&#34;&gt;https://www.zoho.com/support/&lt;/a&gt;
+&lt;a href=&#34;https://happyfoxchat.com/&#34;&gt;https://happyfoxchat.com/&lt;/a&gt;
+&lt;a href=&#34;https://keyreply.com/chat/&#34;&gt;https://keyreply.com/chat/&lt;/a&gt;
+&lt;a href=&#34;https://www.drift.com&#34;&gt;https://www.drift.com&lt;/a&gt;
+&lt;a href=&#34;https://rocket.chat/&#34;&gt;https://rocket.chat/&lt;/a&gt;
+&lt;a href=&#34;http://www.ryver.com/&#34;&gt;http://www.ryver.com/&lt;/a&gt;
+&lt;a href=&#34;https://chatra.io&#34;&gt;https://chatra.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In the end, I chose Happyfoxchat for Live Chat and Zoho Support for helpdesk/customer portal.&lt;/p&gt;
+
+&lt;p&gt;It was easy to implement Happyfoxchat and I built a branded customer portal with Zoho Support: &lt;a href=&#34;https://help.appernetic.io&#34;&gt;https://help.appernetic.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1468510895/nnymxeuwo5odxf5vw3ge&#34; alt=&#34;Appernetic.io with Happyfoxchat &#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Appernetic theme showcase gallery</title>
@@ -23,7 +128,7 @@
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464414173/suli8vdkjsw9luw1ol3f&#34; alt=&#34;Setup wizard, now with theme showcase gallery in appernetic dashboard&#34; /&gt;
 &lt;strong&gt;&lt;em&gt;The theme showcase gallery is ready! Now you can browse the gallery and install a theme just by clicking on it. This is the themes listed at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Theme Showcase&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;aggregated-meta-information&#34;&gt;Aggregated meta information&lt;/h2&gt;
+&lt;h2 id=&#34;aggregated-meta-information:39dffe5a914b0345ccf2fc37637d11a6&#34;&gt;Aggregated meta information&lt;/h2&gt;
 
 &lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes.&lt;/p&gt;
 
@@ -114,7 +219,7 @@ without custom coding or monthly fee?&lt;/p&gt;
       <guid>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
       <description>
 
-&lt;h2 id=&#34;static-website-service-update&#34;&gt;Static website service update!&lt;/h2&gt;
+&lt;h2 id=&#34;static-website-service-update:2cf2dbe80819dbd6fe10957b739357bb&#34;&gt;Static website service update!&lt;/h2&gt;
 
 &lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password to the &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt;.&lt;/p&gt;
 
@@ -210,7 +315,7 @@ git push origin master
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;what-about-custom-domains&#34;&gt;What about custom domains?&lt;/h2&gt;
+&lt;h2 id=&#34;what-about-custom-domains:074ddaca36ce177814980409d0daacae&#34;&gt;What about custom domains?&lt;/h2&gt;
 
 &lt;p&gt;No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
 
@@ -244,13 +349,13 @@ Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hu
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457939591/c25ymnmuqsfsmqjkk52b&#34; alt=&#34;Appernetic Service website preview enhancements&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;site-preview-fixes-and-enhancements:38aad4879695a217cddc2308524a2ff8&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
+&lt;h2 id=&#34;site-preview-fixes-and-enhancements&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
 
 &lt;p&gt;There was a case of a very sticky cache and this doesn&amp;rsquo;t work well if you immediately would want to check changes. Site preview  has also been moved to its own subdomain: &lt;strong&gt;preview.appernetic.io&lt;/strong&gt;,  and now it is also possible to view the site preview if you are not signed in, so it is easier to share the URL and collaborate.&lt;/p&gt;
 
 &lt;p&gt;If you are experiencing problems such as site preview URL goes to a page that does not exist, try clearing the cache in your browser.&lt;/p&gt;
 
-&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo:38aad4879695a217cddc2308524a2ff8&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
+&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
 
 &lt;p&gt;The bug we reported last week wasn&amp;rsquo;t a bug. When you delete a theme, we have git delete everything, and it doesn&amp;rsquo;t delete dot files. The fix is to add a &lt;strong&gt;.gitignore&lt;/strong&gt; file to your theme repo and exclude files such as &lt;strong&gt;.DS_Store&lt;/strong&gt;.&lt;/p&gt;
 
@@ -386,7 +491,7 @@ Appernetic static website service, caching with CloudFlare.&lt;/p&gt;
       <guid>https://blog.appernetic.io/2016/02/18/collaborating-and-working-with-hugo-themes/</guid>
       <description>
 
-&lt;h2 id=&#34;customizing-themes:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Customizing themes&lt;/h2&gt;
+&lt;h2 id=&#34;customizing-themes&#34;&gt;Customizing themes&lt;/h2&gt;
 
 &lt;p&gt;If you just have set up your Appernetic &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt; account you need to add a theme. The easiest way is to clone a theme which you can do from the &lt;a href=&#34;https://appernetic.io/app/#/dashboard/list/themes&#34;&gt;menu button&lt;/a&gt;.&lt;/p&gt;
 
@@ -437,7 +542,7 @@ not have to think about it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457304455/tdsbe75348lm3dxa1csw&#34; alt=&#34;GitHub Desktop app&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;collaborating:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Collaborating&lt;/h2&gt;
+&lt;h2 id=&#34;collaborating&#34;&gt;Collaborating&lt;/h2&gt;
 
 &lt;p&gt;Notice also that I have all the social and collaborating features in GitHub so I can invite a real front end designer to have a look at my attempts to customize the theme. My last step is to do a &lt;strong&gt;Sync&lt;/strong&gt; again in Appernetic and then a &lt;strong&gt;Publish&lt;/strong&gt; and after 10 min all is live on &lt;a href=&#34;https://appernetic.github.io/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 
@@ -447,7 +552,7 @@ GitHub so I can invite a real front end designer to have a look at my
 attempts to customize the theme.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;start-blogging:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Start blogging!&lt;/h2&gt;
+&lt;h2 id=&#34;start-blogging&#34;&gt;Start blogging!&lt;/h2&gt;
 
 &lt;p&gt;From now on it is very easy to start blogging. Select the &lt;strong&gt;post&lt;/strong&gt; directory in the tree view, it is where blog post lives. Create a new file,  name it with a headline, it will be sluggified automatically. Select &lt;em&gt;TOML&lt;/em&gt; or &lt;em&gt;YAML&lt;/em&gt; front matter (TOML as default selection). The file tree will be updated and show the new file. Open the file and blog away! Turn on auto save and all text you write will be saved every other minute. Remember to &lt;strong&gt;undraft&lt;/strong&gt; the post if you would like to see it after publishing and  add key words, tags, and topics.&lt;/p&gt;
 
