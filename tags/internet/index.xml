@@ -90,16 +90,16 @@ Appernetic static website service, caching with CloudFlare.&lt;/p&gt;
       <guid>https://blog.appernetic.io/2016/02/10/why-use-a-static-website-generator/</guid>
       <description>
 
-&lt;h2 id=&#34;full-circle-with-static-websites&#34;&gt;Full circle with static websites&lt;/h2&gt;
+&lt;h2 id=&#34;full-circle-with-static-websites:f405389e24819888f4339a200bcc1557&#34;&gt;Full circle with static websites&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457306076/y8ylaazm8pet3nwpbffq&#34; alt=&#34;Hugo plus octocat&#34; /&gt;
 Today we have come full circle with static website generators. A long time ago at the end of 1994 I built a static website for the Swedish Tourist Association that contained hundreds of handcrafted html pages, it was quite advanced with a email to fax gateway that sent out bookings to remote mountain stations. Then I found ColdFusion in the beginning of 1995 and the sites I built had dynamic content served from MS Access databases. Later I started to use mySQL and built my own hosted CMS that was easily updated by non-technical users.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-programmable-web&#34;&gt;The programmable web&lt;/h2&gt;
+&lt;h2 id=&#34;the-programmable-web:f405389e24819888f4339a200bcc1557&#34;&gt;The programmable web&lt;/h2&gt;
 
 &lt;p&gt;It was a lot of things to manage, servers, operating systems, security patches, databases, backup and on the application level with different versions and dependencies. Then I moved on to Platform as a Service (PaaS) and I only needed to manage and secure my applications, databases was now managed by a BaaS (backend as a service) and if I needed something specific such as commenting, search, email service or calendar there was always an API to connect to. The programmable web was born.&lt;/p&gt;
 
-&lt;h2 id=&#34;advantage-static-website-generators&#34;&gt;Advantage static website generators&lt;/h2&gt;
+&lt;h2 id=&#34;advantage-static-website-generators:f405389e24819888f4339a200bcc1557&#34;&gt;Advantage static website generators&lt;/h2&gt;
 
 &lt;p&gt;Now there is a rich ecosystem of service providers for anything including forms, calendars, content, images, email, e-commerce etc. A dynamic CMS is no longer the best option for a website. There is really only a need for dynamic websites if you have a very large site with a complex structure and rich content such as news sites and large enterprises that have content that is updated very frequently. With a &lt;a href=&#34;https://appernetic.io&#34;&gt;static website&lt;/a&gt; generator, you didn’t really lose anything of practical value. Instead you have several advantages with a &lt;em&gt;static website&lt;/em&gt; such as:&lt;/p&gt;
 
@@ -115,11 +115,11 @@ Today we have come full circle with static website generators. A long time ago a
 
 &lt;p&gt;Interest over time. Web Search. Worldwide, 2004 to the present.&lt;/p&gt;
 
-&lt;h2 id=&#34;a-static-website-generator-as-a-service&#34;&gt;A static website generator as a service&lt;/h2&gt;
+&lt;h2 id=&#34;a-static-website-generator-as-a-service:f405389e24819888f4339a200bcc1557&#34;&gt;A static website generator as a service&lt;/h2&gt;
 
 &lt;p&gt;With Appernetic, we are building a static website generator as a service that is easy to use for non-technical users and add some extra value. To start with we have included an easy to use editor, visual tree view, image upload, site preview, continuous integration with GitHub and atomic deploy, autosave​ and theme cloning.&lt;/p&gt;
 
-&lt;h2 id=&#34;why-github&#34;&gt;Why gitHub?&lt;/h2&gt;
+&lt;h2 id=&#34;why-github:f405389e24819888f4339a200bcc1557&#34;&gt;Why gitHub?&lt;/h2&gt;
 
 &lt;p&gt;You&amp;rsquo;re probably wondering why the heck we are using GitHub. First of all GitHub use git which is a very good versioning system and they have &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; and you can use your own domain name and SSL (probably not the safest, but anyway its SSL!). Even if they only cache pages for 10 minutes and there are more cache misses then hits they have a fast CDN, Fastly.  I did a little unscientific performance test to see how it&amp;rsquo;s really working out. All tests is done with &lt;a href=&#34;http://websitetest.com/&#34;&gt;websitetest.com&lt;/a&gt; from Berlin:&lt;/p&gt;
 
