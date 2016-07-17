@@ -23,7 +23,7 @@
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464414173/suli8vdkjsw9luw1ol3f&#34; alt=&#34;Setup wizard, now with theme showcase gallery in appernetic dashboard&#34; /&gt;
 &lt;strong&gt;&lt;em&gt;The theme showcase gallery is ready! Now you can browse the gallery and install a theme just by clicking on it. This is the themes listed at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Theme Showcase&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;aggregated-meta-information&#34;&gt;Aggregated meta information&lt;/h2&gt;
+&lt;h2 id=&#34;aggregated-meta-information:39dffe5a914b0345ccf2fc37637d11a6&#34;&gt;Aggregated meta information&lt;/h2&gt;
 
 &lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes.&lt;/p&gt;
 
@@ -159,7 +159,7 @@ Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hu
       <guid>https://blog.appernetic.io/2016/02/18/collaborating-and-working-with-hugo-themes/</guid>
       <description>
 
-&lt;h2 id=&#34;customizing-themes:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Customizing themes&lt;/h2&gt;
+&lt;h2 id=&#34;customizing-themes&#34;&gt;Customizing themes&lt;/h2&gt;
 
 &lt;p&gt;If you just have set up your Appernetic &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt; account you need to add a theme. The easiest way is to clone a theme which you can do from the &lt;a href=&#34;https://appernetic.io/app/#/dashboard/list/themes&#34;&gt;menu button&lt;/a&gt;.&lt;/p&gt;
 
@@ -210,7 +210,7 @@ not have to think about it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457304455/tdsbe75348lm3dxa1csw&#34; alt=&#34;GitHub Desktop app&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;collaborating:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Collaborating&lt;/h2&gt;
+&lt;h2 id=&#34;collaborating&#34;&gt;Collaborating&lt;/h2&gt;
 
 &lt;p&gt;Notice also that I have all the social and collaborating features in GitHub so I can invite a real front end designer to have a look at my attempts to customize the theme. My last step is to do a &lt;strong&gt;Sync&lt;/strong&gt; again in Appernetic and then a &lt;strong&gt;Publish&lt;/strong&gt; and after 10 min all is live on &lt;a href=&#34;https://appernetic.github.io/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 
@@ -220,7 +220,7 @@ GitHub so I can invite a real front end designer to have a look at my
 attempts to customize the theme.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;start-blogging:ac4cc3988a245fe44051722c4a01ffd6&#34;&gt;Start blogging!&lt;/h2&gt;
+&lt;h2 id=&#34;start-blogging&#34;&gt;Start blogging!&lt;/h2&gt;
 
 &lt;p&gt;From now on it is very easy to start blogging. Select the &lt;strong&gt;post&lt;/strong&gt; directory in the tree view, it is where blog post lives. Create a new file,  name it with a headline, it will be sluggified automatically. Select &lt;em&gt;TOML&lt;/em&gt; or &lt;em&gt;YAML&lt;/em&gt; front matter (TOML as default selection). The file tree will be updated and show the new file. Open the file and blog away! Turn on auto save and all text you write will be saved every other minute. Remember to &lt;strong&gt;undraft&lt;/strong&gt; the post if you would like to see it after publishing and  add key words, tags, and topics.&lt;/p&gt;
 
