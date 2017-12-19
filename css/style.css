@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(/css/google-fonts.css);
 
 html {
   position: relative;
@@ -13,13 +13,10 @@ body {
 }
 .footer {
   position: absolute;
-  bottom: 0;
-  //margin-top: 3rem;
+  bottom: -5%;
   width: 100%;
   text-align: left;
-  //margin-top: 20px;
   padding-bottom: 1rem;
-//  padding-top: 1rem;
 }
 
 
@@ -33,7 +30,14 @@ vertical-align: baseline;;
 }
 
 .navbar-brand-img {
-padding: 0;
+    padding: 0px;
+}
+@media screen and (max-width: 768px) {
+    a.navbar-brand-img>img {
+      vertical-align: bottom;
+      padding: 1em 0 0 15px;
+      max-width: 80%;
+    }
 }
 
 a.navbar-brand-img>img {
@@ -82,3 +86,27 @@ iframe {
 }
 #Email.fieldInvalid {
   border: 1px solid #ff0000;
+}  
+code.has-jax {
+  font: inherit;
+  font-size: 100%;
+  background: inherit;
+  border: inherit;
+  }
+
+
+.share-box a{
+    padding: 0 0 0 5px;
+}
+
+.fa-facebook-official { color: #3b5998; }
+
+.fa-google-plus { color: #d34836; }
+
+.fa-linkedin { color: #0077b5; }
+
+.fa-envelop { color: #444444; }
+
+.fa-reddit { color: #ff5700; }
+
+.fa-twitter { color: #4099FF; }

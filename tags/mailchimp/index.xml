@@ -8,9 +8,11 @@
     <language>en-EN</language>
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
-    <copyright>(c) 2016 Appernetic.io</copyright>
+    <copyright>(c) 2017 Appernetic.io</copyright>
     <lastBuildDate>Sun, 29 May 2016 15:46:20 +0000</lastBuildDate>
-    <atom:link href="https://blog.appernetic.io/tags/mailchimp/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://blog.appernetic.io/tags/mailchimp/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to build a mailing list with Zapier and MailChimp</title>
@@ -18,45 +20,9 @@
       <pubDate>Sun, 29 May 2016 15:46:20 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
       <guid>https://blog.appernetic.io/2016/05/29/how-to-build-a-mailing-list-with-zapier-and-mailchimp/</guid>
-      <description>
-
-&lt;h2 id=&#34;pain-point:3ff1f9dde19ec3d390d1c19057aed3ab&#34;&gt;Pain point&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I&amp;rsquo;m looking to put up a &amp;lsquo;coming soon&amp;rsquo; page for a podcast I&amp;rsquo;m working
-on to collect some e-mails for the upcoming launch.&lt;/p&gt;
-
-&lt;p&gt;What&amp;rsquo;s a good ready-made solution for this (e.g. WordPress plugin,
-hosted landing page, etc.) that allows for easy lead collection
-without custom coding or monthly fee?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That was the question I saw in the 7 Day Startup group on Facebook. Similar questions were asked in Hugo Community discuss : Is it possible to add a contact form to a site?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;It seems to be a common pain point.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;process-forms-in-a-static-website:3ff1f9dde19ec3d390d1c19057aed3ab&#34;&gt;Process forms in a static website&lt;/h2&gt;
-
-&lt;p&gt;With a &lt;a href=&#34;https://appernetic.io&#34;&gt;static website&lt;/a&gt;, you don&amp;rsquo;t have anything that can process form submissions so it is not a simple task to do it yourself.&lt;/p&gt;
-
-&lt;p&gt;For this, you need a newsletter opt-in form, a mailing list and a service that handles the submitted content.&lt;/p&gt;
-
-&lt;p&gt;In our latest theme: &lt;a href=&#34;https://github.com/appernetic/hugo-bootstrap-premium&#34;&gt;hugo-bootstrap-premium&lt;/a&gt; we have integrated a popover newsletter opt-in form that is super easy to customize without any coding.&lt;/p&gt;
-
-&lt;p&gt;It has all the features you need such as bootstrap theming, exit detection, customized delay, add your custom image,  change text etc. It also detects mobile devices so it can show larger buttons for devices with small screen sizes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461945240/aaxlgeo4btp4ih5hlhtb&#34; alt=&#34;blog.appernetic.io using theme hugo-bootstrap-premium with popover opt-in form.&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You only have to enable the form and add your &lt;a href=&#34;https://zapier.com&#34;&gt;Zapier&lt;/a&gt; post hook that post to &lt;a href=&#34;http://mailchimp.com/&#34;&gt;MailChimp&lt;/a&gt; to use it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461945371/jdx7evqmqmrli2ib7wzf&#34; alt=&#34;Popover newsletter opt-in form with Zapier hook at blog.appernetic.io&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is  the enabled newsletter opt-in form with a Zapier hook.&lt;/p&gt;
-
-&lt;p&gt;We also integrated &lt;a href=&#34;https://www.mailmunch.co/&#34;&gt;MailMunch&lt;/a&gt; and &lt;a href=&#34;https://sumome.com/&#34;&gt;SumoMe&lt;/a&gt; in the theme so you can use it in your static website  instead  if you prefer by simply adding your mailmunchid or sumomeid.&lt;/p&gt;
-
-&lt;p&gt;That’s it! Give &lt;a href=&#34;https://appernetic.io&#34;&gt;fast, secure blogging&lt;/a&gt; a try and you will never go back to WordPress, Joomla or Drupal. We support you both in Swedish and English.&lt;/p&gt;
-</description>
+      <description>Pain point  I&amp;rsquo;m looking to put up a &amp;lsquo;coming soon&amp;rsquo; page for a podcast I&amp;rsquo;m working on to collect some e-mails for the upcoming launch.
+What&amp;rsquo;s a good ready-made solution for this (e.g. WordPress plugin, hosted landing page, etc.) that allows for easy lead collection without custom coding or monthly fee?
+ That was the question I saw in the 7 Day Startup group on Facebook. Similar questions were asked in Hugo Community discuss : Is it possible to add a contact form to a site?</description>
     </item>
     
   </channel>

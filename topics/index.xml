@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on Appernetic.io blog</title>
+    <link>https://blog.appernetic.io/topics/</link>
+    <description>Recent content in Topics on Appernetic.io blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>support@appernetic.io (Admin)</managingEditor>
+    <webMaster>support@appernetic.io (Admin)</webMaster>
+    <copyright>(c) 2017 Appernetic.io</copyright>
+    <lastBuildDate>Thu, 14 Jul 2016 15:31:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.appernetic.io/topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Customer Support</title>
+      <link>https://blog.appernetic.io/topics/customer-support/</link>
+      <pubDate>Thu, 14 Jul 2016 15:31:16 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/topics/customer-support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancements</title>
+      <link>https://blog.appernetic.io/topics/enhancements/</link>
+      <pubDate>Mon, 14 Mar 2016 07:06:27 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/topics/enhancements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How To</title>
+      <link>https://blog.appernetic.io/topics/how-to/</link>
+      <pubDate>Sun, 29 May 2016 15:46:20 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/topics/how-to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>https://blog.appernetic.io/topics/performance/</link>
+      <pubDate>Tue, 08 Mar 2016 19:03:58 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/topics/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Website</title>
+      <link>https://blog.appernetic.io/topics/static-website/</link>
+      <pubDate>Wed, 01 Jun 2016 12:04:58 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/topics/static-website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Website Enhancements</title>
+      <link>https://blog.appernetic.io/topics/static-website-enhancements/</link>
+      <pubDate>Tue, 26 Apr 2016 13:10:05 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/topics/static-website-enhancements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Website Generator</title>
+      <link>https://blog.appernetic.io/topics/static-website-generator/</link>
+      <pubDate>Wed, 10 Feb 2016 19:50:09 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/topics/static-website-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topic 1</title>
+      <link>https://blog.appernetic.io/topics/topic-1/</link>
+      <pubDate>Sat, 12 Mar 2016 00:18:10 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/topics/topic-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

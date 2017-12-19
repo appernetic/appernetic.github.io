@@ -8,9 +8,11 @@
     <language>en-EN</language>
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
-    <copyright>(c) 2016 Appernetic.io</copyright>
+    <copyright>(c) 2017 Appernetic.io</copyright>
     <lastBuildDate>Wed, 01 Jun 2016 12:04:58 +0000</lastBuildDate>
-    <atom:link href="https://blog.appernetic.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://blog.appernetic.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Appernetic theme showcase gallery</title>
@@ -18,45 +20,9 @@
       <pubDate>Wed, 01 Jun 2016 12:04:58 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
       <guid>https://blog.appernetic.io/2016/06/01/appernetic-theme-showcase-gallery/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464414173/suli8vdkjsw9luw1ol3f&#34; alt=&#34;Setup wizard, now with theme showcase gallery in appernetic dashboard&#34; /&gt;
-&lt;strong&gt;&lt;em&gt;The theme showcase gallery is ready! Now you can browse the gallery and install a theme just by clicking on it. This is the themes listed at &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Theme Showcase&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;aggregated-meta-information&#34;&gt;Aggregated meta information&lt;/h2&gt;
-
-&lt;p&gt;We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes.&lt;/p&gt;
-
-&lt;p&gt;I also check if each theme has an exampleSite folder and a config.toml file and if they have we give them a star in the frontend.&lt;/p&gt;
-
-&lt;p&gt;Everything is served as a JSON file from a REST API endpoint, then we have Angular mangling the arrays and objects to make them look intelligible to us humans.&lt;/p&gt;
-
-&lt;p&gt;If you are not the most patient type of person, avoid themes that have no star, they  need some extra attention to get your website working.&lt;/p&gt;
-
-&lt;p&gt;Included in each theme listing is:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;List item&lt;/li&gt;
-&lt;li&gt;Thumbnail image&lt;/li&gt;
-&lt;li&gt;Theme name&lt;/li&gt;
-&lt;li&gt;Description&lt;/li&gt;
-&lt;li&gt;Author (with website URL)&lt;/li&gt;
-&lt;li&gt;Repository link&lt;/li&gt;
-&lt;li&gt;Minimum Hugo version (which the theme works with).&lt;/li&gt;
-&lt;li&gt;Licence&lt;/li&gt;
-&lt;li&gt;Features/Tags (blue and green labels)&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;With the aggregated meta information and the themes gallery ready it was now also possible to include the one-click theme install feature in the quick start wizard.  This will make it much easier to get started.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464371347/mgc1lnbrytafkitsjmma&#34; alt=&#34;Theme showcase gallery item in appernetic dashboard&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click on the dashboard link up to the right and see for yourself and build a &lt;a href=&#34;https://appernetic.io/app/#/dashboard/list/create&#34;&gt;static website&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1464415618/eiysait32vipexfyhduh&#34; alt=&#34;Theme showcase gallery item in appernetic dashboard&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;By the way, I have just removed Twitter user sign-in. It was an easy decision. Twitter users had no email in their meta info and was lagging behind in the interwebs, and behaved inconsistently. Also, I had no Twitter freemium or paying users and I had exceeded Auth0&amp;rsquo;s social connection limits anyway.&lt;/p&gt;
-</description>
+      <description>The theme showcase gallery is ready! Now you can browse the gallery and install a theme just by clicking on it. This is the themes listed at Hugo Theme Showcase.
+Aggregated meta information We automatically aggregate and build a JSON file each week that contains the extracted meta information from each of the 86 themes.
+I also check if each theme has an exampleSite folder and a config.toml file and if they have we give them a star in the frontend.</description>
     </item>
     
     <item>
@@ -65,90 +31,9 @@
       <pubDate>Sat, 09 Apr 2016 05:53:13 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
       <guid>https://blog.appernetic.io/2016/04/09/how-to-set-up-a-static-hugo-website-on-github-pages-in-2-minutes/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1460186011/k1seurwnwzitp8tbchvx&#34; alt=&#34;A static website - appernetic.io&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;A static website is fast and secure but it is not easy to set up a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them when you would rather like to be writing exciting content to distribute over the interwebz!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;First,​ you have to:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;download the right version of the &lt;a href=&#34;https://appernetic.io&#34;&gt;static website generator&lt;/a&gt; for your OS and architecture.&lt;/li&gt;
-&lt;li&gt;install git&lt;/li&gt;
-&lt;li&gt;create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Then when the installation and configuration are ready there are lots of steps to just have the website up and running on the Interwebz.&lt;/p&gt;
-
-&lt;p&gt;Before I created Appernetic I had to do all these 15 steps in the terminal after installation and configuration :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new site blog 
-cd blog
-hugo new post/easy-peasy.MD
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then open the file in a text editor and  write content, then dive back in to terminal:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;mkdir themes 
-cd themes 
-git clone https://github.com/appernetic/hugo-bootstrap.git
-hugo undraft content/post/easy-peasy.md
-hugo --theme=hugo-bootstrap
-mkdir blog-public
-cd blog-public
-git init
-git remote add origin https://easypeasy:236102a7cf231y2a5084a4847e0de99e636e391c@github.com/easypeasy
-cp -r ../blog/public/ .
-git add --all
-git commit -am ”Publish site”
-git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You have just published your first blog! Check your live server at:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; http://easypeasy.github.io (do not click this is just an example)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;All these 15 steps will take at least 30 min if you have the knowledge. Now we do the same with Appernetic.&lt;/p&gt;
-
-&lt;p&gt;We assume the following is already done:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;You have signed up for a subscription.&lt;/li&gt;
-&lt;li&gt;You have created a GitHub account.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Now watch this instructive how-to video for 2:13 minutes.&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/saui7cic0MQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h2 id=&#34;what-about-custom-domains&#34;&gt;What about custom domains?&lt;/h2&gt;
-
-&lt;p&gt;No problem, it is easy to connect your custom domain to your GitHub Pages. Follow these five steps (no programming or terminal console needed):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;In your Appernetic dashboard, Sync you appernetic project with GitHub, this will create a appernetic-hugo-project with all your files on GitHub. We do this so that we can work with files outside the content folder.&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Place this file in your GitHub, appernetic-hugo-project repositories static folder:
-Filename: CNAME&lt;/p&gt;
-
-&lt;p&gt;blog.easypeasy.com
-Here you can see how &lt;a href=&#34;https://github.com/appernetic/appernetic-hugo-project-1/blob/master/static/CNAME&#34;&gt;we did this&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Sync your project again in your Appernetic Dashboard.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Publish your blog (if you have something un-drafted to publish). Now your CNAME file also lives in the compiled GitHub Pages site.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Now the last step is to make it work over the Internet. For this, you have to make a CNAME record in your DNS or your service providers DNS and wait for everything to propagate  (give it 8 to 24 hours). Read more: &lt;a href=&#34;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&#34;&gt;using a custom domain with GitHub pages&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;That&amp;rsquo;s it! &lt;a href=&#34;https://appernetic.io&#34;&gt;Give fast, secure blogging a try&lt;/a&gt; and you will never go back to WordPress, Joomla or Drupal. We support you both in Swedish and English.&lt;/p&gt;
-</description>
+      <description>A static website is fast and secure but it is not easy to set up a new blog or website if you don&amp;rsquo;t know a lot of commands, tools and also how to install them when you would rather like to be writing exciting content to distribute on the Internet!
+First,​ you have to:
+ download the right version of the static website generator for your OS and architecture. install git create a GitHub, Bitbucket, Dropbox or Amazon S3 account or set-up a web server with a web Host.</description>
     </item>
     
   </channel>

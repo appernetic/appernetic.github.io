@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Appernetic.io blog</title>
+    <link>https://blog.appernetic.io/tags/</link>
+    <description>Recent content in Tags on Appernetic.io blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>support@appernetic.io (Admin)</managingEditor>
+    <webMaster>support@appernetic.io (Admin)</webMaster>
+    <copyright>(c) 2017 Appernetic.io</copyright>
+    <lastBuildDate>Mon, 14 Mar 2016 07:06:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.appernetic.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apperentic Static Site Generator</title>
+      <link>https://blog.appernetic.io/tags/apperentic-static-site-generator/</link>
+      <pubDate>Mon, 14 Mar 2016 07:06:27 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/apperentic-static-site-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appernetic Service</title>
+      <link>https://blog.appernetic.io/tags/appernetic-service/</link>
+      <pubDate>Tue, 26 Apr 2016 13:10:05 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/appernetic-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appernetic Static Site Generator</title>
+      <link>https://blog.appernetic.io/tags/appernetic-static-site-generator/</link>
+      <pubDate>Tue, 26 Apr 2016 13:10:05 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/appernetic-static-site-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blogging</title>
+      <link>https://blog.appernetic.io/tags/blogging/</link>
+      <pubDate>Thu, 18 Feb 2016 20:27:25 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chat</title>
+      <link>https://blog.appernetic.io/tags/chat/</link>
+      <pubDate>Thu, 14 Jul 2016 15:31:16 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/chat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudinary</title>
+      <link>https://blog.appernetic.io/tags/cloudinary/</link>
+      <pubDate>Wed, 09 Mar 2016 14:28:30 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/cloudinary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Asset Management</title>
+      <link>https://blog.appernetic.io/tags/digital-asset-management/</link>
+      <pubDate>Wed, 09 Mar 2016 14:28:30 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/digital-asset-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancements</title>
+      <link>https://blog.appernetic.io/tags/enhancements/</link>
+      <pubDate>Tue, 26 Apr 2016 13:10:05 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/enhancements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://blog.appernetic.io/tags/git/</link>
+      <pubDate>Mon, 14 Mar 2016 07:06:27 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://blog.appernetic.io/tags/github/</link>
+      <pubDate>Thu, 18 Feb 2016 20:27:25 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Happyfox</title>
+      <link>https://blog.appernetic.io/tags/happyfox/</link>
+      <pubDate>Thu, 14 Jul 2016 15:31:16 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/happyfox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Help</title>
+      <link>https://blog.appernetic.io/tags/help/</link>
+      <pubDate>Wed, 09 Mar 2016 14:28:30 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/help/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helpdesk</title>
+      <link>https://blog.appernetic.io/tags/helpdesk/</link>
+      <pubDate>Thu, 14 Jul 2016 15:31:16 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/helpdesk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How To</title>
+      <link>https://blog.appernetic.io/tags/how-to/</link>
+      <pubDate>Sat, 09 Apr 2016 05:53:13 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/how-to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://blog.appernetic.io/tags/hugo/</link>
+      <pubDate>Wed, 01 Jun 2016 12:04:58 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet</title>
+      <link>https://blog.appernetic.io/tags/internet/</link>
+      <pubDate>Tue, 08 Mar 2016 19:03:58 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mailchimp</title>
+      <link>https://blog.appernetic.io/tags/mailchimp/</link>
+      <pubDate>Sun, 29 May 2016 15:46:20 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/mailchimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mailmunch</title>
+      <link>https://blog.appernetic.io/tags/mailmunch/</link>
+      <pubDate>Sun, 29 May 2016 15:46:20 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/mailmunch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One</title>
+      <link>https://blog.appernetic.io/tags/one/</link>
+      <pubDate>Sat, 12 Mar 2016 00:18:10 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance Optimization</title>
+      <link>https://blog.appernetic.io/tags/performance-optimization/</link>
+      <pubDate>Tue, 08 Mar 2016 19:03:58 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/performance-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Web Site Generator</title>
+      <link>https://blog.appernetic.io/tags/static-web-site-generator/</link>
+      <pubDate>Thu, 18 Feb 2016 20:27:25 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/static-web-site-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Website</title>
+      <link>https://blog.appernetic.io/tags/static-website/</link>
+      <pubDate>Wed, 01 Jun 2016 12:04:58 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/static-website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Website Generator</title>
+      <link>https://blog.appernetic.io/tags/static-website-generator/</link>
+      <pubDate>Sat, 09 Apr 2016 05:53:13 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/static-website-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Website Service</title>
+      <link>https://blog.appernetic.io/tags/static-website-service/</link>
+      <pubDate>Wed, 01 Jun 2016 12:04:58 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/static-website-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sumome</title>
+      <link>https://blog.appernetic.io/tags/sumome/</link>
+      <pubDate>Sun, 29 May 2016 15:46:20 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/sumome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>https://blog.appernetic.io/tags/support/</link>
+      <pubDate>Thu, 14 Jul 2016 15:31:16 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme Showcase Gallery</title>
+      <link>https://blog.appernetic.io/tags/theme-showcase-gallery/</link>
+      <pubDate>Wed, 01 Jun 2016 12:04:58 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/theme-showcase-gallery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two</title>
+      <link>https://blog.appernetic.io/tags/two/</link>
+      <pubDate>Sat, 12 Mar 2016 00:18:10 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/two/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zapier</title>
+      <link>https://blog.appernetic.io/tags/zapier/</link>
+      <pubDate>Sun, 29 May 2016 15:46:20 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/zapier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zoho Support</title>
+      <link>https://blog.appernetic.io/tags/zoho-support/</link>
+      <pubDate>Thu, 14 Jul 2016 15:31:16 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/tags/zoho-support/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,9 +8,11 @@
     <language>en-EN</language>
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
-    <copyright>(c) 2016 Appernetic.io</copyright>
+    <copyright>(c) 2017 Appernetic.io</copyright>
     <lastBuildDate>Thu, 14 Jul 2016 15:31:16 +0000</lastBuildDate>
-    <atom:link href="https://blog.appernetic.io/tags/helpdesk/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://blog.appernetic.io/tags/helpdesk/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Use live chat to beat the competition</title>
@@ -18,154 +20,8 @@
       <pubDate>Thu, 14 Jul 2016 15:31:16 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
       <guid>https://blog.appernetic.io/2016/07/14/use-live-chat-to-beat-the-competition/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1468511020/qk7aidqewk3xr7msnie1&#34; alt=&#34;Customer Support Tools&#34; /&gt;
-You&amp;rsquo;re trying to evaluate an online service, wondering if they&amp;rsquo;d have the features you are looking for when - katching, a window pops up on the bottom of the page asking if it can be of any assistance. You reply, and your queries are quickly answered by a real, live human.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s the magic of live chat. Online SaaS and e-commerce systems can be uninhabited, impersonal places. Adding the digital equivalent of a salesperson helping website visitors can be the difference between a happy customer and another sale lost to competitors.&lt;/p&gt;
-
-&lt;p&gt;Live chat makes it easy to help customers faster, and prevents a backlog of delayed answers, annoyed customers, and lost opportunities.&lt;/p&gt;
-
-&lt;h2 id=&#34;live-chat-is-one-of-the-most-important-features-a-site-can-offer:7b7815d806ec66d56a5a478912c0ce4f&#34;&gt;Live Chat is one of the most important features a site can offer&lt;/h2&gt;
-
-&lt;p&gt;Customers today simply want efficient, effortless service. Forrester Research found that 54% of US online adults say that they are very likely to abandon their online purchase if they cannot find a quick answer to their question, and 77% say that valuing their time is the most important thing a company can do to provide them with good service (Forrester Research, Market Overview: Chat Solutions For Customer Service, Juli 20 2015 ).&lt;/p&gt;
-
-&lt;p&gt;As a result, customers are increasingly leveraging chat for effortless service.&lt;/p&gt;
-
-&lt;p&gt;Forrester Research found that more than one-third of older Boomers (ages 57 to 67) and the Golden Generation (68 and over) already using chat for customer service. Customers are also increasingly comfortable with a proactive chat offer during an online research or purchase.&lt;/p&gt;
-
-&lt;p&gt;Nets, a nordic provider of payments, cards, and information services, have moved 75% of all email and phone inquiries to chat.&lt;/p&gt;
-
-&lt;p&gt;44% of online shoppers say that live chat is one of the most important features a site can offer, while Wells Fargo saw double-digit sales increase after adding live chat to their site.&lt;/p&gt;
-
-&lt;h2 id=&#34;have-the-right-tool-for-your-support-team:7b7815d806ec66d56a5a478912c0ce4f&#34;&gt;Have the right tool for your support team&lt;/h2&gt;
-
-&lt;p&gt;It can also be a burden on your support team, something that&amp;rsquo;s always interrupting their day with yet another question to be answered right now. That&amp;rsquo;s why you need a great live chat app, one that helps you answer questions quicker and pause the incoming chats when your team&amp;rsquo;s away.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-customer-support-tools-should-i-use:7b7815d806ec66d56a5a478912c0ce4f&#34;&gt;What customer support tools should I use?&lt;/h2&gt;
-
-&lt;p&gt;To find the right app for customer support can be a time-consuming and overwhelming task. When making your decision, you have to consider if you need all these support tools: team inbox, knowledge base, ticket system, help desk, help center, portal, forum, community wiki, social media integration, live chat, phone, and mobile support.&lt;/p&gt;
-
-&lt;p&gt;When I started to search for tools I found hundreds and hundreds of them and endless of ways to integrate them with the help of Zapier or Sameroom.io. I could set up webhooks and open tubes and portals between them. I could customize so that we had a live chat that triggered a persistent HipChat room  or created a ticket when someone mentioned the keyword bug in a tweet. I could easily build a custom Live Chat that used Moxtra as an intranet groupware  (but I found the metaphor &amp;laquo;pärm&amp;raquo; a bit strange).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1468797954/fv8jynh5paottf7bjztl&#34; alt=&#34;Sameroom.io&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For me, this was the second or third evaluation of our customer support. In the past, I have tried JivoChat, Slack, Gitter, GitHub Issues, Trello, FreshDesk and LiveChat 24-7. They all have their shortcomings and we have got no interaction and feedback from any visitors in any of these tools.&lt;/p&gt;
-
-&lt;p&gt;We want to interact with and help our visitors and hopefully, get feedback with as little management and operations overhead as possible. Our SaaS system is freemium and we are bootstrapping so we can&amp;rsquo;t add more spendings on top of the one we already have.&lt;/p&gt;
-
-&lt;p&gt;FreshDesk had all the bells and whistles, live chat, integrated ticket system with Twitter, Facebook messenger, branding, customer portal etc, but only if you paid $49/month. JivoChat had no customization in the free version so it was very annoying to have it on the dashboard. Slack is useful if you are a team that needs to communicate, but it is not useful when you have to invite visitors when they need support. HipChat has a lot of integration options but it is too developer centric.&lt;/p&gt;
-
-&lt;p&gt;So after contemplating we came up with our criteria for a customer support service:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Free or freemium&lt;/li&gt;
-&lt;li&gt;One agent&lt;/li&gt;
-&lt;li&gt;Pause incoming live chats&lt;/li&gt;
-&lt;li&gt;Easy for visitors to engage in real time&lt;/li&gt;
-&lt;li&gt;Easy to operate, manage and customize&lt;/li&gt;
-&lt;li&gt;Seamless integration with the SaaS system&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I researched and evaluated the following tools:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://livechat24-7.com&#34;&gt;http://livechat24-7.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tawk.to&#34;&gt;http://tawk.to&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://livezilla.net&#34;&gt;http://livezilla.net&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sdelements.github.io/lets-chat/&#34;&gt;https://sdelements.github.io/lets-chat/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://fleep.io/&#34;&gt;https://fleep.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.flowdock.com/&#34;&gt;https://www.flowdock.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.enchant.com/&#34;&gt;https://www.enchant.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.drift.com&#34;&gt;https://www.drift.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://chato.ps&#34;&gt;http://chato.ps&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chatra.io&#34;&gt;https://chatra.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chatlio.com&#34;&gt;https://chatlio.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chatpirate.com&#34;&gt;https://chatpirate.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://helprace.com/help-desk-software&#34;&gt;http://helprace.com/help-desk-software&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://keyreply.com/chat/&#34;&gt;https://keyreply.com/chat/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.jostle.me/&#34;&gt;https://www.jostle.me/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://moxtra.com/&#34;&gt;http://moxtra.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.messagebird.com/&#34;&gt;https://www.messagebird.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://get.slaask.com/&#34;&gt;https://get.slaask.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.hipchat.com&#34;&gt;https://www.hipchat.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.smartsupp.com&#34;&gt;https://www.smartsupp.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://rocket.chat/&#34;&gt;https://rocket.chat/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.ryver.com/&#34;&gt;http://www.ryver.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://matrix.org/&#34;&gt;http://matrix.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://vector.im/&#34;&gt;https://vector.im/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://glip.com/&#34;&gt;https://glip.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://clearchat.com/&#34;&gt;https://clearchat.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.reamaze.com/&#34;&gt;https://www.reamaze.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.purechat.com/&#34;&gt;https://www.purechat.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://happyfoxchat.com/&#34;&gt;https://happyfoxchat.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.wrike.com/&#34;&gt;https://www.wrike.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://meetfranz.com/&#34;&gt;http://meetfranz.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.hipmob.com/&#34;&gt;http://www.hipmob.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.olark.com/&#34;&gt;https://www.olark.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.zoho.com/support/&#34;&gt;https://www.zoho.com/support/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The ones who stand out was:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.zoho.com/support/&#34;&gt;https://www.zoho.com/support/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://happyfoxchat.com/&#34;&gt;https://happyfoxchat.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://keyreply.com/chat/&#34;&gt;https://keyreply.com/chat/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.drift.com&#34;&gt;https://www.drift.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://rocket.chat/&#34;&gt;https://rocket.chat/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.ryver.com/&#34;&gt;http://www.ryver.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chatra.io&#34;&gt;https://chatra.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In the end, there was only Drift, HappyFox, Chatra and Zoho Support left.&lt;/p&gt;
-
-&lt;p&gt;I chose HappyFox Chat for Live Chat and Zoho Support for helpdesk/customer portal, no integration between them.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1468798408/yxjt1dn4jfj3a7teuhsm&#34; alt=&#34;HappyFox Chat&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It was easy to implement Happyfoxchat and I also built a branded customer portal with Zoho Support: &lt;a href=&#34;https://help.appernetic.io&#34;&gt;https://help.appernetic.io&lt;/a&gt;. One problem I have found with HappyFox chat is that the mobile version is opening a window in a new tab which is a bit annoying.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1468510895/nnymxeuwo5odxf5vw3ge&#34; alt=&#34;Appernetic.io with Happyfoxchat &#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now I have found &lt;a href=&#34;https://crisp.im&#34;&gt;crisp&lt;/a&gt; and &lt;a href=&#34;https://smooch.io/&#34;&gt;smooch&lt;/a&gt; which are promising Live Chats. Check them out and let me know if they are good!&lt;/p&gt;
-</description>
+      <description>You&amp;rsquo;re trying to evaluate an online service, wondering if they&amp;rsquo;d have the features you are looking for when - katching, a window pops up on the bottom of the page asking if it can be of any assistance. You reply, and your queries are quickly answered by a real, live human.
+That&amp;rsquo;s the magic of live chat. Online SaaS and e-commerce systems can be uninhabited, impersonal places. Adding the digital equivalent of a salesperson helping website visitors can be the difference between a happy customer and another sale lost to competitors.</description>
     </item>
     
   </channel>

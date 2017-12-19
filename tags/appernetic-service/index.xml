@@ -8,44 +8,21 @@
     <language>en-EN</language>
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
-    <copyright>(c) 2016 Appernetic.io</copyright>
+    <copyright>(c) 2017 Appernetic.io</copyright>
     <lastBuildDate>Tue, 26 Apr 2016 13:10:05 +0000</lastBuildDate>
-    <atom:link href="https://blog.appernetic.io/tags/appernetic-service/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://blog.appernetic.io/tags/appernetic-service/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Now you can sign in with twitter, facebook, github or your e-mail!</title>
-      <link>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</link>
+      <link>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-and-github/</link>
       <pubDate>Tue, 26 Apr 2016 13:10:05 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
-      <guid>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-github-or-your-e-mail/</guid>
-      <description>
-
-&lt;h2 id=&#34;static-website-service-update&#34;&gt;Static website service update!&lt;/h2&gt;
-
-&lt;p&gt;After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password to the &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1461667876/bvzstocens1wcwu3vba1&#34; alt=&#34;Appernetic Static website Generator with e-mail sign up, Twitter, Facebook and GitHub sign in!&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For us and the service there is the problem with:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Users that are not verified signing up&lt;/li&gt;
-&lt;li&gt;Maintaining a user database&lt;/li&gt;
-&lt;li&gt;Users that are not following GitHub Pages policy&lt;/li&gt;
-&lt;li&gt;Sending out verification e-mail to users&lt;/li&gt;
-&lt;li&gt;Developing and testing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Everything has a cost. In the end, we decided to implement it with Auth0 and it was liberatingly simple to implement. No server side or client side development and the time-consuming testing and then gulp minifying and annotation.&lt;/p&gt;
-
-&lt;p&gt;Just flip a switch in the auth0 dashboard.&lt;/p&gt;
-
-&lt;p&gt;Sign in with your E-mail, Twitter, Facebook and GitHub.  Enjoy folks!&lt;/p&gt;
-
-&lt;p&gt;UPDATE (28052016): I have just removed Twitter user sign-in. It was an easy decision. Twitter users had no email in their meta info and was lagging behind in the interwebs, and behaved inconsistently. Also, I had no Twitter freemium or paying users and I had exceeded Auth0’s social connection limits anyway.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://appernetic.io&#34;&gt;https://appernetic.io&lt;/a&gt; #contentmanagement&lt;/p&gt;
-</description>
+      <guid>https://blog.appernetic.io/2016/04/26/now-you-can-sign-in-with-twitter-facebook-and-github/</guid>
+      <description>Static website service update! After users having expressed concerns about privacy we contemplated the implications over the weekend what impact it would have to add a custom sign up and log in with e-mail and a user-generated password to the static website service.
+For us and the service there is the problem with:
+ Users that are not verified signing up Maintaining a user database Users that are not following GitHub Pages policy Sending out verification e-mail to users Developing and testing  Everything has a cost.</description>
     </item>
     
     <item>
@@ -54,29 +31,8 @@
       <pubDate>Mon, 14 Mar 2016 07:06:27 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
       <guid>https://blog.appernetic.io/2016/03/14/minor-enhancements-and-fixes/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457939591/c25ymnmuqsfsmqjkk52b&#34; alt=&#34;Appernetic Service website preview enhancements&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;site-preview-fixes-and-enhancements&#34;&gt;Site preview fixes and enhancements&lt;/h2&gt;
-
-&lt;p&gt;There was a case of a very sticky cache and this doesn&amp;rsquo;t work well if you immediately would want to check changes. Site preview  has also been moved to its own subdomain: &lt;strong&gt;preview.appernetic.io&lt;/strong&gt;,  and now it is also possible to view the site preview if you are not signed in, so it is easier to share the URL and collaborate.&lt;/p&gt;
-
-&lt;p&gt;If you are experiencing problems such as site preview URL goes to a page that does not exist, try clearing the cache in your browser.&lt;/p&gt;
-
-&lt;h2 id=&#34;add-a-gitignore-to-your-theme-repo&#34;&gt;Add a .gitignore to your theme repo&lt;/h2&gt;
-
-&lt;p&gt;The bug we reported last week wasn&amp;rsquo;t a bug. When you delete a theme, we have git delete everything, and it doesn&amp;rsquo;t delete dot files. The fix is to add a &lt;strong&gt;.gitignore&lt;/strong&gt; file to your theme repo and exclude files such as &lt;strong&gt;.DS_Store&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is how it can be done:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;public/
-.sass-cache/
-.DS_Store
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s all for now, happy static blogging :-)&lt;/p&gt;
-</description>
+      <description>Site preview fixes and enhancements There was a case of a very sticky cache and this doesn&amp;rsquo;t work well if you immediately would want to check changes. Site preview has also been moved to its own subdomain: preview.appernetic.io, and now it is also possible to view the site preview if you are not signed in, so it is easier to share the URL and collaborate.
+If you are experiencing problems such as site preview URL goes to a page that does not exist, try clearing the cache in your browser.</description>
     </item>
     
     <item>
@@ -85,41 +41,7 @@
       <pubDate>Wed, 09 Mar 2016 14:28:30 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
       <guid>https://blog.appernetic.io/2016/03/09/manage-your-web-site-images-in-the-cloud/</guid>
-      <description>
-
-&lt;h2 id=&#34;cloudinary-for-image-and-video-assets-management-in-your-static-website:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Cloudinary for image and video assets management in your static website&lt;/h2&gt;
-
-&lt;p&gt;We no longer use GitHub to manage images in your Appernetic static website service account. You can still use GitHub and they have an easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it. Images are seamlessly delivered through Akamai&amp;rsquo;s fast CDN. By not bogging down GitHub with large images you are also being a good netizen.&lt;/p&gt;
-
-&lt;p&gt;Cloudinary is a cloud service that offers a solution to a web application&amp;rsquo;s entire image management pipeline. Easily upload images to the cloud. Automatically perform smart image resizing, cropping and conversion without installing any complex software. Integrate Facebook or Twitter profile image extraction in a snap, in any dimension and style to match your website’s graphics requirements.&lt;/p&gt;
-
-&lt;p&gt;When you upload your image to your article in the PageDown editor it will be sent to your Cloudinary account where you can use the web interface to interactively manage your media library.&lt;/p&gt;
-
-&lt;h2 id=&#34;setup-your-account:9bd471ef0ef2a66fa50897ac50a9df0a&#34;&gt;Setup your account&lt;/h2&gt;
-
-&lt;p&gt;Start by signing up to &lt;a href=&#34;https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/csv1uzzgc8ei8ww3ijtf&#34;&gt;Cloudinary&lt;/a&gt;. In the dashboard under the headline Account details, you have the &lt;strong&gt;Cloud name&lt;/strong&gt;, that you need to add in the Appernetic user settings.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539317/mgwu3dyjasovzrq7risa&#34; alt=&#34;Cloud name in the dashboard &#34; /&gt;
-Cloud name settings in the dashboard.&lt;/p&gt;
-
-&lt;p&gt;Now to create a &lt;strong&gt;Upload preset&lt;/strong&gt;  click Settings down to the left in the dashboard, select the Upload tab and scroll down to Upload Presets and configure an unsigned upload preset.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457538951/s4jzrkhlauoororjskki&#34; alt=&#34;Configure upload presets&#34; /&gt;
-Configure unsigned upload presets.&lt;/p&gt;
-
-&lt;p&gt;To be able to list images you also need to unmark resource list in security settings.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539163/ybd0y47g0ojzsshvdfd4&#34; alt=&#34;Unmark resource list&#34; /&gt;
-Unmark resource list in security settings.&lt;/p&gt;
-
-&lt;p&gt;Now all should be configured at Cloudinary! Don&amp;rsquo;t forget to verify your account otherwise, it will be disabled. Now the last thing to do is add the information to your Appernetic settings. Click on your GitHub profile image up to the right to show your user settings.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457539785/yglkvrt4wjhns4xtmzwi&#34; alt=&#34;Appernetic cloudinary settings.&#34; /&gt;
-Add your Cloudinary settings to your Appernetic account.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457543046/bgcxapwc14ebqcvn1apy&#34; alt=&#34;enter image description here&#34; /&gt;
-Continue with your content strategy, now with a new tool in your arsenal!&lt;/p&gt;
-</description>
+      <description>Cloudinary for image and video assets management in your static website We no longer use GitHub to manage images in your Appernetic static website service account. You can still use GitHub and they have an easy to use image upload, but to use Appernetic&amp;rsquo;s image upload you now have to first create a Cloudinary account. The advantages of using Cloudinary is so big that it was an easy decision to integrate it.</description>
     </item>
     
     <item>
@@ -128,68 +50,8 @@ Continue with your content strategy, now with a new tool in your arsenal!&lt;/p&
       <pubDate>Tue, 08 Mar 2016 19:03:58 +0000</pubDate>
       <author>support@appernetic.io (Admin)</author>
       <guid>https://blog.appernetic.io/2016/03/08/performance-optimization/</guid>
-      <description>
-
-&lt;h2 id=&#34;static-website-service-performance-improvements&#34;&gt;Static website service performance improvements&lt;/h2&gt;
-
-&lt;p&gt;We have made significant performance improvements in our &lt;a href=&#34;https://appernetic.io&#34;&gt;static website service&lt;/a&gt; and have dug deep into everything on the client and server side. All images are now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every CSS, HTML and Javascript file are compressed and minified.&lt;/p&gt;
-
-&lt;h2 id=&#34;speed-index&#34;&gt;Speed Index&lt;/h2&gt;
-
-&lt;p&gt;We use &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;webpagetest&lt;/a&gt; for our performance tests. As a measure of how one experiences the web page speed we use &lt;a href=&#34;https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index&#34;&gt;Speed Index&lt;/a&gt;. The Speed Index is the average time at which visible parts of the page are displayed.  It is expressed in milliseconds and dependent on the size of the viewport.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463274/gcgzrecgedcjnc3gzdj3&#34; alt=&#34;Speed Index Reference Results&#34; /&gt;
-We have now also separated the routes for the front page and the Angular app. The Angular app is now between the median to 10th percentile compared to the reference speed index, which is as good as it can get. Our front page which we want to be as quick as possible is now below the 10th percentile 6 of 8 times.&lt;/p&gt;
-
-&lt;p&gt;Angular app (Appernetic Static website Generator service) performance test from:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Dulles, VA Thinkpad T430: &lt;a href=&#34;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&#34;&gt;http://www.webpagetest.org/result/160308_C8_15P4/1/details/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;1422&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;San Francisco, CA USA - Yottaa:  &lt;a href=&#34;http://www.webpagetest.org/result/160308_YB_15ZA/&#34;&gt;http://www.webpagetest.org/result/160308_YB_15ZA/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;2881&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Singapore - EC2: &lt;a href=&#34;http://www.webpagetest.org/result/160308_EC_166Y/&#34;&gt;http://www.webpagetest.org/result/160308_EC_166Y/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;2884&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Brussels, BE: &lt;a href=&#34;http://www.webpagetest.org/result/160308_NP_162K/&#34;&gt;http://www.webpagetest.org/result/160308_NP_162K/&lt;/a&gt; First View, Speed Index: &lt;strong&gt;2408&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Frankfurt, DE: &lt;a href=&#34;http://www.webpagetest.org/result/160308_RX_6P2/&#34;&gt;http://www.webpagetest.org/result/160308_RX_6P2/&lt;/a&gt;  First View, Speed Index: &lt;strong&gt;3759&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Front page performance test from:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Amsterdam: &lt;a href=&#34;http://www.webpagetest.org/result/160309_E3_6HP/&#34;&gt;http://www.webpagetest.org/result/160309_E3_6HP/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;600&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Singapore: &lt;a href=&#34;http://www.webpagetest.org/result/160309_DG_6HB/&#34;&gt;http://www.webpagetest.org/result/160309_DG_6HB/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;769&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Sydney, Australia (Servers Australia) &lt;a href=&#34;http://www.webpagetest.org/result/160309_04_6GN/&#34;&gt;http://www.webpagetest.org/result/160309_04_6GN/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;1600&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Johannesburg, South Africa &lt;a href=&#34;http://www.webpagetest.org/result/160309_MC_6GQ/&#34;&gt;http://www.webpagetest.org/result/160309_MC_6GQ/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;1305&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Seoul, Korea EC2 &lt;a href=&#34;http://www.webpagetest.org/result/160309_85_6GZ/&#34;&gt;http://www.webpagetest.org/result/160309_85_6GZ/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;1519&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;San Francisco, CA USA - Yottaa: &lt;a href=&#34;http://www.webpagetest.org/result/160309_1S_83M/&#34;&gt;http://www.webpagetest.org/result/160309_1S_83M/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;1672&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Dulles, VA - Thinkpad T430: &lt;a href=&#34;http://www.webpagetest.org/result/160309_PX_87N/&#34;&gt;http://www.webpagetest.org/result/160309_PX_87N/&lt;/a&gt;  First view, Speed Index: &lt;strong&gt;900&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Frankfurt, DE: &lt;a href=&#34;http://www.webpagetest.org/result/160309_GG_8DS/&#34;&gt;http://www.webpagetest.org/result/160309_GG_8DS/&lt;/a&gt; First view, Speed Index: &lt;strong&gt;1309&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Our uptime monitoring with Pingdom also shows that the we are on the &lt;a href=&#34;http://stats.pingdom.com/r7vt9tv6brq8/2014082&#34;&gt;right track now&lt;/a&gt;. For the front page, we now have the performance grade 92 of 100. Google PageSpeed Insights shows 67 of 100 for mobile devices and 87 of 100 for computers.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457462773/atscsb7z2qtr4cn8qid0&#34; alt=&#34;Response time diagram last 24 hours&#34; /&gt;
-Response time diagram last 24 hours for the Angular app.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457463057/rbouqv8jnwpfsadjssgk&#34; alt=&#34;Pingdom test result logs for the Angular app (Appernetic static website service)&#34; /&gt;
-Pingdom test result logs for the Angular app (Appernetic static website service).&lt;/p&gt;
-
-&lt;h2 id=&#34;caching&#34;&gt;Caching&lt;/h2&gt;
-
-&lt;p&gt;Caching with CloudFlare is improving. Once the cache has been properly warmed up, it will even be better than this.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/appernetic/v1457461947/hzs05zxjzr8otv2nrvka&#34; alt=&#34;Appernetic static website service, caching with CloudFlare&#34; /&gt;
-Appernetic static website service, caching with CloudFlare.&lt;/p&gt;
-</description>
+      <description>Static website service performance improvements We have made significant performance improvements in our static website service and have dug deep into everything on the client and server side. All images are now sent with Cloudinary&amp;rsquo;s Akamai CDN including the favicon, and every CSS, HTML and Javascript file are compressed and minified.
+Speed Index We use webpagetest for our performance tests. As a measure of how one experiences the web page speed we use Speed Index.</description>
     </item>
     
   </channel>
