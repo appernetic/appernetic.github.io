@@ -9,10 +9,20 @@
     <managingEditor>support@appernetic.io (Admin)</managingEditor>
     <webMaster>support@appernetic.io (Admin)</webMaster>
     <copyright>(c) 2017 Appernetic.io</copyright>
-    <lastBuildDate>Thu, 14 Jul 2016 15:31:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.appernetic.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://blog.appernetic.io/privacy/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/privacy/</guid>
+      <description>Privacy and Data Protection Policy On May 25, 2018, the new General Data Protection Regulation (GDPR) will be implemented in the EU. The new regulations replace the Personal Data Act and increase your ability to determine how companies and organizations handle data about you and the personal data created when using its services or products.
+Read more about how Appernetic manages your data and what rights you have with the implementation of GDPR.</description>
+    </item>
     
     <item>
       <title>Use live chat to beat the competition</title>
