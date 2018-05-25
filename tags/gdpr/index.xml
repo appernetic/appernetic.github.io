@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gdpr on Appernetic.io blog</title>
+    <link>https://blog.appernetic.io/tags/gdpr/</link>
+    <description>Recent content in Gdpr on Appernetic.io blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>support@appernetic.io (Admin)</managingEditor>
+    <webMaster>support@appernetic.io (Admin)</webMaster>
+    <copyright>(c) 2018 Appernetic.io</copyright>
+    
+	<atom:link href="https://blog.appernetic.io/tags/gdpr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://blog.appernetic.io/gdpr/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/gdpr/privacy/</guid>
+      <description>Privacy and Data Protection Policy On May 25, 2018, the new General Data Protection Regulation (GDPR) will be implemented in the EU. The new regulations replace the Personal Data Act and increase your ability to determine how companies and organizations handle data about you and the personal data created when using its services or products.
+Read more about how Appernetic manages your data and what rights you have with the implementation of GDPR.</description>
+    </item>
+    
+  </channel>
+</rss>
