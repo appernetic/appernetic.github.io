@@ -125,5 +125,15 @@ You can start by cloning my customized hugo-bootstrap theme or get one from Hugo
       <description>Full circle with static websites Today we have come full circle with static website generators. A long time ago at the end of 1994 I built a static website for the Swedish Tourist Association that contained hundreds of handcrafted html pages, it was quite advanced with a email to fax gateway that sent out bookings to remote mountain stations. Then I found ColdFusion in the beginning of 1995 and the sites I built had dynamic content served from MS Access databases.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://blog.appernetic.io/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>support@appernetic.io (Admin)</author>
+      <guid>https://blog.appernetic.io/privacy-policy/</guid>
+      <description>Privacy and Data Protection Policy On May 25, 2018, the new General Data Protection Regulation (GDPR) will be implemented in the EU. The new regulations replace the Personal Data Act and increase your ability to determine how companies and organizations handle data about you and the personal data created when using its services or products.
+Read more about how Appernetic manages your data and what rights you have with the implementation of GDPR.</description>
+    </item>
+    
   </channel>
 </rss>
