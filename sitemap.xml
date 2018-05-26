@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/privacy/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.appernetic.io/2016/07/14/use-live-chat-to-beat-the-competition/</loc>
     <lastmod>2016-07-14T15:31:16+00:00</lastmod>
   </url>
@@ -65,14 +60,6 @@
   <url>
     <loc>https://blog.appernetic.io/2016/02/10/why-use-a-static-web-site-generator/</loc>
     <lastmod>2016-02-10T19:50:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.appernetic.io/gdpr/privacy/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.appernetic.io/privacy-policy/</loc>
   </url>
   
   <url>
@@ -138,16 +125,6 @@
   <url>
     <loc>https://blog.appernetic.io/topics/enhancements/</loc>
     <lastmod>2016-03-14T07:06:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.appernetic.io/tags/gdpr/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.appernetic.io/gdpr/</loc>
     <priority>0</priority>
   </url>
   
@@ -238,16 +215,6 @@
   <url>
     <loc>https://blog.appernetic.io/post/</loc>
     <lastmod>2016-07-14T15:31:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.appernetic.io/tags/privacy-policy/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.appernetic.io/topics/privacy-policy/</loc>
     <priority>0</priority>
   </url>
   
