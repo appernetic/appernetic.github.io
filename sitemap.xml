@@ -130,14 +130,14 @@
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/topics/enhancements/</loc>
-    <lastmod>2016-03-14T07:06:27+00:00</lastmod>
+    <loc>https://blog.appernetic.io/tags/enhancements/</loc>
+    <lastmod>2016-04-26T13:10:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/tags/enhancements/</loc>
-    <lastmod>2016-04-26T13:10:05+00:00</lastmod>
+    <loc>https://blog.appernetic.io/topics/enhancements/</loc>
+    <lastmod>2016-03-14T07:06:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -182,14 +182,14 @@
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/topics/how-to/</loc>
-    <lastmod>2016-05-29T15:46:20+00:00</lastmod>
+    <loc>https://blog.appernetic.io/tags/how-to/</loc>
+    <lastmod>2016-04-09T05:53:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/tags/how-to/</loc>
-    <lastmod>2016-04-09T05:53:13+00:00</lastmod>
+    <loc>https://blog.appernetic.io/topics/how-to/</loc>
+    <lastmod>2016-05-29T15:46:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -242,12 +242,12 @@
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/topics/privacy-policy/</loc>
+    <loc>https://blog.appernetic.io/tags/privacy-policy/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/tags/privacy-policy/</loc>
+    <loc>https://blog.appernetic.io/topics/privacy-policy/</loc>
     <priority>0</priority>
   </url>
   
@@ -258,13 +258,13 @@
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/topics/static-website/</loc>
+    <loc>https://blog.appernetic.io/tags/static-website/</loc>
     <lastmod>2016-06-01T12:04:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/tags/static-website/</loc>
+    <loc>https://blog.appernetic.io/topics/static-website/</loc>
     <lastmod>2016-06-01T12:04:58+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -276,14 +276,14 @@
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/topics/static-website-generator/</loc>
-    <lastmod>2016-02-10T19:50:09+00:00</lastmod>
+    <loc>https://blog.appernetic.io/tags/static-website-generator/</loc>
+    <lastmod>2016-04-09T05:53:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.appernetic.io/tags/static-website-generator/</loc>
-    <lastmod>2016-04-09T05:53:13+00:00</lastmod>
+    <loc>https://blog.appernetic.io/topics/static-website-generator/</loc>
+    <lastmod>2016-02-10T19:50:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
